@@ -49,22 +49,30 @@ body section.section-primary {
 }
 #header .header-body nav ul li {
   padding: 7px 0px;
-  background-color: #e4b896;
+  background-color: transparent;
 }
 #header .header-body nav ul li a {
+  color: black !important;
   padding: 9px;
 }
 #header .header-body nav ul li.active {
   background-color: #e4b896;
 }
 #header .header-body nav ul li.active a {
-  color: white;
+  color: black;
+  background-color: inherit;
 }
 #header .header-body nav ul li:hover {
   background-color: #e9cbb3 !important;
 }
 #header .header-body nav ul li.active {
   background-color: #e4b896 !important;
+}
+@media screen and (min-width: 768px) {
+  #header .header-body nav ul {
+    height: 70px !important;
+    margin-top: 15px;
+  }
 }
 
 #hero .home-title {
@@ -158,7 +166,7 @@ body section.section-primary {
 }
 #benefits .text-carousel p {
   font-family: "Barlow", sans-serif !important;
-  color: #2e3023 !important;
+  color: #393d32 !important;
   font-size: 1.2rem !important;
   font-weight: 400;
   margin: 0px;
@@ -216,14 +224,14 @@ body section.section-primary {
   font-family: "Barlow", sans-serif;
   font-size: 1rem;
   font-weight: 400;
-  color: #2e3023;
+  color: #393d32;
   text-align: center;
   line-height: normal;
 }
 
 #certificates {
   margin-bottom: 0px !important;
-  background-color: #2e3023 !important;
+  background-color: #393d32 !important;
 }
 #certificates .title-certificates {
   text-align: center;
@@ -245,9 +253,60 @@ body section.section-primary {
   margin-top: 0px;
 }
 
+#about-us {
+  margin-bottom: 0px !important;
+  background-color: #393d32 !important;
+}
+#about-us .title-about-us {
+  text-align: center;
+  font-size: 2.7rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 1px !important;
+  color: #d15a0b !important;
+}
+#about-us .sub-title-about-us p {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: normal;
+}
+#about-us .sub-title-about-us p .img-text {
+  display: inline-block;
+  width: 5rem;
+  margin-top: 0px;
+}
+
+#mission .flask {
+  background: white url("../img/COCO-flask.jpeg") no-repeat left center;
+  background-size: cover;
+  height: 500px;
+}
+#mission .title-mission {
+  text-align: center;
+  font-size: 2.7rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 1px !important;
+  color: #d15a0b !important;
+}
+#mission .sub-title-mission {
+  color: #393d32;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: normal;
+}
+#mission .sub-title-mission li {
+  line-height: 30px !important;
+}
+#mission .sub-title-mission .img-text {
+  display: inline-block;
+  width: 5rem;
+  margin-top: 0px;
+}
+
 #footer {
   margin-top: 0px;
-  background-color: #2e3023;
+  background-color: #393d32;
   border-top: 2px white solid !important;
 }
 #footer .title {
@@ -270,7 +329,7 @@ body section.section-primary {
   color: #e9cbb3 !important;
 }
 #footer .footer-copyright {
-  background-color: #2e3023 !important;
+  background-color: #393d32 !important;
   border-top: 2px white solid !important;
 }
 #footer .footer-copyright p {

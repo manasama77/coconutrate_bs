@@ -1,5 +1,5 @@
 $primary: #d15a0b;
-$secondary: #2e3023;
+$secondary: #393d32;
 $link-primary: #e4b896;
 $link-primary-hover: #e9cbb3;
 $btn-primary: #d15a0b;
@@ -64,14 +64,14 @@ body {
 
     nav {
       ul {
-        // height: 60px !important;
         margin-top: 15px;
 
         li {
           padding: 7px 0px;
-          background-color: $link-primary;
+          background-color: transparent;
 
           a {
+            color: black !important;
             padding: 9px;
           }
         }
@@ -80,24 +80,10 @@ body {
           background-color: $link-primary;
 
           a {
-            color: white;
+            color: black;
+            background-color: inherit;
           }
         }
-
-        // li {
-        //   margin: 0px !important;
-        //   padding: 0px 0px;
-
-        //   a {
-        //     letter-spacing: 0.5px !important;
-        //     color: #2e3023 !important;
-        //     font-size: 0.9rem !important;
-        //     text-transform: none !important;
-        //     font-weight: 500 !important;
-        //     width: auto;
-        //     background-color: white;
-        //   }
-        // }
 
         li:hover {
           background-color: $link-primary-hover !important;
@@ -105,6 +91,13 @@ body {
 
         li.active {
           background-color: $link-primary !important;
+        }
+      }
+
+      @media screen and (min-width: 768px) {
+        ul {
+          height: 70px !important;
+          margin-top: 15px;
         }
       }
     }
@@ -315,6 +308,68 @@ body {
     .img-text {
       display: inline-block;
       width: 7rem;
+      margin-top: 0px;
+    }
+  }
+}
+
+#about-us {
+  margin-bottom: 0px !important;
+  background-color: $secondary !important;
+
+  .title-about-us {
+    text-align: center;
+    font-size: 2.7rem !important;
+    font-weight: 700 !important;
+    letter-spacing: 1px !important;
+    color: $primary !important;
+  }
+
+  .sub-title-about-us {
+    p {
+      color: white;
+      font-size: 1.2rem;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: normal;
+
+      .img-text {
+        display: inline-block;
+        width: 5rem;
+        margin-top: 0px;
+      }
+    }
+  }
+}
+
+#mission {
+  .flask {
+    background: white url("../img/COCO-flask.jpeg") no-repeat left center;
+    background-size: cover;
+    height: 500px;
+  }
+
+  .title-mission {
+    text-align: center;
+    font-size: 2.7rem !important;
+    font-weight: 700 !important;
+    letter-spacing: 1px !important;
+    color: $primary !important;
+  }
+
+  .sub-title-mission {
+    color: $secondary;
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: normal;
+
+    li {
+      line-height: 30px !important;
+    }
+
+    .img-text {
+      display: inline-block;
+      width: 5rem;
       margin-top: 0px;
     }
   }
