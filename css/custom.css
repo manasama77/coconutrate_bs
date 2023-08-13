@@ -1,0 +1,283 @@
+:root {
+  --bs-primary: $primary !important;
+  --bs-link-color: $primary !important;
+}
+
+body {
+  font-family: "Oswald", Arial, sans-serif !important;
+  background-color: #f1f3ee !important;
+}
+body section.section-primary {
+  background-color: #393d32 !important;
+}
+
+.owl-carousel .owl-nav .owl-prev:before {
+  border-color: #8a3d0a #8a3d0a #8a3d0a !important;
+}
+.owl-carousel .owl-nav .owl-prev:after {
+  border-color: #8a3d0a #8a3d0a #8a3d0a !important;
+}
+.owl-carousel .owl-nav .owl-next:before {
+  border-color: #8a3d0a #8a3d0a #8a3d0a !important;
+}
+.owl-carousel .owl-nav .owl-next:after {
+  border-color: #8a3d0a #8a3d0a #8a3d0a !important;
+}
+.owl-carousel .owl-dots .owl-dot.active span {
+  background-color: #8a3d0a !important;
+}
+
+#header .header-btn-collapse-nav {
+  background-color: #d15a0b;
+}
+#header .header-body {
+  background-color: #f1f3ee !important;
+}
+#header .header-body .img-logo {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+  padding-left: 0px;
+}
+@media screen and (min-width: 768px) {
+  #header .header-body {
+    padding-left: 50px;
+  }
+}
+#header .header-body nav ul {
+  margin-top: 15px;
+}
+#header .header-body nav ul li {
+  padding: 7px 0px;
+  background-color: #e4b896;
+}
+#header .header-body nav ul li a {
+  padding: 9px;
+}
+#header .header-body nav ul li.active {
+  background-color: #e4b896;
+}
+#header .header-body nav ul li.active a {
+  color: white;
+}
+#header .header-body nav ul li:hover {
+  background-color: #e9cbb3 !important;
+}
+#header .header-body nav ul li.active {
+  background-color: #e4b896 !important;
+}
+
+#hero .home-title {
+  font-size: 65px !important;
+  font-weight: 500 !important;
+  letter-spacing: 1px !important;
+}
+
+#discover-our-method .img-text {
+  display: inline-block;
+  width: 10rem;
+}
+#discover-our-method .title-discover-method {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: normal;
+}
+#discover-our-method .btn-primary {
+  background-color: #d15a0b !important;
+  border-color: #d15a0b #d15a0b #8a3d0a !important;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: all 0.2s ease, visibility 0s;
+  min-width: 10px;
+  width: 262px;
+  height: 40px;
+  border-radius: 0;
+  padding-top: 5px;
+  letter-spacing: 2px;
+}
+#discover-our-method .btn-primary:hover {
+  background-color: transparent !important;
+  border-color: black !important;
+  color: black !important;
+}
+
+#we-care .title-pos {
+  text-align: center;
+  font-size: 2.7rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 1px !important;
+  color: #d15a0b !important;
+}
+#we-care .list-pos {
+  padding: 0 0px;
+}
+#we-care .list-pos p {
+  color: white !important;
+  font-size: 1rem;
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+}
+
+#benefits .title-benefits {
+  color: #2e3023;
+  font-size: 2.7rem;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: normal;
+}
+#benefits .title-benefits .img-text {
+  display: inline-block;
+  width: 15rem;
+  margin-top: -12px;
+}
+#benefits .sub-title-benefits {
+  color: #2e3023;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: normal;
+}
+#benefits .sub-title-benefits .img-text {
+  display: inline-block;
+  width: 8rem;
+  margin-top: -12px;
+}
+#benefits .text-carousel {
+  margin-bottom: 0.5px;
+}
+#benefits .text-carousel h2 {
+  color: #d15a0b !important;
+  font-size: 1.2rem !important;
+  font-weight: 400;
+  margin: 0px;
+  line-height: 22px;
+  text-justify: inter-word !important;
+  width: 100% !important;
+  letter-spacing: 0.1px;
+}
+#benefits .text-carousel p {
+  font-family: "Barlow", sans-serif !important;
+  color: #2e3023 !important;
+  font-size: 1.2rem !important;
+  font-weight: 400;
+  margin: 0px;
+  text-align: justify !important;
+  text-justify: inter-word !important;
+  width: 100% !important;
+  letter-spacing: 0.2px;
+}
+#benefits .text-carousel p .img-text {
+  display: inline-block;
+  width: 5rem;
+  margin-top: -4px;
+}
+
+#applications .title-applications {
+  color: #2e3023;
+  font-size: 2.7rem;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: normal;
+}
+#applications .title-applications .img-text {
+  display: inline-block;
+  width: 15rem;
+  margin-top: -12px;
+}
+#applications .sub-title-applications {
+  color: #2e3023;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: normal;
+}
+#applications .sub-title-applications .img-text {
+  display: inline-block;
+  width: 7rem;
+  margin-top: 0px;
+}
+#applications .svg-wrapper {
+  width: 25% !important;
+  height: auto;
+  min-height: 70px;
+  margin-bottom: 10px;
+}
+#applications .application-point-title {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #d15a0b;
+  text-align: center;
+  margin-bottom: 10px;
+  line-height: 28px;
+}
+#applications .application-point-sub-title {
+  font-family: "Barlow", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #2e3023;
+  text-align: center;
+  line-height: normal;
+}
+
+#certificates {
+  margin-bottom: 0px !important;
+  background-color: #2e3023 !important;
+}
+#certificates .title-certificates {
+  text-align: center;
+  font-size: 2.7rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 1px !important;
+  color: #d15a0b !important;
+}
+#certificates .sub-title-certificates {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: normal;
+}
+#certificates .sub-title-certificates .img-text {
+  display: inline-block;
+  width: 7rem;
+  margin-top: 0px;
+}
+
+#footer {
+  margin-top: 0px;
+  background-color: #2e3023;
+  border-top: 2px white solid !important;
+}
+#footer .title {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: white;
+}
+#footer ul li {
+  font-family: "Barlow", sans-serif !important;
+  font-size: 1rem !important;
+  color: #d15a0b !important;
+}
+#footer ul li a {
+  font-family: "Barlow", sans-serif !important;
+  font-size: 1rem !important;
+  color: #d15a0b !important;
+}
+#footer ul li a:hover {
+  color: #e9cbb3 !important;
+}
+#footer .footer-copyright {
+  background-color: #2e3023 !important;
+  border-top: 2px white solid !important;
+}
+#footer .footer-copyright p {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+/*# sourceMappingURL=custom.css.map */
