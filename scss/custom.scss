@@ -5,6 +5,7 @@ $link-primary-hover: #e9cbb3;
 $btn-primary: #d15a0b;
 $btn-border-1: #d15a0b;
 $btn-border-2: #8a3d0a;
+$base: #eef0e9;
 
 :root {
   --bs-primary: $primary !important;
@@ -501,5 +502,141 @@ body {
         margin-top: 0px;
       }
     }
+  }
+}
+
+#our-method {
+  margin-bottom: 0px !important;
+  background-color: $secondary !important;
+
+  .title-our-method {
+    text-align: center;
+    font-size: 2.7rem !important;
+    font-weight: 700 !important;
+    letter-spacing: 1px !important;
+    color: $primary !important;
+  }
+}
+
+.timeline {
+  background-color: $base;
+  margin: 0px !important;
+  padding: 50px 0px 5px 0px !important;
+
+  .timeline-box:before {
+    background: $primary !important;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 6px $primary !important;
+  }
+
+  .timeline-box {
+    border: 2px solid $primary !important;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+
+    h2 {
+      color: $primary;
+      font-weight: 500 !important;
+      letter-spacing: normal;
+    }
+
+    p {
+      font-family: "Barlow", sans-serif;
+      font-weight: 600 !important;
+      letter-spacing: normal;
+      text-align: justify;
+      color: $secondary !important;
+    }
+  }
+
+  .timeline-box.left {
+    h2 {
+      text-align: left;
+    }
+
+    .timeline-box-arrow {
+      border-top: 2px solid $primary !important;
+      border-right: 2px solid $primary !important;
+    }
+  }
+
+  .timeline-box.right {
+    h2 {
+      text-align: right;
+    }
+
+    .timeline-box-arrow {
+      border-bottom: 2px solid $primary !important;
+      border-left: 2px solid $primary !important;
+    }
+  }
+
+  .timeline-date {
+    background: none !important;
+    border: none !important;
+    width: 100% !important;
+    margin-bottom: 50px !important;
+
+    .btn-primary {
+      background-color: $btn-primary !important;
+      border-color: $btn-border-1 $btn-border-1 $btn-border-2 !important;
+      font-family: "Barlow", sans-serif;
+      font-size: 1.1rem;
+      font-weight: 500;
+      transition: all 0.2s ease, visibility 0s;
+      min-width: 10px;
+      width: 262px;
+      height: 40px;
+      border-radius: 0;
+      padding-top: 5px;
+      letter-spacing: 2px;
+    }
+
+    .btn-primary:hover {
+      background-color: transparent !important;
+      border-color: black !important;
+      color: black !important;
+    }
+  }
+}
+
+#compete-system {
+  .title-compete-system {
+    color: #2e3023;
+    font-size: 2.7rem;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+
+    .img-text {
+      display: inline-block;
+      width: 15rem;
+      margin-top: -12px;
+    }
+  }
+
+  p {
+    font-family: "Barlow", sans-serif;
+    font-weight: 600 !important;
+    letter-spacing: normal;
+    text-align: left;
+    color: $secondary !important;
+    font-size: 1rem;
+
+    .img-text {
+      display: inline-block;
+      width: 5rem;
+      margin-top: -5px;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+  }
+
+  ul > li {
+    font-family: "Barlow", sans-serif;
+    font-weight: 600 !important;
+    letter-spacing: normal;
+    text-align: left;
+    color: $secondary !important;
+    font-size: 1rem;
   }
 }

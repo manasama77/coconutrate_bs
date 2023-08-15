@@ -418,4 +418,118 @@ body section.section-primary {
   margin-top: 0px;
 }
 
+#our-method {
+  margin-bottom: 0px !important;
+  background-color: #393d32 !important;
+}
+#our-method .title-our-method {
+  text-align: center;
+  font-size: 2.7rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 1px !important;
+  color: #d15a0b !important;
+}
+
+.timeline {
+  background-color: #eef0e9;
+  margin: 0px !important;
+  padding: 50px 0px 5px 0px !important;
+}
+.timeline .timeline-box:before {
+  background: #d15a0b !important;
+  box-shadow: 0 0 0 3px #fff, 0 0 0 6px #d15a0b !important;
+}
+.timeline .timeline-box {
+  border: 2px solid #d15a0b !important;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+.timeline .timeline-box h2 {
+  color: #d15a0b;
+  font-weight: 500 !important;
+  letter-spacing: normal;
+}
+.timeline .timeline-box p {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600 !important;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #393d32 !important;
+}
+.timeline .timeline-box.left h2 {
+  text-align: left;
+}
+.timeline .timeline-box.left .timeline-box-arrow {
+  border-top: 2px solid #d15a0b !important;
+  border-right: 2px solid #d15a0b !important;
+}
+.timeline .timeline-box.right h2 {
+  text-align: right;
+}
+.timeline .timeline-box.right .timeline-box-arrow {
+  border-bottom: 2px solid #d15a0b !important;
+  border-left: 2px solid #d15a0b !important;
+}
+.timeline .timeline-date {
+  background: none !important;
+  border: none !important;
+  width: 100% !important;
+  margin-bottom: 50px !important;
+}
+.timeline .timeline-date .btn-primary {
+  background-color: #d15a0b !important;
+  border-color: #d15a0b #d15a0b #8a3d0a !important;
+  font-family: "Barlow", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: all 0.2s ease, visibility 0s;
+  min-width: 10px;
+  width: 262px;
+  height: 40px;
+  border-radius: 0;
+  padding-top: 5px;
+  letter-spacing: 2px;
+}
+.timeline .timeline-date .btn-primary:hover {
+  background-color: transparent !important;
+  border-color: black !important;
+  color: black !important;
+}
+
+#compete-system .title-compete-system {
+  color: #2e3023;
+  font-size: 2.7rem;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+}
+#compete-system .title-compete-system .img-text {
+  display: inline-block;
+  width: 15rem;
+  margin-top: -12px;
+}
+#compete-system p {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600 !important;
+  letter-spacing: normal;
+  text-align: left;
+  color: #393d32 !important;
+  font-size: 1rem;
+}
+#compete-system p .img-text {
+  display: inline-block;
+  width: 5rem;
+  margin-top: -5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#compete-system ul > li {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600 !important;
+  letter-spacing: normal;
+  text-align: left;
+  color: #393d32 !important;
+  font-size: 1rem;
+}
+
 /*# sourceMappingURL=custom.css.map */
