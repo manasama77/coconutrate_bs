@@ -532,4 +532,140 @@ body section.section-primary {
   font-size: 1rem;
 }
 
+#nutritional-properties {
+  margin-bottom: 0px !important;
+  background-color: #393d32 !important;
+}
+#nutritional-properties .title-nutritional-properties {
+  text-align: center;
+  font-size: 2.7rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 1px !important;
+  color: #d15a0b !important;
+}
+#nutritional-properties .subtitle-nutritional-properties {
+  text-align: center;
+  font-size: 1.5rem !important;
+  font-weight: 400 !important;
+  letter-spacing: 1px !important;
+  color: white !important;
+}
+#nutritional-properties .subtitle-nutritional-properties .img-text {
+  display: inline-block;
+  width: 9rem;
+  margin-top: -8px !important;
+}
+
+#nutritional-table {
+  margin-bottom: 0px !important;
+  background-color: #f1f3ee !important;
+}
+#nutritional-table .title-nutritional-properties {
+  text-align: center;
+  font-size: 2.7rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 1px !important;
+  color: #d15a0b !important;
+}
+#nutritional-table .subtitle-nutritional-properties {
+  text-align: center;
+  font-size: 1.5rem !important;
+  font-weight: 400 !important;
+  letter-spacing: 1px !important;
+  color: white !important;
+}
+#nutritional-table .subtitle-nutritional-properties .img-text {
+  display: inline-block;
+  width: 9rem;
+  margin-top: -8px !important;
+}
+#nutritional-table .text-info-1 {
+  color: white !important;
+  margin: 0px;
+  font-size: 1rem;
+}
+#nutritional-table .text-info-2 {
+  color: black !important;
+  margin: 10px;
+  font-size: 1rem;
+}
+#nutritional-table .li-info {
+  color: black !important;
+  margin: 10px;
+  font-size: 1rem;
+}
+#nutritional-table .card {
+  background-color: #393d32;
+}
+#nutritional-table .card table thead tr th {
+  color: #d15a0b;
+  font-size: 1.1rem;
+}
+#nutritional-table .card table tbody tr td {
+  color: white;
+  font-size: 1rem;
+}
+
+#contact-us h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 500;
+  letter-spacing: normal;
+}
+#contact-us p {
+  font-family: "Barlow", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #393d32;
+}
+#contact-us a {
+  font-family: "Barlow", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #393d32;
+}
+#contact-us .secondary {
+  background-color: #393d32;
+  padding: 40px;
+}
+#contact-us .secondary label {
+  font-size: 1rem;
+  color: white;
+  font-family: "Barlow", sans-serif;
+  margin-bottom: 5px;
+}
+#contact-us .secondary input {
+  font-size: 0.8rem;
+  color: white;
+  font-family: "Barlow", sans-serif;
+  border: 1px solid white;
+  background-color: transparent;
+  border-radius: 0;
+}
+#contact-us .secondary textarea {
+  font-size: 0.8rem;
+  color: white;
+  font-family: "Barlow", sans-serif;
+  border: 1px solid white;
+  background-color: transparent;
+  border-radius: 0;
+}
+#contact-us .secondary .btn-primary {
+  font-family: "Barlow", sans-serif;
+  background-color: #d15a0b;
+  border-radius: 0;
+  border: 1px solid #8a3d0a;
+  letter-spacing: normal;
+  font-weight: 700 !important;
+  font-size: 1rem;
+}
+#contact-us .secondary .btn-primary:hover {
+  font-family: "Barlow", sans-serif;
+  background-color: transparent;
+  border-radius: 0;
+  border: 1px solid #8a3d0a;
+}
+
 /*# sourceMappingURL=custom.css.map */
