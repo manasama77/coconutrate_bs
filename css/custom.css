@@ -599,11 +599,21 @@ body section.section-primary {
 }
 #nutritional-table .card table thead tr th {
   color: #d15a0b;
-  font-size: 1.1rem;
+  font-size: 0.8rem;
 }
 #nutritional-table .card table tbody tr td {
   color: white;
-  font-size: 1rem;
+  font-size: 0.8rem;
+}
+@media screen and (min-width: 768px) {
+  #nutritional-table .card table thead tr th {
+    color: #d15a0b;
+    font-size: 1.1rem;
+  }
+  #nutritional-table .card table tbody tr td {
+    color: white;
+    font-size: 1rem;
+  }
 }
 
 #contact-us h1 {
