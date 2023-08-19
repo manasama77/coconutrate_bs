@@ -9550,7 +9550,7 @@ body > .loading-overlay {
 .bounce-loader .bounce2,
 .bounce-loader .bounce3 {
 	animation: 1.4s ease-in-out 0s normal both infinite bouncedelay;
-	background-color: #CCC;
+	background-color: #fff;
 	border-radius: 100%;
 	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
 	display: inline-block;
@@ -9605,7 +9605,7 @@ html.safari.iphone .bounce-loader .bounce3 {
 	bottom: 0;
 	right: 0;
 	width: 0px;
-	background: #f4f4f4;
+	background: #ffffff;
 	z-index: 0;
 	transition: ease width 300ms;
 }
@@ -10010,14 +10010,17 @@ html.safari.iphone .bounce-loader .bounce3 {
 }
 
 .cssload-pulse-loader {
-	width: 49px;
-	height: 49px;
-	border-radius: 50%;
+	width: 200px;
+	height: auto;
+	border-radius: 0%;
 	margin: 3em;
 	display: inline-block;
 	position: relative;
 	vertical-align: middle;
-	background: black;
+	left: 50%;
+	transform: translateX(-50%) !important;
+
+	background: white !important;
 }
 
 .cssload-pulse-loader,

@@ -7,8 +7,14 @@
 
     <title>Coconutrate</title>
 
-    <meta name="keywords" content="WebSite Template" />
-    <meta name="description" content="Coconutrate" />
+    <meta
+      name="keywords"
+      content="coconutrate, bio product, machate, greenlife, phloem, coconut sap"
+    />
+    <meta
+      name="description"
+      content="Coconutrate 100% ORGANIC MULTI-NUTRIENT"
+    />
     <meta name="author" content="https://twitter.com/adampm" />
 
     <!-- Favicon -->
@@ -149,7 +155,22 @@
     <!-- Head Libs -->
     <script src="vendor/modernizr/modernizr.min.js"></script>
   </head>
-  <body data-plugin-page-transition>
+  <body
+    class="loading-overlay-showing"
+    data-loading-overlay
+    data-plugin-options="{'hideDelay': 500, 'effect': 'pulse'}"
+  >
+    <div class="loading-overlay">
+      <div class="bounce-loader">
+        <div class="wrapper-pulse">
+          <img
+            src="img/COCONUTRATE-LOGO.png"
+            class="cssload-pulse-loader"
+            style="width: 200px !important; margin-left: 0px"
+          />
+        </div>
+      </div>
+    </div>
     <div class="body">
       <header
         id="header"
@@ -180,10 +201,12 @@
                       <nav class="collapse">
                         <ul class="nav nav-pills" id="mainNav">
                           <li class="active">
-                            <a class="" href="index.html">Home</a>
+                            <a class="w-100" href="index.html">Home</a>
                           </li>
                           <li class="">
-                            <a class="" href="about-us.html">About Us</a>
+                            <a class="" href="about-us.html" style="width: 100%"
+                              >About Us</a
+                            >
                           </li>
                           <li class="">
                             <a class="" href="our-story.html">Our Story</a>
@@ -218,13 +241,6 @@
       </header>
 
       <div role="main" class="main">
-        <!-- <section
-          id="hero"
-          class="page-header page-header-modern page-header-background page-header-background-md"
-          style="
-            background-image: url(https://static.wixstatic.com/media/522d5b_bf3fc2e506f0401dad3fcbd64ccef3fc~mv2.jpg/v1/fill/w_1899,h_613,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/522d5b_bf3fc2e506f0401dad3fcbd64ccef3fc~mv2.jpg);
-          "
-        > -->
         <section
           id="hero"
           class="parallax section-parallax section-center page-header page-header-modern page-header-background page-header-background-md"
@@ -237,7 +253,13 @@
               <div
                 class="col-md-12 align-self-center p-static order-2 text-center"
               >
-                <h1 class="home-title">100% ORGANIC MULTI-NUTRIENT</h1>
+                <h1
+                  class="home-title"
+                  data-plugin-animated-letters
+                  data-plugin-options="{'startDelay': 10, 'minWindowWidth': 0, 'animationName': 'typeWriter', 'animationSpeed': 100}"
+                >
+                  100% ORGANIC MULTI-NUTRIENT
+                </h1>
               </div>
             </div>
           </div>
@@ -267,7 +289,7 @@
                       </h1>
                     </div>
                     <a
-                      href="#"
+                      href="our-method.html"
                       class="btn btn-primary appear-animation"
                       data-appear-animation="fadeIn"
                       >Discover our method</a
@@ -300,7 +322,12 @@
                     </div>
                     <div class="container">
                       <div class="row list-pos">
-                        <div class="col-sm-12 col-md-6 text-start ps-5">
+                        <div
+                          class="col-sm-12 col-md-6 text-start ps-5 appear-animation"
+                          data-appear-animation="bounceInLeft"
+                          data-appear-animation-delay="0"
+                          data-appear-animation-duration="1s"
+                        >
                           <p>✔ 100% organic (certified)</p>
                           <p>✔ straight from the nature</p>
                           <p>✔ single ingredient (certified)</p>
@@ -320,7 +347,12 @@
                             (certified)
                           </p>
                         </div>
-                        <div class="col-sm-12 col-md-6 text-start ps-5">
+                        <div
+                          class="col-sm-12 col-md-6 text-start ps-5 appear-animation"
+                          data-appear-animation="bounceInRight"
+                          data-appear-animation-delay="1000"
+                          data-appear-animation-duration="1s"
+                        >
                           <p>
                             ✔ sustainably sourced and organically farmed
                             (certified)
@@ -378,7 +410,12 @@
               </div>
             </div>
             <div class="row justify-content-center">
-              <div class="col-lg-12">
+              <div
+                class="col-lg-12 appear-animation"
+                data-appear-animation="zoomIn"
+                data-appear-animation-delay="1000"
+                data-appear-animation-duration="1s"
+              >
                 <div
                   class="owl-carousel owl-theme owl-loaded stage-margin stage-margin-lg nav-style-2 mb-0"
                 >
@@ -603,8 +640,15 @@
               </div>
             </div>
             <div class="container">
-              <div class="row">
-                <div class="col-sm-12 col-md-3">
+              <div
+                class="row appear-animation"
+                data-appear-animation="maskUp"
+                data-appear-animation-delay="0"
+                data-appear-animation-duration="1s"
+              >
+                <div
+                  class="col-sm-12 col-md-3 anim-hover-translate-top-10px transition-3ms"
+                >
                   <div class="svg-wrapper w-auto mx-auto">
                     <svg
                       preserveAspectRatio="xMidYMid meet"
@@ -676,7 +720,9 @@
                     baking
                   </p>
                 </div>
-                <div class="col-sm-12 col-md-3">
+                <div
+                  class="col-sm-12 col-md-3 anim-hover-translate-top-10px transition-3ms"
+                >
                   <div class="svg-wrapper w-auto mx-auto">
                     <svg
                       preserveAspectRatio="xMidYMid meet"
@@ -712,7 +758,9 @@
                     As an ingredient in medicines and as a dietary supplement
                   </p>
                 </div>
-                <div class="col-sm-12 col-md-3">
+                <div
+                  class="col-sm-12 col-md-3 anim-hover-translate-top-10px transition-3ms"
+                >
                   <div class="svg-wrapper w-auto mx-auto">
                     <svg
                       preserveAspectRatio="xMidYMid meet"
@@ -749,7 +797,9 @@
                     and anti-inflammatory agent
                   </p>
                 </div>
-                <div class="col-sm-12 col-md-3">
+                <div
+                  class="col-sm-12 col-md-3 anim-hover-translate-top-10px transition-3ms"
+                >
                   <div class="svg-wrapper w-auto mx-auto">
                     <svg
                       preserveAspectRatio="xMidYMid meet"
@@ -833,14 +883,18 @@
             <div class="col-6 col-md-4 col-lg-4 mb-5 px-5">
               <h5 class="title">Menu</h5>
               <ul class="list list-unstyled mb-0">
-                <li class="mb-0"><a href="#">Home</a></li>
-                <li class="mb-0"><a href="#">About us</a></li>
-                <li class="mb-0"><a href="#">Our Story</a></li>
-                <li class="mb-0"><a href="#">Our Method</a></li>
+                <li class="mb-0"><a href="index.html">Home</a></li>
+                <li class="mb-0"><a href="about-us.html">About us</a></li>
+                <li class="mb-0"><a href="our-story.html">Our Story</a></li>
+                <li class="mb-0"><a href="our-method.html">Our Method</a></li>
                 <li class="mb-0">
-                  <a href="#">Nutritional properties</a>
+                  <a href="nutritional-properties.html"
+                    >Nutritional properties</a
+                  >
                 </li>
-                <li class="mb-0 items"><a href="#">Contact us</a></li>
+                <li class="mb-0 items">
+                  <a href="contact-us.html">Contact us</a>
+                </li>
               </ul>
             </div>
             <div class="col-6 col-md-4 col-lg-4 mb-5 px-5">
