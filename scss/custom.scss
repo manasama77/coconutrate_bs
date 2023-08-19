@@ -1,3 +1,8 @@
+// @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 $primary: #d15a0b;
 $secondary: #393d32;
 $link-primary: #e4b896;
@@ -5,16 +10,21 @@ $link-primary-hover: #e9cbb3;
 $btn-primary: #d15a0b;
 $btn-border-1: #d15a0b;
 $btn-border-2: #8a3d0a;
-$base: #eef0e9;
+$base: #f1f3ee;
 
 :root {
   --bs-primary: $primary !important;
   --bs-link-color: $primary !important;
 }
 
+html,
 body {
-  font-family: "Oswald", Arial, sans-serif !important;
-  background-color: #f1f3ee !important;
+  // font-family: "Oswald", Arial, sans-serif !important;
+  // font-family: "Ubuntu", sans-serif !important;
+  // font-family: "Lato", sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
+  // font-family: "Roboto", sans-serif !important;
+  background-color: $base !important;
 
   section.section-primary {
     background-color: #393d32 !important;
@@ -83,6 +93,7 @@ body {
           a {
             color: black;
             background-color: inherit;
+            font-weight: 700;
           }
         }
 
@@ -106,6 +117,8 @@ body {
 }
 
 #hero {
+  margin: 0px;
+
   .home-title {
     font-size: 65px !important;
     font-weight: 500 !important;
@@ -114,6 +127,10 @@ body {
 }
 
 #discover-our-method {
+  background-color: $base;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
   .img-text {
     display: inline-block;
     width: 10rem;
@@ -124,6 +141,7 @@ body {
     font-weight: 500;
     line-height: normal;
     letter-spacing: normal;
+    font-family: "Ubuntu", sans-serif;
   }
 
   .btn-primary {
@@ -148,6 +166,8 @@ body {
 }
 
 #we-care {
+  margin-top: 0px;
+
   .title-pos {
     text-align: center;
     font-size: 2.7rem !important;
@@ -169,6 +189,10 @@ body {
 }
 
 #benefits {
+  background-color: $base;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
   .title-benefits {
     color: #2e3023;
     font-size: 2.7rem;
@@ -393,6 +417,7 @@ body {
       font-family: "Barlow", sans-serif !important;
       font-size: 1rem !important;
       color: $primary !important;
+      font-weight: 700;
     }
 
     li {
@@ -400,6 +425,7 @@ body {
         font-family: "Barlow", sans-serif !important;
         font-size: 1rem !important;
         color: $primary !important;
+        font-weight: 700;
       }
 
       a:hover {

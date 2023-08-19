@@ -1,12 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 :root {
   --bs-primary: $primary !important;
   --bs-link-color: $primary !important;
 }
 
+html,
 body {
-  font-family: "Oswald", Arial, sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
   background-color: #f1f3ee !important;
 }
+html section.section-primary,
 body section.section-primary {
   background-color: #393d32 !important;
 }
@@ -61,6 +66,7 @@ body section.section-primary {
 #header .header-body nav ul li.active a {
   color: black;
   background-color: inherit;
+  font-weight: 700;
 }
 #header .header-body nav ul li:hover {
   background-color: #e9cbb3 !important;
@@ -75,12 +81,20 @@ body section.section-primary {
   }
 }
 
+#hero {
+  margin: 0px;
+}
 #hero .home-title {
   font-size: 65px !important;
   font-weight: 500 !important;
   letter-spacing: 1px !important;
 }
 
+#discover-our-method {
+  background-color: #f1f3ee;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 #discover-our-method .img-text {
   display: inline-block;
   width: 10rem;
@@ -90,6 +104,7 @@ body section.section-primary {
   font-weight: 500;
   line-height: normal;
   letter-spacing: normal;
+  font-family: "Ubuntu", sans-serif;
 }
 #discover-our-method .btn-primary {
   background-color: #d15a0b !important;
@@ -110,6 +125,9 @@ body section.section-primary {
   color: black !important;
 }
 
+#we-care {
+  margin-top: 0px;
+}
 #we-care .title-pos {
   text-align: center;
   font-size: 2.7rem !important;
@@ -127,6 +145,11 @@ body section.section-primary {
   font-weight: 400;
 }
 
+#benefits {
+  background-color: #f1f3ee;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 #benefits .title-benefits {
   color: #2e3023;
   font-size: 2.7rem;
@@ -319,11 +342,13 @@ body section.section-primary {
   font-family: "Barlow", sans-serif !important;
   font-size: 1rem !important;
   color: #d15a0b !important;
+  font-weight: 700;
 }
 #footer ul li a {
   font-family: "Barlow", sans-serif !important;
   font-size: 1rem !important;
   color: #d15a0b !important;
+  font-weight: 700;
 }
 #footer ul li a:hover {
   color: #e9cbb3 !important;
@@ -431,7 +456,7 @@ body section.section-primary {
 }
 
 .timeline {
-  background-color: #eef0e9;
+  background-color: #f1f3ee;
   margin: 0px !important;
   padding: 50px 0px 5px 0px !important;
 }
