@@ -416,9 +416,7 @@
                 data-appear-animation-delay="1000"
                 data-appear-animation-duration="1s"
               >
-                <div
-                  class="owl-carousel owl-theme owl-loaded stage-margin stage-margin-lg nav-style-2 mb-0"
-                >
+                <div class="owl-carousel owl-theme owl-loaded nav-style-2 mb-0">
                   <div class="text-center text-carousel">
                     <div class="mb-4">
                       <h2>GOOD FOR ENERGY</h2>
@@ -954,16 +952,27 @@
     <script>
       $(".owl-carousel").owlCarousel({
         items: 1,
-        margin: 100,
-        stagePadding: 100,
         autoHeight: true,
         center: true,
         loop: true,
-        nav: true,
         dots: true,
         animateIn: "fadeInRightBig",
         animateOut: "fadeOutLeftBig",
         smartSpeed: 100,
+        responsive: {
+          0: {
+            items: 1,
+            stagePadding: 0,
+            margin: 0,
+            nav: false,
+          },
+          765: {
+            items: 1,
+            stagePadding: 100,
+            margin: 100,
+            nav: true,
+          },
+        },
       });
     </script>
   </body>
