@@ -149,7 +149,22 @@
     <!-- Head Libs -->
     <script src="vendor/modernizr/modernizr.min.js"></script>
   </head>
-  <body data-plugin-page-transition>
+  <body
+    class="loading-overlay-showing"
+    data-loading-overlay
+    data-plugin-options="{'hideDelay': 500, 'effect': 'pulse'}"
+  >
+    <div class="loading-overlay">
+      <div class="bounce-loader">
+        <div class="wrapper-pulse">
+          <img
+            src="img/COCONUTRATE-LOGO.png"
+            class="cssload-pulse-loader"
+            style="width: 200px !important; margin-left: 0px"
+          />
+        </div>
+      </div>
+    </div>
     <div class="body">
       <header
         id="header"
@@ -306,12 +321,17 @@
 
         <section id="mission">
           <div class="container-fluid">
-            <div class="row pt-5">
+            <div class="row">
               <div class="col">
                 <div class="row text-center">
-                  <div class="col-sm-12 col-md-6 flask">&nbsp;</div>
                   <div
-                    class="col-sm-12 col-md-6 p-5 d-flex flex-column justify-content-center align-items-center"
+                    class="col-sm-12 col-md-6 flask appear-animation order-2 order-md-1"
+                    data-appear-animation="maskRight"
+                  >
+                    &nbsp;
+                  </div>
+                  <div
+                    class="col-sm-12 col-md-6 p-5 d-flex flex-column justify-content-center align-items-center order-1 order-md-2"
                   >
                     <h1
                       class="title-mission appear-animation"
@@ -380,7 +400,12 @@
                       </ul>
                     </h2>
                   </div>
-                  <div class="col-sm-12 col-md-6 flask">&nbsp;</div>
+                  <div
+                    class="col-sm-12 col-md-6 flask appear-animation"
+                    data-appear-animation="maskLeft"
+                  >
+                    &nbsp;
+                  </div>
                 </div>
               </div>
             </div>
