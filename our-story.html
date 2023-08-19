@@ -149,7 +149,22 @@
     <!-- Head Libs -->
     <script src="vendor/modernizr/modernizr.min.js"></script>
   </head>
-  <body data-plugin-page-transition>
+  <body
+    class="loading-overlay-showing"
+    data-loading-overlay
+    data-plugin-options="{'hideDelay': 500, 'effect': 'pulse'}"
+  >
+    <div class="loading-overlay">
+      <div class="bounce-loader">
+        <div class="wrapper-pulse">
+          <img
+            src="img/COCONUTRATE-LOGO.png"
+            class="cssload-pulse-loader"
+            style="width: 200px !important; margin-left: 0px"
+          />
+        </div>
+      </div>
+    </div>
     <div class="body">
       <header
         id="header"
