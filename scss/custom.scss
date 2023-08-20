@@ -3,12 +3,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-$primary: #d15a0b;
+// $primary: #d15a0b;
+$primary: #ff6601;
 $secondary: #393d32;
 $link-primary: #e4b896;
 $link-primary-hover: #e9cbb3;
-$btn-primary: #d15a0b;
-$btn-border-1: #d15a0b;
+// $btn-primary: #d15a0b;
+$btn-primary: #ff6601;
+// $btn-border-1: #d15a0b;
+$btn-border-1: #ff6601;
 $btn-border-2: #8a3d0a;
 $base: #f1f3ee;
 
@@ -208,7 +211,7 @@ body {
     p {
       color: white !important;
       font-size: 1rem;
-      font-family: "Barlow", sans-serif;
+      // font-family: "Barlow", sans-serif;
       font-weight: 400;
     }
   }
@@ -262,7 +265,7 @@ body {
     }
 
     p {
-      font-family: "Barlow", sans-serif !important;
+      // font-family: "Barlow", sans-serif !important;
       color: $secondary !important;
       font-size: 1.2rem !important;
       font-weight: 400;
@@ -328,7 +331,7 @@ body {
   }
 
   .application-point-sub-title {
-    font-family: "Barlow", sans-serif;
+    // font-family: "Barlow", sans-serif;
     font-size: 1rem;
     font-weight: 400;
     color: $secondary;
@@ -441,7 +444,7 @@ body {
 
   ul {
     li {
-      font-family: "Barlow", sans-serif !important;
+      // font-family: "Barlow", sans-serif !important;
       font-size: 1rem !important;
       color: $primary !important;
       font-weight: 700;
@@ -450,7 +453,7 @@ body {
 
     li {
       a {
-        font-family: "Barlow", sans-serif !important;
+        // font-family: "Barlow", sans-serif !important;
         font-size: 1rem !important;
         color: $primary !important;
         font-weight: 700;
@@ -474,7 +477,7 @@ body {
 
     ul {
       li {
-        font-family: "Barlow", sans-serif !important;
+        // font-family: "Barlow", sans-serif !important;
         font-size: 1rem !important;
         color: $primary !important;
         font-weight: 700;
@@ -483,7 +486,7 @@ body {
 
       li {
         a {
-          font-family: "Barlow", sans-serif !important;
+          // font-family: "Barlow", sans-serif !important;
           font-size: 1rem !important;
           color: $primary !important;
           font-weight: 700;
@@ -513,9 +516,18 @@ body {
 #our-story {
   margin-bottom: 0px !important;
   background-color: #f1f3ee !important;
-  background: url("../img/bg-our-story.jpg") no-repeat left top;
+  background: url("../img/bg-our-story.jpg") no-repeat center top;
   background-size: 620px;
   width: 100%;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0px !important;
+    background-color: #f1f3ee !important;
+    background: url("../img/bg-our-story.jpg") no-repeat left top;
+    background-size: 650px;
+    background-position: 0px 10px;
+    width: 100%;
+  }
 
   .custom-card {
     background-color: $secondary;
@@ -523,22 +535,18 @@ body {
     .custom-card-body {
       padding: 20px;
 
-      @media screen and (min-width: 768px) {
-        padding: 50px;
-      }
-
       h1.title-our-story {
         text-align: left;
-        font-size: 2.4rem !important;
+        font-size: 2rem !important;
         font-weight: 500 !important;
-        letter-spacing: 1px !important;
+        letter-spacing: normal !important;
         color: $primary !important;
         margin: 0 0 14px 0 !important;
         line-height: 44px;
       }
 
       .sub-title-our-story {
-        font-family: "Barlow", sans-serif;
+        // font-family: "Barlow", sans-serif;
         color: white;
         font-size: 1rem !important;
         font-weight: 400;
@@ -551,6 +559,20 @@ body {
           display: inline-block;
           width: 5rem;
           margin-top: 0px;
+        }
+      }
+
+      @media screen and (min-width: 768px) {
+        padding: 0px 150px 20px 150px;
+
+        h1.title-our-story {
+          text-align: left;
+          font-size: 2.4rem !important;
+          font-weight: 500 !important;
+          letter-spacing: 1px !important;
+          color: $primary !important;
+          margin: 0 0 14px 0 !important;
+          line-height: 44px;
         }
       }
     }
@@ -567,16 +589,17 @@ body {
 
     h1.title-story-1 {
       text-align: left;
-      font-size: 2.4rem !important;
+      font-size: 2rem !important;
       font-weight: 500 !important;
-      letter-spacing: 1px !important;
+      letter-spacing: normal !important;
       color: $primary !important;
       margin-bottom: 14px !important;
       line-height: 44px;
+      width: 100% !important;
     }
 
     .sub-title-story-1 {
-      font-family: "Barlow", sans-serif;
+      // font-family: "Barlow", sans-serif;
       color: white;
       font-size: 1rem !important;
       font-weight: 400;
@@ -590,6 +613,18 @@ body {
         width: 5rem;
         margin-top: 0px;
       }
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    h1.title-story-1 {
+      text-align: left;
+      font-size: 2.4rem !important;
+      font-weight: 500 !important;
+      letter-spacing: 1px !important;
+      color: $primary !important;
+      margin-bottom: 14px !important;
+      line-height: 44px;
     }
   }
 }
@@ -628,7 +663,7 @@ body {
     }
 
     p {
-      font-family: "Barlow", sans-serif;
+      // font-family: "Barlow", sans-serif;
       font-weight: 600 !important;
       letter-spacing: normal;
       text-align: justify;
@@ -667,7 +702,7 @@ body {
     .btn-primary {
       background-color: $btn-primary !important;
       border-color: $btn-border-1 $btn-border-1 $btn-border-2 !important;
-      font-family: "Barlow", sans-serif;
+      // font-family: "Barlow", sans-serif;
       font-size: 1.1rem;
       font-weight: 500;
       transition: all 0.2s ease, visibility 0s;
@@ -704,7 +739,7 @@ body {
   }
 
   p {
-    font-family: "Barlow", sans-serif;
+    // font-family: "Barlow", sans-serif;
     font-weight: 600 !important;
     letter-spacing: normal;
     text-align: left;
@@ -721,7 +756,7 @@ body {
   }
 
   ul > li {
-    font-family: "Barlow", sans-serif;
+    // font-family: "Barlow", sans-serif;
     font-weight: 600 !important;
     letter-spacing: normal;
     text-align: left;
@@ -916,7 +951,7 @@ body {
   }
 
   p {
-    font-family: "Barlow", sans-serif;
+    // font-family: "Barlow", sans-serif;
     font-size: 1rem;
     font-weight: 400;
     letter-spacing: normal;
@@ -924,7 +959,7 @@ body {
   }
 
   a {
-    font-family: "Barlow", sans-serif;
+    // font-family: "Barlow", sans-serif;
     font-size: 1rem;
     font-weight: 400;
     letter-spacing: normal;
@@ -938,14 +973,14 @@ body {
     label {
       font-size: 1rem;
       color: white;
-      font-family: "Barlow", sans-serif;
+      // font-family: "Barlow", sans-serif;
       margin-bottom: 5px;
     }
 
     input {
       font-size: 0.8rem;
       color: white;
-      font-family: "Barlow", sans-serif;
+      // font-family: "Barlow", sans-serif;
       border: 1px solid white;
       background-color: transparent;
       border-radius: 0;
@@ -954,14 +989,14 @@ body {
     textarea {
       font-size: 0.8rem;
       color: white;
-      font-family: "Barlow", sans-serif;
+      // font-family: "Barlow", sans-serif;
       border: 1px solid white;
       background-color: transparent;
       border-radius: 0;
     }
 
     .btn-primary {
-      font-family: "Barlow", sans-serif;
+      // font-family: "Barlow", sans-serif;
       background-color: $primary;
       border-radius: 0;
       border: 1px solid $btn-border-2;
@@ -971,7 +1006,7 @@ body {
     }
 
     .btn-primary:hover {
-      font-family: "Barlow", sans-serif;
+      // font-family: "Barlow", sans-serif;
       background-color: transparent;
       border-radius: 0;
       border: 1px solid $btn-border-2;
