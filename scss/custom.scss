@@ -198,11 +198,11 @@ body {
     .img-text {
       display: inline-block;
       width: 6rem;
-      margin-top: -5px;
+      margin-top: -8px;
     }
 
     .title-discover-method {
-      font-size: 2rem;
+      font-size: 1.5rem;
       font-weight: 500;
       line-height: normal;
       letter-spacing: normal;
@@ -244,7 +244,7 @@ body {
   @media screen and (min-width: 768px) {
     .title-pos {
       text-align: center;
-      font-size: 2.7rem !important;
+      font-size: 2.6rem !important;
       font-weight: 700 !important;
       letter-spacing: 1px !important;
       color: $primary !important;
@@ -283,7 +283,7 @@ body {
   }
 
   .sub-title-benefits {
-    color: #2e3023;
+    color: black;
     font-size: 1.2rem;
     font-weight: 400;
     line-height: normal;
@@ -333,20 +333,20 @@ body {
   @media screen and (min-width: 768px) {
     .title-benefits {
       color: black;
-      font-size: 2.7rem;
+      font-size: 2.6rem;
       font-weight: 700;
       line-height: normal;
       letter-spacing: normal;
 
       .img-text {
         display: inline-block;
-        width: 15rem;
-        margin-top: -12px;
+        width: 11rem;
+        margin-top: -8px;
       }
     }
 
     .sub-title-benefits {
-      color: #2e3023;
+      color: black;
       font-size: 1.3rem;
       font-weight: 400;
       line-height: normal;
@@ -354,8 +354,8 @@ body {
 
       .img-text {
         display: inline-block;
-        width: 8rem;
-        margin-top: -12px;
+        width: 6rem;
+        margin-top: -8px;
       }
     }
 
@@ -401,18 +401,12 @@ body {
     font-weight: 700;
     line-height: normal;
     letter-spacing: normal;
-
-    .img-text {
-      display: inline-block;
-      width: 10rem;
-      margin-top: -12px;
-    }
   }
 
   .sub-title-applications {
-    color: #2e3023;
+    color: black;
     font-size: 1.3rem;
-    font-weight: 400;
+    font-weight: 500;
     line-height: normal;
     letter-spacing: normal;
 
@@ -425,23 +419,17 @@ body {
 
   @media screen and (min-width: 768px) {
     .title-applications {
-      color: #2e3023;
-      font-size: 2.7rem;
-      font-weight: 500;
+      color: black;
+      font-size: 2.6rem;
+      font-weight: 700;
       line-height: normal;
       letter-spacing: normal;
-
-      .img-text {
-        display: inline-block;
-        width: 15rem;
-        margin-top: -12px;
-      }
     }
 
     .sub-title-applications {
-      color: #2e3023;
+      color: black;
       font-size: 1.3rem;
-      font-weight: 400;
+      font-weight: 500;
       line-height: normal;
       letter-spacing: normal;
 
@@ -509,7 +497,7 @@ body {
   @media screen and (min-width: 768px) {
     .title-certificates {
       text-align: center;
-      font-size: 2.7rem !important;
+      font-size: 2.6rem !important;
       font-weight: 700 !important;
       letter-spacing: 1px !important;
       color: $primary !important;
@@ -518,7 +506,7 @@ body {
     .sub-title-certificates {
       color: white;
       font-size: 1.3rem;
-      font-weight: 400;
+      font-weight: 500;
       line-height: normal;
       letter-spacing: normal;
 
@@ -562,7 +550,7 @@ body {
   @media screen and (min-width: 768px) {
     .title-about-us {
       text-align: center;
-      font-size: 2.7rem !important;
+      font-size: 2.6rem !important;
       font-weight: 700 !important;
       letter-spacing: 1px !important;
       color: $primary !important;
@@ -604,7 +592,7 @@ body {
   @media screen and (min-width: 768px) {
     .title-mission {
       text-align: center;
-      font-size: 2.7rem !important;
+      font-size: 2.6rem !important;
       font-weight: 700 !important;
       letter-spacing: 1px !important;
       color: $primary !important;
@@ -844,7 +832,7 @@ body {
   @media screen and (min-width: 768px) {
     .title-our-method {
       text-align: center;
-      font-size: 2.7rem !important;
+      font-size: 2.6rem !important;
       font-weight: 700 !important;
       letter-spacing: 1px !important;
       color: $primary !important;
@@ -967,17 +955,17 @@ body {
 
   @media screen and (min-width: 768px) {
     .title-compete-system {
-      color: #2e3023;
-      font-size: 2.7rem;
-      font-weight: 500;
+      color: black;
+      font-size: 2.6rem;
+      font-weight: 700;
       line-height: normal;
       letter-spacing: normal;
       text-align: center;
 
       .img-text {
         display: inline-block;
-        width: 15rem;
-        margin-top: -12px;
+        width: 10rem;
+        margin-top: -8px;
       }
     }
   }
@@ -1038,7 +1026,7 @@ body {
   @media screen and (min-width: 768px) {
     .title-nutritional-properties {
       text-align: center;
-      font-size: 2.7rem !important;
+      font-size: 2.6rem !important;
       font-weight: 700 !important;
       letter-spacing: 1px !important;
       color: $primary !important;
@@ -1066,7 +1054,7 @@ body {
 
   .title-nutritional-properties {
     text-align: center;
-    font-size: 2.7rem !important;
+    font-size: 2.6rem !important;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
     color: $primary !important;
