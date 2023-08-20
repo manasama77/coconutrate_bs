@@ -119,15 +119,17 @@ body section.section-primary {
   margin: 0px;
 }
 #hero .home-title {
-  font-size: 2rem !important;
-  font-weight: 500 !important;
-  letter-spacing: 1px !important;
+  font-size: 2.4rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 4px !important;
+  max-width: 100% !important;
 }
 @media screen and (min-width: 768px) {
   #hero .home-title {
-    font-size: 65px !important;
-    font-weight: 500 !important;
+    font-size: 3rem !important;
+    font-weight: 700 !important;
     letter-spacing: 1px !important;
+    max-width: 100% !important;
   }
 }
 
@@ -1059,6 +1061,10 @@ body section.section-primary {
   background-color: transparent;
   border-radius: 0;
   border: 1px solid #cd5200;
+}
+
+a.scroll-to-top:hover {
+  color: #ff7519;
 }
 
 /*# sourceMappingURL=custom-4.css.map */
