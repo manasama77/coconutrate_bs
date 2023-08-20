@@ -6,13 +6,14 @@
 // $primary: #d15a0b;
 $primary: #ff6601;
 $secondary: #393d32;
-$link-primary: #e4b896;
-$link-primary-hover: #e9cbb3;
+$link-primary: #eb5e00;
+$link-primary-hover: #ff7519;
 // $btn-primary: #d15a0b;
 $btn-primary: #ff6601;
 // $btn-border-1: #d15a0b;
 $btn-border-1: #ff6601;
-$btn-border-2: #8a3d0a;
+// $btn-border-2: #8a3d0a;
+$btn-border-2: #cd5200;
 $base: #f1f3ee;
 
 :root {
@@ -101,7 +102,7 @@ body {
           background-color: $link-primary;
 
           a {
-            color: black;
+            color: white !important;
             background-color: inherit;
             font-weight: 700;
           }
@@ -137,6 +138,16 @@ body {
               width: 100%;
               min-height: 100%;
               margin: 16px 0 0 !important;
+            }
+          }
+
+          li.active {
+            background-color: $link-primary;
+
+            a {
+              color: white !important;
+              background-color: inherit;
+              font-weight: 700;
             }
           }
         }
