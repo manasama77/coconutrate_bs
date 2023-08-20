@@ -49,16 +49,25 @@ body section.section-primary {
     padding-left: 50px;
   }
 }
+#header .header-body nav {
+  padding: 0px;
+}
 #header .header-body nav ul {
   margin-top: 15px;
 }
 #header .header-body nav ul li {
-  padding: 7px 0px;
+  padding: 5px 0px;
   background-color: transparent;
+  margin-top: 0px;
+  margin-left: 0px;
 }
 #header .header-body nav ul li a {
   color: black !important;
-  padding: 9px;
+  padding: 7px;
+  display: block !important;
+  width: 100%;
+  min-height: 100%;
+  margin: 0px !important;
 }
 #header .header-body nav ul li.active {
   background-color: #e4b896;
@@ -71,6 +80,9 @@ body section.section-primary {
 #header .header-body nav ul li:hover {
   background-color: #e9cbb3 !important;
 }
+#header .header-body nav ul li:hover a {
+  background-color: #e9cbb3 !important;
+}
 #header .header-body nav ul li.active {
   background-color: #e4b896 !important;
 }
@@ -78,6 +90,20 @@ body section.section-primary {
   #header .header-body nav ul {
     height: 70px !important;
     margin-top: 15px;
+  }
+  #header .header-body nav ul li {
+    padding: 7px 0px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  #header .header-body nav ul li a {
+    color: black !important;
+    padding: 7px;
+    display: block !important;
+    width: 100%;
+    min-height: 100%;
+    margin: 16px 0 0 !important;
   }
 }
 
@@ -337,21 +363,48 @@ body section.section-primary {
   font-size: 1.5rem;
   font-weight: 400;
   color: white;
+  text-align: center;
 }
 #footer ul li {
   font-family: "Barlow", sans-serif !important;
   font-size: 1rem !important;
   color: #d15a0b !important;
   font-weight: 700;
+  text-align: center;
 }
 #footer ul li a {
   font-family: "Barlow", sans-serif !important;
   font-size: 1rem !important;
   color: #d15a0b !important;
   font-weight: 700;
+  text-align: center !important;
 }
 #footer ul li a:hover {
   color: #e9cbb3 !important;
+}
+@media screen and (min-width: 768px) {
+  #footer .title {
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+    text-align: left;
+  }
+  #footer ul li {
+    font-family: "Barlow", sans-serif !important;
+    font-size: 1rem !important;
+    color: #d15a0b !important;
+    font-weight: 700;
+  }
+  #footer ul li a {
+    font-family: "Barlow", sans-serif !important;
+    font-size: 1rem !important;
+    color: #d15a0b !important;
+    font-weight: 700;
+  }
+  #footer ul li a:hover {
+    color: #e9cbb3 !important;
+  }
 }
 #footer .footer-copyright {
   background-color: #393d32 !important;
@@ -627,9 +680,57 @@ body section.section-primary {
 #nutritional-table .card {
   background-color: #393d32;
 }
-#nutritional-table .card table thead tr th {
+#nutritional-table .card .img-text {
+  display: inline-block;
+  width: 5rem;
+  height: 100%;
+  margin-top: 4px !important;
+  margin-left: 10px;
+}
+#nutritional-table .card .dataTables_length {
+  color: whitesmoke;
+}
+#nutritional-table .card .table_filter {
+  color: whitesmoke !important;
+}
+#nutritional-table .card .dataTables_info {
+  color: whitesmoke !important;
+}
+#nutritional-table .card .pagination > .active > a,
+#nutritional-table .card .pagination > .active > span,
+#nutritional-table .card .pagination > .active > a:hover,
+#nutritional-table .card .pagination > .active > span:hover,
+#nutritional-table .card .pagination > .active > a:focus,
+#nutritional-table .card .pagination > .active > span:focus,
+#nutritional-table .card .pagination .page-item.active .page-link {
+  background-color: #d15a0b !important;
+  border-color: #8a3d0a;
+  color: whitesmoke;
+}
+#nutritional-table .card .pagination > a,
+#nutritional-table .card .pagination > a:hover,
+#nutritional-table .card .pagination > a:focus,
+#nutritional-table .card .pagination > li > a,
+#nutritional-table .card .pagination > li > span,
+#nutritional-table .card .pagination > li > a:hover,
+#nutritional-table .card .pagination > li > span:hover,
+#nutritional-table .card .pagination > li > a:focus,
+#nutritional-table .card .pagination > li > span:focus {
   color: #d15a0b;
-  font-size: 0.8rem;
+}
+#nutritional-table .card table {
+  position: relative;
+  border-collapse: collapse;
+}
+#nutritional-table .card table thead {
+  background-color: #d15a0b;
+}
+#nutritional-table .card table thead tr th {
+  color: whitesmoke !important;
+  font-size: 0.8rem !important;
+  position: sticky !important;
+  top: 0px !important;
+  box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4) !important;
 }
 #nutritional-table .card table tbody tr td {
   color: white;

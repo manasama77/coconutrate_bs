@@ -74,16 +74,23 @@ body {
     }
 
     nav {
+      padding: 0px;
       ul {
         margin-top: 15px;
 
         li {
-          padding: 7px 0px;
+          padding: 5px 0px;
           background-color: transparent;
+          margin-top: 0px;
+          margin-left: 0px;
 
           a {
             color: black !important;
-            padding: 9px;
+            padding: 7px;
+            display: block !important;
+            width: 100%;
+            min-height: 100%;
+            margin: 0px !important;
           }
         }
 
@@ -99,6 +106,9 @@ body {
 
         li:hover {
           background-color: $link-primary-hover !important;
+          a {
+            background-color: $link-primary-hover !important;
+          }
         }
 
         li.active {
@@ -110,6 +120,22 @@ body {
         ul {
           height: 70px !important;
           margin-top: 15px;
+
+          li {
+            padding: 7px 0px;
+            background-color: transparent;
+            margin-top: 0px;
+            margin-left: 0px;
+
+            a {
+              color: black !important;
+              padding: 7px;
+              display: block !important;
+              width: 100%;
+              min-height: 100%;
+              margin: 16px 0 0 !important;
+            }
+          }
         }
       }
     }
@@ -410,6 +436,7 @@ body {
     font-size: 1.5rem;
     font-weight: 400;
     color: white;
+    text-align: center;
   }
 
   ul {
@@ -418,6 +445,7 @@ body {
       font-size: 1rem !important;
       color: $primary !important;
       font-weight: 700;
+      text-align: center;
     }
 
     li {
@@ -426,10 +454,43 @@ body {
         font-size: 1rem !important;
         color: $primary !important;
         font-weight: 700;
+        text-align: center !important;
       }
 
       a:hover {
         color: $link-primary-hover !important;
+      }
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .title {
+      font-family: "Oswald", sans-serif;
+      font-size: 1.5rem;
+      font-weight: 400;
+      color: white;
+      text-align: left;
+    }
+
+    ul {
+      li {
+        font-family: "Barlow", sans-serif !important;
+        font-size: 1rem !important;
+        color: $primary !important;
+        font-weight: 700;
+      }
+
+      li {
+        a {
+          font-family: "Barlow", sans-serif !important;
+          font-size: 1rem !important;
+          color: $primary !important;
+          font-weight: 700;
+        }
+
+        a:hover {
+          color: $link-primary-hover !important;
+        }
       }
     }
   }
@@ -747,12 +808,65 @@ body {
   .card {
     background-color: $secondary;
 
+    .img-text {
+      display: inline-block;
+      width: 5rem;
+      height: 100%;
+      margin-top: 4px !important;
+      margin-left: 10px;
+    }
+
+    .dataTables_length {
+      color: whitesmoke;
+    }
+
+    .table_filter {
+      color: whitesmoke !important;
+    }
+
+    .dataTables_info {
+      color: whitesmoke !important;
+    }
+
+    .pagination > .active > a,
+    .pagination > .active > span,
+    .pagination > .active > a:hover,
+    .pagination > .active > span:hover,
+    .pagination > .active > a:focus,
+    .pagination > .active > span:focus,
+    .pagination .page-item.active .page-link {
+      background-color: $btn-border-1 !important;
+      border-color: $btn-border-2;
+      color: whitesmoke;
+    }
+
+    .pagination > a,
+    .pagination > a:hover,
+    .pagination > a:focus,
+    .pagination > li > a,
+    .pagination > li > span,
+    .pagination > li > a:hover,
+    .pagination > li > span:hover,
+    .pagination > li > a:focus,
+    .pagination > li > span:focus {
+      color: $primary;
+    }
+
     table {
+      position: relative;
+      border-collapse: collapse;
+
       thead {
+        background-color: $primary;
+
         tr {
           th {
-            color: $primary;
-            font-size: 0.8rem;
+            color: whitesmoke !important;
+            font-size: 0.8rem !important;
+            position: sticky !important;
+            top: 0px !important;
+
+            box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4) !important;
           }
         }
       }
