@@ -160,9 +160,17 @@ body {
   margin: 0px;
 
   .home-title {
-    font-size: 65px !important;
+    font-size: 2rem !important;
     font-weight: 500 !important;
     letter-spacing: 1px !important;
+  }
+
+  @media screen and (min-width: 768px) {
+    .home-title {
+      font-size: 65px !important;
+      font-weight: 500 !important;
+      letter-spacing: 1px !important;
+    }
   }
 }
 
@@ -173,15 +181,30 @@ body {
 
   .img-text {
     display: inline-block;
-    width: 10rem;
+    width: 6rem;
+    margin-top: -5px;
   }
 
   .title-discover-method {
-    font-size: 20px;
+    font-size: 1.2rem;
     font-weight: 500;
     line-height: normal;
     letter-spacing: normal;
-    font-family: "Ubuntu", sans-serif;
+  }
+
+  @media screen and (min-width: 768px) {
+    .img-text {
+      display: inline-block;
+      width: 6rem;
+      margin-top: -5px;
+    }
+
+    .title-discover-method {
+      font-size: 2rem;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: normal;
+    }
   }
 
   .btn-primary {
@@ -210,10 +233,20 @@ body {
 
   .title-pos {
     text-align: center;
-    font-size: 2.7rem !important;
+    font-size: 2rem !important;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
     color: $primary !important;
+  }
+
+  @media screen and (min-width: 768px) {
+    .title-pos {
+      text-align: center;
+      font-size: 2.7rem !important;
+      font-weight: 700 !important;
+      letter-spacing: 1px !important;
+      color: $primary !important;
+    }
   }
 
   .list-pos {
@@ -234,23 +267,9 @@ body {
   padding-bottom: 50px;
 
   .title-benefits {
-    color: #2e3023;
-    font-size: 2.7rem;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: normal;
-
-    .img-text {
-      display: inline-block;
-      width: 15rem;
-      margin-top: -12px;
-    }
-  }
-
-  .sub-title-benefits {
-    color: #2e3023;
-    font-size: 1.3rem;
-    font-weight: 400;
+    color: black;
+    font-size: 2rem;
+    font-weight: 700;
     line-height: normal;
     letter-spacing: normal;
 
@@ -258,6 +277,20 @@ body {
       display: inline-block;
       width: 8rem;
       margin-top: -12px;
+    }
+  }
+
+  .sub-title-benefits {
+    color: #2e3023;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: normal;
+
+    .img-text {
+      display: inline-block;
+      width: 5.5rem;
+      margin-top: -10px;
     }
   }
 
@@ -273,18 +306,19 @@ body {
       text-justify: inter-word !important;
       width: 100% !important;
       letter-spacing: 0.1px;
+      margin-bottom: 10px;
     }
 
     p {
       // font-family: "Barlow", sans-serif !important;
       color: $secondary !important;
-      font-size: 1.2rem !important;
+      font-size: 1.1rem !important;
       font-weight: 400;
       margin: 0px;
-      text-align: justify !important;
+      text-align: center !important;
       text-justify: inter-word !important;
       width: 100% !important;
-      letter-spacing: 0.2px;
+      letter-spacing: normal;
 
       .img-text {
         display: inline-block;
@@ -293,19 +327,82 @@ body {
       }
     }
   }
+
+  @media screen and (min-width: 768px) {
+    .title-benefits {
+      color: black;
+      font-size: 2.7rem;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: normal;
+
+      .img-text {
+        display: inline-block;
+        width: 15rem;
+        margin-top: -12px;
+      }
+    }
+
+    .sub-title-benefits {
+      color: #2e3023;
+      font-size: 1.3rem;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: normal;
+
+      .img-text {
+        display: inline-block;
+        width: 8rem;
+        margin-top: -12px;
+      }
+    }
+
+    .text-carousel {
+      margin-bottom: 0.5px;
+
+      h2 {
+        color: $primary !important;
+        font-size: 1.2rem !important;
+        font-weight: 400;
+        margin: 0px;
+        line-height: 22px;
+        text-justify: inter-word !important;
+        width: 100% !important;
+        letter-spacing: 0.1px;
+      }
+
+      p {
+        // font-family: "Barlow", sans-serif !important;
+        color: $secondary !important;
+        font-size: 1.2rem !important;
+        font-weight: 400;
+        margin: 0px;
+        text-align: justify !important;
+        text-justify: inter-word !important;
+        width: 100% !important;
+        letter-spacing: 0.2px;
+
+        .img-text {
+          display: inline-block;
+          width: 5rem;
+          margin-top: -4px;
+        }
+      }
+    }
+  }
 }
 
 #applications {
   .title-applications {
-    color: #2e3023;
-    font-size: 2.7rem;
-    font-weight: 500;
+    color: black;
+    font-size: 2rem;
+    font-weight: 700;
     line-height: normal;
     letter-spacing: normal;
 
     .img-text {
       display: inline-block;
-      width: 15rem;
+      width: 10rem;
       margin-top: -12px;
     }
   }
@@ -319,8 +416,38 @@ body {
 
     .img-text {
       display: inline-block;
-      width: 7rem;
-      margin-top: 0px;
+      width: 6rem;
+      margin-top: -10px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .title-applications {
+      color: #2e3023;
+      font-size: 2.7rem;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: normal;
+
+      .img-text {
+        display: inline-block;
+        width: 15rem;
+        margin-top: -12px;
+      }
+    }
+
+    .sub-title-applications {
+      color: #2e3023;
+      font-size: 1.3rem;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: normal;
+
+      .img-text {
+        display: inline-block;
+        width: 7rem;
+        margin-top: 0px;
+      }
     }
   }
 
@@ -357,7 +484,7 @@ body {
 
   .title-certificates {
     text-align: center;
-    font-size: 2.7rem !important;
+    font-size: 2rem !important;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
     color: $primary !important;
@@ -372,8 +499,32 @@ body {
 
     .img-text {
       display: inline-block;
-      width: 7rem;
-      margin-top: 0px;
+      width: 6rem;
+      margin-top: -10px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .title-certificates {
+      text-align: center;
+      font-size: 2.7rem !important;
+      font-weight: 700 !important;
+      letter-spacing: 1px !important;
+      color: $primary !important;
+    }
+
+    .sub-title-certificates {
+      color: white;
+      font-size: 1.3rem;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: normal;
+
+      .img-text {
+        display: inline-block;
+        width: 7rem;
+        margin-top: 0px;
+      }
     }
   }
 }
@@ -384,7 +535,7 @@ body {
 
   .title-about-us {
     text-align: center;
-    font-size: 2.7rem !important;
+    font-size: 2rem !important;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
     color: $primary !important;
@@ -400,8 +551,34 @@ body {
 
       .img-text {
         display: inline-block;
-        width: 5rem;
-        margin-top: 0px;
+        width: 4.5rem;
+        margin-top: -5px;
+      }
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .title-about-us {
+      text-align: center;
+      font-size: 2.7rem !important;
+      font-weight: 700 !important;
+      letter-spacing: 1px !important;
+      color: $primary !important;
+    }
+
+    .sub-title-about-us {
+      p {
+        color: white;
+        font-size: 1.2rem;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: normal;
+
+        .img-text {
+          display: inline-block;
+          width: 5rem;
+          margin-top: 0px;
+        }
       }
     }
   }
@@ -416,16 +593,26 @@ body {
 
   .title-mission {
     text-align: center;
-    font-size: 2.7rem !important;
+    font-size: 2rem !important;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
     color: $primary !important;
   }
 
+  @media screen and (min-width: 768px) {
+    .title-mission {
+      text-align: center;
+      font-size: 2.7rem !important;
+      font-weight: 700 !important;
+      letter-spacing: 1px !important;
+      color: $primary !important;
+    }
+  }
+
   .sub-title-mission {
     color: $secondary;
     font-size: 1.2rem;
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: normal;
 
     li {
@@ -446,7 +633,7 @@ body {
   border-top: 2px white solid !important;
 
   .title {
-    font-family: "Oswald", sans-serif;
+    // font-family: "Oswald", sans-serif;
     font-size: 1.5rem;
     font-weight: 400;
     color: white;
@@ -549,7 +736,7 @@ body {
       h1.title-our-story {
         text-align: left;
         font-size: 2rem !important;
-        font-weight: 500 !important;
+        font-weight: 700 !important;
         letter-spacing: normal !important;
         color: $primary !important;
         margin: 0 0 14px 0 !important;
@@ -560,7 +747,7 @@ body {
         // font-family: "Barlow", sans-serif;
         color: white;
         font-size: 1rem !important;
-        font-weight: 400;
+        font-weight: 500;
         line-height: normal;
         letter-spacing: normal;
         text-align: left;
@@ -579,7 +766,7 @@ body {
         h1.title-our-story {
           text-align: left;
           font-size: 2.4rem !important;
-          font-weight: 500 !important;
+          font-weight: 700 !important;
           letter-spacing: 1px !important;
           color: $primary !important;
           margin: 0 0 14px 0 !important;
@@ -601,7 +788,7 @@ body {
     h1.title-story-1 {
       text-align: left;
       font-size: 2rem !important;
-      font-weight: 500 !important;
+      font-weight: 700 !important;
       letter-spacing: normal !important;
       color: $primary !important;
       margin-bottom: 14px !important;
@@ -613,7 +800,7 @@ body {
       // font-family: "Barlow", sans-serif;
       color: white;
       font-size: 1rem !important;
-      font-weight: 400;
+      font-weight: 500;
       line-height: 22px;
       letter-spacing: normal;
       text-align: left;
@@ -625,17 +812,17 @@ body {
         margin-top: 0px;
       }
     }
-  }
 
-  @media screen and (min-width: 768px) {
-    h1.title-story-1 {
-      text-align: left;
-      font-size: 2.4rem !important;
-      font-weight: 500 !important;
-      letter-spacing: 1px !important;
-      color: $primary !important;
-      margin-bottom: 14px !important;
-      line-height: 44px;
+    @media screen and (min-width: 768px) {
+      h1.title-story-1 {
+        text-align: left;
+        font-size: 2.4rem !important;
+        font-weight: 700 !important;
+        letter-spacing: 1px !important;
+        color: $primary !important;
+        margin-bottom: 14px !important;
+        line-height: 44px;
+      }
     }
   }
 }
@@ -646,10 +833,20 @@ body {
 
   .title-our-method {
     text-align: center;
-    font-size: 2.7rem !important;
+    font-size: 2rem !important;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
     color: $primary !important;
+  }
+
+  @media screen and (min-width: 768px) {
+    .title-our-method {
+      text-align: center;
+      font-size: 2.7rem !important;
+      font-weight: 700 !important;
+      letter-spacing: 1px !important;
+      color: $primary !important;
+    }
   }
 }
 
@@ -714,7 +911,7 @@ body {
       background-color: $btn-primary !important;
       border-color: $btn-border-1 $btn-border-1 $btn-border-2 !important;
       // font-family: "Barlow", sans-serif;
-      font-size: 1.1rem;
+      font-size: 1rem;
       font-weight: 500;
       transition: all 0.2s ease, visibility 0s;
       min-width: 10px;
@@ -723,6 +920,23 @@ body {
       border-radius: 0;
       padding-top: 5px;
       letter-spacing: 2px;
+    }
+
+    @media screen and (min-width: 768px) {
+      .btn-primary {
+        background-color: $btn-primary !important;
+        border-color: $btn-border-1 $btn-border-1 $btn-border-2 !important;
+        // font-family: "Barlow", sans-serif;
+        font-size: 1.1rem;
+        font-weight: 500;
+        transition: all 0.2s ease, visibility 0s;
+        min-width: 10px;
+        width: 262px;
+        height: 40px;
+        border-radius: 0;
+        padding-top: 5px;
+        letter-spacing: 2px;
+      }
     }
 
     .btn-primary:hover {
@@ -735,23 +949,40 @@ body {
 
 #compete-system {
   .title-compete-system {
-    color: #2e3023;
-    font-size: 2.7rem;
-    font-weight: 500;
+    color: black;
+    font-size: 2rem;
+    font-weight: 700;
     line-height: normal;
     letter-spacing: normal;
     text-align: center;
 
     .img-text {
       display: inline-block;
-      width: 15rem;
-      margin-top: -12px;
+      width: 10rem;
+      margin-top: -6px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .title-compete-system {
+      color: #2e3023;
+      font-size: 2.7rem;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+
+      .img-text {
+        display: inline-block;
+        width: 15rem;
+        margin-top: -12px;
+      }
     }
   }
 
   p {
     // font-family: "Barlow", sans-serif;
-    font-weight: 600 !important;
+    font-weight: 500 !important;
     letter-spacing: normal;
     text-align: left;
     color: $secondary !important;
@@ -759,16 +990,16 @@ body {
 
     .img-text {
       display: inline-block;
-      width: 5rem;
-      margin-top: -5px;
-      margin-left: 5px;
-      margin-right: 5px;
+      width: 4.5rem;
+      margin-top: -4px;
+      margin-left: 3px;
+      margin-right: 3px;
     }
   }
 
   ul > li {
     // font-family: "Barlow", sans-serif;
-    font-weight: 600 !important;
+    font-weight: 500 !important;
     letter-spacing: normal;
     text-align: left;
     color: $secondary !important;
@@ -782,7 +1013,7 @@ body {
 
   .title-nutritional-properties {
     text-align: center;
-    font-size: 2.7rem !important;
+    font-size: 2rem !important;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
     color: $primary !important;
@@ -790,15 +1021,39 @@ body {
 
   .subtitle-nutritional-properties {
     text-align: center;
-    font-size: 1.5rem !important;
-    font-weight: 400 !important;
+    font-size: 1.2rem !important;
+    font-weight: 500 !important;
     letter-spacing: 1px !important;
     color: white !important;
 
     .img-text {
       display: inline-block;
-      width: 9rem;
-      margin-top: -8px !important;
+      width: 6rem;
+      margin-top: -10px !important;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .title-nutritional-properties {
+      text-align: center;
+      font-size: 2.7rem !important;
+      font-weight: 700 !important;
+      letter-spacing: 1px !important;
+      color: $primary !important;
+    }
+
+    .subtitle-nutritional-properties {
+      text-align: center;
+      font-size: 1.5rem !important;
+      font-weight: 400 !important;
+      letter-spacing: 1px !important;
+      color: white !important;
+
+      .img-text {
+        display: inline-block;
+        width: 9rem;
+        margin-top: -8px !important;
+      }
     }
   }
 }
@@ -872,7 +1127,7 @@ body {
       color: whitesmoke !important;
     }
 
-    .dataTables_info {
+    .dataTables_filter {
       color: whitesmoke !important;
     }
 
@@ -913,8 +1168,8 @@ body {
             font-size: 0.8rem !important;
             position: sticky !important;
             top: 0px !important;
-
             box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4) !important;
+            border-color: whitesmoke;
           }
         }
       }
@@ -924,6 +1179,7 @@ body {
           td {
             color: white;
             font-size: 0.8rem;
+            border-color: whitesmoke;
           }
         }
       }
@@ -955,10 +1211,23 @@ body {
 
 #contact-us {
   h1 {
-    font-family: "Oswald", sans-serif;
-    font-size: 2.4rem;
-    font-weight: 500;
+    // font-family: "Oswald", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
     letter-spacing: normal;
+  }
+
+  @media screen and (min-width: 768px) {
+    h1 {
+      // font-family: "Oswald", sans-serif;
+      font-size: 2.4rem;
+      font-weight: 500;
+      letter-spacing: normal;
+    }
+
+    .p-md-5 {
+      padding: 10rem !important;
+    }
   }
 
   p {
