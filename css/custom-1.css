@@ -395,12 +395,14 @@ body section.section-primary {
     font-size: 1rem !important;
     color: #d15a0b !important;
     font-weight: 700;
+    text-align: left;
   }
   #footer ul li a {
     font-family: "Barlow", sans-serif !important;
     font-size: 1rem !important;
     color: #d15a0b !important;
     font-weight: 700;
+    text-align: left;
   }
   #footer ul li a:hover {
     color: #e9cbb3 !important;
