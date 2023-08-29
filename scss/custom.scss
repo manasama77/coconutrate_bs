@@ -254,7 +254,7 @@ body {
   @media screen and (min-width: 768px) {
     .title-pos {
       text-align: center;
-      font-size: 2.6rem !important;
+      font-size: 2.3rem !important;
       font-weight: 700 !important;
       letter-spacing: 1px !important;
       color: $primary !important;
@@ -312,7 +312,6 @@ body {
     }
 
     p {
-      // font-family: "Barlow", sans-serif !important;
       color: $secondary !important;
       font-size: 1rem !important;
       line-height: 2rem;
@@ -334,29 +333,30 @@ body {
   @media screen and (min-width: 768px) {
     .title-benefits {
       color: black;
-      font-size: 2.6rem;
-      line-height: 2rem;
+      font-size: 2.3rem !important;
+      line-height: 2rem !important;
       font-weight: 700;
       letter-spacing: normal;
+      margin-bottom: 0.5rem !important;
 
       .img-text {
         display: inline-block;
-        width: 11rem;
+        width: 9rem;
         margin-top: -8px;
       }
     }
 
     .sub-title-benefits {
       color: black;
-      font-size: 1.5rem;
+      font-size: 1.2rem !important;
       line-height: 2rem;
-      font-weight: 400;
+      font-weight: 500;
       letter-spacing: normal;
 
       .img-text {
         display: inline-block;
         width: 6rem;
-        margin-top: -8px;
+        margin-top: -4px;
       }
     }
 
@@ -365,10 +365,9 @@ body {
 
       h2 {
         color: $primary !important;
-        font-size: 1.2rem !important;
-        font-weight: 400;
+        font-size: 1.4rem !important;
         margin: 0px;
-        line-height: 22px;
+        line-height: 2rem;
         text-justify: inter-word !important;
         width: 100% !important;
         letter-spacing: 0.1px;
@@ -377,8 +376,8 @@ body {
       p {
         // font-family: "Barlow", sans-serif !important;
         color: $secondary !important;
-        font-size: 1.2rem !important;
-        font-weight: 400;
+        font-size: 1rem !important;
+        font-weight: 500;
         margin: 0px;
         text-align: justify !important;
         text-justify: inter-word !important;
@@ -422,10 +421,11 @@ body {
   @media screen and (min-width: 768px) {
     .title-applications {
       color: black;
-      font-size: 2.6rem;
+      font-size: 2.3rem;
       font-weight: 700;
       line-height: 2rem;
       letter-spacing: normal;
+      margin-bottom: 0.5rem !important;
     }
 
     .sub-title-applications {
@@ -437,8 +437,8 @@ body {
 
       .img-text {
         display: inline-block;
-        width: 7rem;
-        margin-top: 0px;
+        width: 6rem;
+        margin-top: -4px;
       }
     }
   }
@@ -500,23 +500,25 @@ body {
   @media screen and (min-width: 768px) {
     .title-certificates {
       text-align: center;
-      font-size: 2.6rem !important;
+      font-size: 2.3rem !important;
       font-weight: 700 !important;
       letter-spacing: 1px !important;
       color: $primary !important;
+      line-height: 2rem;
+      margin-bottom: 0.5rem !important;
     }
 
     .sub-title-certificates {
       color: white;
-      font-size: 1.3rem;
+      font-size: 1.2rem;
       font-weight: 500;
-      line-height: normal;
+      line-height: 2rem;
       letter-spacing: normal;
 
       .img-text {
         display: inline-block;
-        width: 7rem;
-        margin-top: 0px;
+        width: 6rem;
+        margin-top: -4px;
       }
     }
   }
@@ -553,7 +555,7 @@ body {
   @media screen and (min-width: 768px) {
     .title-about-us {
       text-align: center;
-      font-size: 2.6rem !important;
+      font-size: 2.3rem !important;
       font-weight: 700 !important;
       letter-spacing: 1px !important;
       color: $primary !important;
@@ -564,7 +566,7 @@ body {
         color: white;
         font-size: 1.2rem;
         font-weight: 400;
-        line-height: normal;
+        line-height: 2rem;
         letter-spacing: normal;
 
         .img-text {
@@ -593,7 +595,7 @@ body {
   .title-mission {
     text-align: center;
     font-size: 1.5rem !important;
-    line-height: 2rem;
+    line-height: 2rem !important;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
     color: $primary !important;
@@ -620,10 +622,29 @@ body {
   @media screen and (min-width: 768px) {
     .title-mission {
       text-align: center;
-      font-size: 2.6rem !important;
+      font-size: 2.3rem !important;
       font-weight: 700 !important;
       letter-spacing: 1px !important;
       color: $primary !important;
+      line-height: 2rem !important;
+    }
+
+    .sub-title-mission {
+      color: black;
+      font-size: 1.2rem;
+      font-weight: 500;
+      letter-spacing: normal;
+      line-height: 2rem !important;
+
+      li {
+        line-height: 2rem !important;
+      }
+
+      .img-text {
+        display: inline-block;
+        width: 4rem;
+        margin-top: -5px;
+      }
     }
   }
 }
@@ -677,7 +698,7 @@ body {
     ul {
       li {
         // font-family: "Barlow", sans-serif !important;
-        font-size: 1rem !important;
+        font-size: 1.2rem !important;
         color: $primary !important;
         font-weight: 700;
         text-align: left;
@@ -686,7 +707,7 @@ body {
       li {
         a {
           // font-family: "Barlow", sans-serif !important;
-          font-size: 1rem !important;
+          font-size: 1.2rem !important;
           color: $primary !important;
           font-weight: 700;
           text-align: left;

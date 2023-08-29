@@ -206,7 +206,7 @@ body section.section-primary {
 @media screen and (min-width: 768px) {
   #we-care .title-pos {
     text-align: center;
-    font-size: 2.6rem !important;
+    font-size: 2.3rem !important;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
     color: #ff6601 !important;
@@ -276,45 +276,45 @@ body section.section-primary {
 @media screen and (min-width: 768px) {
   #benefits .title-benefits {
     color: black;
-    font-size: 2.6rem;
-    line-height: 2rem;
+    font-size: 2.3rem !important;
+    line-height: 2rem !important;
     font-weight: 700;
     letter-spacing: normal;
+    margin-bottom: 0.5rem !important;
   }
   #benefits .title-benefits .img-text {
     display: inline-block;
-    width: 11rem;
+    width: 9rem;
     margin-top: -8px;
   }
   #benefits .sub-title-benefits {
     color: black;
-    font-size: 1.5rem;
+    font-size: 1.2rem !important;
     line-height: 2rem;
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: normal;
   }
   #benefits .sub-title-benefits .img-text {
     display: inline-block;
     width: 6rem;
-    margin-top: -8px;
+    margin-top: -4px;
   }
   #benefits .text-carousel {
     margin-bottom: 0.5px;
   }
   #benefits .text-carousel h2 {
     color: #ff6601 !important;
-    font-size: 1.2rem !important;
-    font-weight: 400;
+    font-size: 1.4rem !important;
     margin: 0px;
-    line-height: 22px;
+    line-height: 2rem;
     text-justify: inter-word !important;
     width: 100% !important;
     letter-spacing: 0.1px;
   }
   #benefits .text-carousel p {
     color: #393d32 !important;
-    font-size: 1.2rem !important;
-    font-weight: 400;
+    font-size: 1rem !important;
+    font-weight: 500;
     margin: 0px;
     text-align: justify !important;
     text-justify: inter-word !important;
@@ -351,10 +351,11 @@ body section.section-primary {
 @media screen and (min-width: 768px) {
   #applications .title-applications {
     color: black;
-    font-size: 2.6rem;
+    font-size: 2.3rem;
     font-weight: 700;
     line-height: 2rem;
     letter-spacing: normal;
+    margin-bottom: 0.5rem !important;
   }
   #applications .sub-title-applications {
     color: black;
@@ -365,8 +366,8 @@ body section.section-primary {
   }
   #applications .sub-title-applications .img-text {
     display: inline-block;
-    width: 7rem;
-    margin-top: 0px;
+    width: 6rem;
+    margin-top: -4px;
   }
 }
 #applications .svg-wrapper {
@@ -419,22 +420,24 @@ body section.section-primary {
 @media screen and (min-width: 768px) {
   #certificates .title-certificates {
     text-align: center;
-    font-size: 2.6rem !important;
+    font-size: 2.3rem !important;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
     color: #ff6601 !important;
+    line-height: 2rem;
+    margin-bottom: 0.5rem !important;
   }
   #certificates .sub-title-certificates {
     color: white;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 500;
-    line-height: normal;
+    line-height: 2rem;
     letter-spacing: normal;
   }
   #certificates .sub-title-certificates .img-text {
     display: inline-block;
-    width: 7rem;
-    margin-top: 0px;
+    width: 6rem;
+    margin-top: -4px;
   }
 }
 
@@ -464,7 +467,7 @@ body section.section-primary {
 @media screen and (min-width: 768px) {
   #about-us .title-about-us {
     text-align: center;
-    font-size: 2.6rem !important;
+    font-size: 2.3rem !important;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
     color: #ff6601 !important;
@@ -473,7 +476,7 @@ body section.section-primary {
     color: white;
     font-size: 1.2rem;
     font-weight: 400;
-    line-height: normal;
+    line-height: 2rem;
     letter-spacing: normal;
   }
   #about-us .sub-title-about-us p .img-text {
@@ -496,7 +499,7 @@ body section.section-primary {
 #mission .title-mission {
   text-align: center;
   font-size: 1.5rem !important;
-  line-height: 2rem;
+  line-height: 2rem !important;
   font-weight: 700 !important;
   letter-spacing: 1px !important;
   color: #ff6601 !important;
@@ -519,10 +522,26 @@ body section.section-primary {
 @media screen and (min-width: 768px) {
   #mission .title-mission {
     text-align: center;
-    font-size: 2.6rem !important;
+    font-size: 2.3rem !important;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
     color: #ff6601 !important;
+    line-height: 2rem !important;
+  }
+  #mission .sub-title-mission {
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: normal;
+    line-height: 2rem !important;
+  }
+  #mission .sub-title-mission li {
+    line-height: 2rem !important;
+  }
+  #mission .sub-title-mission .img-text {
+    display: inline-block;
+    width: 4rem;
+    margin-top: -5px;
   }
 }
 
@@ -562,13 +581,13 @@ body section.section-primary {
     text-align: left;
   }
   #footer ul li {
-    font-size: 1rem !important;
+    font-size: 1.2rem !important;
     color: #ff6601 !important;
     font-weight: 700;
     text-align: left;
   }
   #footer ul li a {
-    font-size: 1rem !important;
+    font-size: 1.2rem !important;
     color: #ff6601 !important;
     font-weight: 700;
     text-align: left;
