@@ -8148,7 +8148,7 @@ h5 {
 	font-weight: 600;
 	line-height: 18px;
 	margin: 0 0 14px 0;
-	text-transform: uppercase;
+	text-transform: capitalize !important;
 }
 
 h6 {

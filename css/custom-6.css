@@ -9,6 +9,8 @@
 html,
 body {
   font-family: "Montserrat", sans-serif !important;
+  font-size: 14px !important;
+  line-height: 2rem;
   background-color: #f1f3ee !important;
 }
 html section.section-primary,
@@ -43,11 +45,6 @@ body section.section-primary {
   margin-bottom: 10px;
   width: 200px;
   padding-left: 0px;
-}
-@media screen and (min-width: 768px) {
-  #header .header-body {
-    padding-left: 50px;
-  }
 }
 #header .header-body nav {
   padding: 0px;
@@ -114,6 +111,11 @@ body section.section-primary {
     font-weight: 700;
   }
 }
+@media screen and (min-width: 768px) {
+  #header .header-body {
+    padding-left: 50px;
+  }
+}
 
 #hero {
   margin: 0px;
@@ -140,13 +142,13 @@ body section.section-primary {
 }
 #discover-our-method .img-text {
   display: inline-block;
-  width: 6rem;
+  width: 5rem;
   margin-top: -5px;
 }
 #discover-our-method .title-discover-method {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 500;
-  line-height: normal;
+  line-height: 2rem;
   letter-spacing: normal;
 }
 @media screen and (min-width: 768px) {
@@ -158,7 +160,7 @@ body section.section-primary {
   #discover-our-method .title-discover-method {
     font-size: 1.5rem;
     font-weight: 500;
-    line-height: normal;
+    line-height: 2rem;
     letter-spacing: normal;
   }
 }
@@ -186,10 +188,20 @@ body section.section-primary {
 }
 #we-care .title-pos {
   text-align: center;
-  font-size: 2rem !important;
+  font-size: 1.5rem !important;
+  line-height: 2rem;
   font-weight: 700 !important;
   letter-spacing: 1px !important;
   color: #ff6601 !important;
+}
+#we-care .list-pos {
+  padding: 0 0px;
+}
+#we-care .list-pos p {
+  color: white !important;
+  font-size: 1rem;
+  line-height: 2rem;
+  font-weight: 500;
 }
 @media screen and (min-width: 768px) {
   #we-care .title-pos {
@@ -198,15 +210,8 @@ body section.section-primary {
     font-weight: 700 !important;
     letter-spacing: 1px !important;
     color: #ff6601 !important;
+    line-height: 2rem;
   }
-}
-#we-care .list-pos {
-  padding: 0 0px;
-}
-#we-care .list-pos p {
-  color: white !important;
-  font-size: 1rem;
-  font-weight: 400;
 }
 
 #benefits {
@@ -216,37 +221,37 @@ body section.section-primary {
 }
 #benefits .title-benefits {
   color: black;
-  font-size: 2rem;
+  font-size: 1.5rem !important;
+  line-height: 2rem;
   font-weight: 700;
-  line-height: normal;
   letter-spacing: normal;
+  margin-bottom: 10px;
 }
 #benefits .title-benefits .img-text {
   display: inline-block;
-  width: 8rem;
-  margin-top: -12px;
+  width: 6rem;
+  margin-top: -5px;
 }
 #benefits .sub-title-benefits {
   color: black;
-  font-size: 1.2rem;
-  font-weight: 400;
-  line-height: normal;
+  font-size: 1rem !important;
+  line-height: 2rem;
+  font-weight: 500;
   letter-spacing: normal;
 }
 #benefits .sub-title-benefits .img-text {
   display: inline-block;
-  width: 5.5rem;
-  margin-top: -10px;
+  width: 4rem;
+  margin-top: -5px;
 }
 #benefits .text-carousel {
   margin-bottom: 0.5px;
 }
 #benefits .text-carousel h2 {
   color: #ff6601 !important;
-  font-size: 1.2rem !important;
-  font-weight: 400;
+  font-size: 1.5rem !important;
+  line-height: 2rem;
   margin: 0px;
-  line-height: 22px;
   text-justify: inter-word !important;
   width: 100% !important;
   letter-spacing: 0.1px;
@@ -254,8 +259,9 @@ body section.section-primary {
 }
 #benefits .text-carousel p {
   color: #393d32 !important;
-  font-size: 1.1rem !important;
-  font-weight: 400;
+  font-size: 1rem !important;
+  line-height: 2rem;
+  font-weight: 500;
   margin: 0px;
   text-align: center !important;
   text-justify: inter-word !important;
@@ -264,15 +270,15 @@ body section.section-primary {
 }
 #benefits .text-carousel p .img-text {
   display: inline-block;
-  width: 5rem;
-  margin-top: -4px;
+  width: 4rem;
+  margin-top: -5px;
 }
 @media screen and (min-width: 768px) {
   #benefits .title-benefits {
     color: black;
     font-size: 2.6rem;
+    line-height: 2rem;
     font-weight: 700;
-    line-height: normal;
     letter-spacing: normal;
   }
   #benefits .title-benefits .img-text {
@@ -282,9 +288,9 @@ body section.section-primary {
   }
   #benefits .sub-title-benefits {
     color: black;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
     font-weight: 400;
-    line-height: normal;
     letter-spacing: normal;
   }
   #benefits .sub-title-benefits .img-text {
@@ -324,34 +330,35 @@ body section.section-primary {
 
 #applications .title-applications {
   color: black;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
   font-weight: 700;
-  line-height: normal;
   letter-spacing: normal;
+  margin-bottom: 7px !important;
 }
 #applications .sub-title-applications {
   color: black;
-  font-size: 1.3rem;
+  font-size: 1rem;
+  line-height: 2rem;
   font-weight: 500;
-  line-height: normal;
   letter-spacing: normal;
 }
 #applications .sub-title-applications .img-text {
   display: inline-block;
-  width: 6rem;
-  margin-top: -10px;
+  width: 4rem;
+  margin-top: -5px;
 }
 @media screen and (min-width: 768px) {
   #applications .title-applications {
     color: black;
     font-size: 2.6rem;
     font-weight: 700;
-    line-height: normal;
+    line-height: 2rem;
     letter-spacing: normal;
   }
   #applications .sub-title-applications {
     color: black;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 500;
     line-height: normal;
     letter-spacing: normal;
@@ -370,19 +377,19 @@ body section.section-primary {
 }
 #applications .application-point-title {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.5rem;
-  font-weight: 400;
+  font-size: 1.4rem;
+  font-weight: 700;
   color: #ff6601;
   text-align: center;
   margin-bottom: 10px;
-  line-height: 28px;
+  line-height: 2rem;
 }
 #applications .application-point-sub-title {
   font-size: 1rem;
-  font-weight: 400;
-  color: #393d32;
+  font-weight: 500;
+  color: black;
   text-align: center;
-  line-height: normal;
+  line-height: 2rem;
 }
 
 #certificates {
@@ -391,22 +398,23 @@ body section.section-primary {
 }
 #certificates .title-certificates {
   text-align: center;
-  font-size: 2rem !important;
+  font-size: 1.5rem !important;
+  line-height: 2rem;
   font-weight: 700 !important;
   letter-spacing: 1px !important;
   color: #ff6601 !important;
 }
 #certificates .sub-title-certificates {
   color: white;
-  font-size: 1.3rem;
-  font-weight: 400;
-  line-height: normal;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 2rem;
   letter-spacing: normal;
 }
 #certificates .sub-title-certificates .img-text {
   display: inline-block;
-  width: 6rem;
-  margin-top: -10px;
+  width: 5rem;
+  margin-top: -5px;
 }
 @media screen and (min-width: 768px) {
   #certificates .title-certificates {
@@ -436,21 +444,21 @@ body section.section-primary {
 }
 #about-us .title-about-us {
   text-align: center;
-  font-size: 2rem !important;
+  font-size: 1.5rem !important;
   font-weight: 700 !important;
   letter-spacing: 1px !important;
   color: #ff6601 !important;
 }
 #about-us .sub-title-about-us p {
   color: white;
-  font-size: 1.2rem;
-  font-weight: 400;
-  line-height: normal;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 2rem;
   letter-spacing: normal;
 }
 #about-us .sub-title-about-us p .img-text {
   display: inline-block;
-  width: 4.5rem;
+  width: 4rem;
   margin-top: -5px;
 }
 @media screen and (min-width: 768px) {
@@ -475,17 +483,38 @@ body section.section-primary {
   }
 }
 
-#mission .flask {
-  background: white url("../img/COCO-flask.jpeg") no-repeat left center;
+#mission .mission-image {
+  background: white url("../img/IMAGE-1.jpg") no-repeat left center;
+  background-size: cover;
+  height: 500px;
+}
+#mission .vision-image {
+  background: white url("../img/IMAGE-2.jpg") no-repeat left center;
   background-size: cover;
   height: 500px;
 }
 #mission .title-mission {
   text-align: center;
-  font-size: 2rem !important;
+  font-size: 1.5rem !important;
+  line-height: 2rem;
   font-weight: 700 !important;
   letter-spacing: 1px !important;
   color: #ff6601 !important;
+  margin: 1rem 0rem 1rem 0rem;
+}
+#mission .sub-title-mission {
+  color: black;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: normal;
+}
+#mission .sub-title-mission li {
+  line-height: 2rem !important;
+}
+#mission .sub-title-mission .img-text {
+  display: inline-block;
+  width: 4rem;
+  margin-top: -5px;
 }
 @media screen and (min-width: 768px) {
   #mission .title-mission {
@@ -495,20 +524,6 @@ body section.section-primary {
     letter-spacing: 1px !important;
     color: #ff6601 !important;
   }
-}
-#mission .sub-title-mission {
-  color: #393d32;
-  font-size: 1.2rem;
-  font-weight: 500;
-  letter-spacing: normal;
-}
-#mission .sub-title-mission li {
-  line-height: 30px !important;
-}
-#mission .sub-title-mission .img-text {
-  display: inline-block;
-  width: 5rem;
-  margin-top: 0px;
 }
 
 #footer {
@@ -530,7 +545,7 @@ body section.section-primary {
   text-align: center;
 }
 #footer ul li a {
-  font-size: 1rem !important;
+  font-size: 1.2rem !important;
   color: #ff6601 !important;
   font-weight: 700;
   text-align: center !important;
@@ -594,37 +609,36 @@ body section.section-primary {
   background-color: #393d32;
 }
 #our-story .custom-card .custom-card-body {
-  padding: 20px;
+  padding: 1rem 0 1rem 0;
 }
 #our-story .custom-card .custom-card-body h1.title-our-story {
-  text-align: left;
-  font-size: 2rem !important;
+  text-align: center;
+  font-size: 1.5rem !important;
   font-weight: 700 !important;
   letter-spacing: normal !important;
   color: #ff6601 !important;
-  margin: 0 0 14px 0 !important;
-  line-height: 44px;
+  margin: 1rem 0 1rem 0 !important;
+  line-height: 2rem;
 }
 #our-story .custom-card .custom-card-body .sub-title-our-story {
   color: white;
   font-size: 1rem !important;
   font-weight: 500;
-  line-height: normal;
+  line-height: 2rem;
   letter-spacing: normal;
-  text-align: left;
+  text-align: center;
   margin-bottom: 20px;
 }
 #our-story .custom-card .custom-card-body .sub-title-our-story .img-text {
   display: inline-block;
-  width: 5rem;
+  width: 4rem;
   margin-top: 0px;
 }
 @media screen and (min-width: 768px) {
   #our-story .custom-card .custom-card-body {
-    padding: 0px 150px 20px 150px;
+    padding: 3rem;
   }
   #our-story .custom-card .custom-card-body h1.title-our-story {
-    text-align: left;
     font-size: 2.4rem !important;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
@@ -632,13 +646,23 @@ body section.section-primary {
     margin: 0 0 14px 0 !important;
     line-height: 44px;
   }
+  #our-story .custom-card .custom-card-body .sub-title-our-story {
+    color: white;
+    font-size: 1.2rem !important;
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: normal;
+    margin-bottom: 20px;
+  }
+  #our-story .custom-card .custom-card-body .sub-title-our-story .img-text {
+    display: inline-block;
+    width: 5rem;
+    margin-top: 0px;
+  }
 }
 
 #story-1 {
-  margin: 0px;
-}
-#story-1 .story-wrapper {
-  padding: 20px;
+  margin: 0 !important;
 }
 @media screen and (min-width: 768px) {
   #story-1 .story-wrapper {
@@ -646,22 +670,23 @@ body section.section-primary {
   }
 }
 #story-1 .story-wrapper h1.title-story-1 {
-  text-align: left;
-  font-size: 2rem !important;
+  margin-top: 5rem;
+  text-align: center;
+  font-size: 1.5rem !important;
   font-weight: 700 !important;
   letter-spacing: normal !important;
   color: #ff6601 !important;
   margin-bottom: 14px !important;
-  line-height: 44px;
+  line-height: 2rem;
   width: 100% !important;
 }
 #story-1 .story-wrapper .sub-title-story-1 {
   color: white;
   font-size: 1rem !important;
   font-weight: 500;
-  line-height: 22px;
+  line-height: 2rem;
   letter-spacing: normal;
-  text-align: left;
+  text-align: center;
   margin-bottom: 14px;
 }
 #story-1 .story-wrapper .sub-title-story-1 .img-text {
@@ -671,13 +696,26 @@ body section.section-primary {
 }
 @media screen and (min-width: 768px) {
   #story-1 .story-wrapper h1.title-story-1 {
-    text-align: left;
     font-size: 2.4rem !important;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
     color: #ff6601 !important;
     margin-bottom: 14px !important;
-    line-height: 44px;
+    line-height: 2rem;
+  }
+  #story-1 .story-wrapper .sub-title-story-1 {
+    color: white;
+    font-size: 1.2rem !important;
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: normal;
+    text-align: center;
+    margin-bottom: 14px;
+  }
+  #story-1 .story-wrapper .sub-title-story-1 .img-text {
+    display: inline-block;
+    width: 5rem;
+    margin-top: 0px;
   }
 }
 
@@ -687,7 +725,8 @@ body section.section-primary {
 }
 #our-method .title-our-method {
   text-align: center;
-  font-size: 2rem !important;
+  font-size: 1.5rem !important;
+  line-height: 2rem !important;
   font-weight: 700 !important;
   letter-spacing: 1px !important;
   color: #ff6601 !important;
@@ -707,6 +746,14 @@ body section.section-primary {
   margin: 0px !important;
   padding: 50px 0px 5px 0px !important;
 }
+.timeline .accordion.accordion-modern .card:first-of-type,
+.timeline .accordion.accordion-modern .card:not(:first-of-type):not(:last-of-type),
+.timeline .accordion.accordion-modern .card:last-of-type {
+  border: 0px solid white;
+}
+.timeline .accordion .card-header a {
+  padding: 10px;
+}
 .timeline .timeline-box:before {
   background: #ff6601 !important;
   box-shadow: 0 0 0 3px #fff, 0 0 0 6px #ff6601 !important;
@@ -717,14 +764,39 @@ body section.section-primary {
 }
 .timeline .timeline-box h2 {
   color: #ff6601;
+  font-size: 1.3rem !important;
   font-weight: 500 !important;
+  line-height: 2rem;
   letter-spacing: normal;
 }
 .timeline .timeline-box p {
-  font-weight: 600 !important;
+  font-size: 0.9rem !important;
+  font-weight: 500 !important;
   letter-spacing: normal;
+  line-height: 2rem;
   text-align: justify;
-  color: #393d32 !important;
+  color: black !important;
+}
+@media screen and (min-width: 768px) {
+  .timeline .timeline-box {
+    border: 2px solid #ff6601 !important;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  }
+  .timeline .timeline-box h2 {
+    color: #ff6601;
+    font-size: 1.3rem !important;
+    font-weight: 500 !important;
+    line-height: 2rem;
+    letter-spacing: normal;
+  }
+  .timeline .timeline-box p {
+    font-size: 1rem !important;
+    font-weight: 500 !important;
+    letter-spacing: normal;
+    line-height: 2rem;
+    text-align: justify;
+    color: black !important;
+  }
 }
 .timeline .timeline-box.left h2 {
   text-align: left;
@@ -767,7 +839,7 @@ body section.section-primary {
     font-weight: 500;
     transition: all 0.2s ease, visibility 0s;
     min-width: 10px;
-    width: 262px;
+    width: 290px;
     height: 40px;
     border-radius: 0;
     padding-top: 5px;
@@ -782,16 +854,39 @@ body section.section-primary {
 
 #compete-system .title-compete-system {
   color: black;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
-  line-height: normal;
+  line-height: 2rem;
   letter-spacing: normal;
   text-align: center;
 }
 #compete-system .title-compete-system .img-text {
   display: inline-block;
-  width: 10rem;
-  margin-top: -6px;
+  width: 8rem;
+  margin-top: 0px;
+}
+#compete-system p {
+  font-weight: 500 !important;
+  letter-spacing: normal;
+  text-align: left;
+  color: #393d32 !important;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+#compete-system p .img-text {
+  display: inline-block;
+  width: 4rem;
+  margin-top: -5px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+#compete-system ul > li {
+  font-weight: 500 !important;
+  letter-spacing: normal;
+  text-align: left;
+  color: #393d32 !important;
+  font-size: 1rem;
+  line-height: 2rem;
 }
 @media screen and (min-width: 768px) {
   #compete-system .title-compete-system {
@@ -807,27 +902,29 @@ body section.section-primary {
     width: 10rem;
     margin-top: -8px;
   }
-}
-#compete-system p {
-  font-weight: 500 !important;
-  letter-spacing: normal;
-  text-align: left;
-  color: #393d32 !important;
-  font-size: 1rem;
-}
-#compete-system p .img-text {
-  display: inline-block;
-  width: 4.5rem;
-  margin-top: -4px;
-  margin-left: 3px;
-  margin-right: 3px;
-}
-#compete-system ul > li {
-  font-weight: 500 !important;
-  letter-spacing: normal;
-  text-align: left;
-  color: #393d32 !important;
-  font-size: 1rem;
+  #compete-system p {
+    font-weight: 500 !important;
+    letter-spacing: normal;
+    text-align: left;
+    color: #393d32 !important;
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+  #compete-system p .img-text {
+    display: inline-block;
+    width: 5rem;
+    margin-top: -4px;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  #compete-system ul > li {
+    font-weight: 500 !important;
+    letter-spacing: normal;
+    text-align: left;
+    color: #393d32 !important;
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
 }
 
 #nutritional-properties {
@@ -836,22 +933,24 @@ body section.section-primary {
 }
 #nutritional-properties .title-nutritional-properties {
   text-align: center;
-  font-size: 2rem !important;
+  font-size: 1.5rem !important;
   font-weight: 700 !important;
   letter-spacing: 1px !important;
   color: #ff6601 !important;
+  line-height: 2rem;
 }
 #nutritional-properties .subtitle-nutritional-properties {
   text-align: center;
-  font-size: 1.2rem !important;
+  font-size: 1rem !important;
   font-weight: 500 !important;
   letter-spacing: 1px !important;
   color: white !important;
+  line-height: 2rem;
 }
 #nutritional-properties .subtitle-nutritional-properties .img-text {
   display: inline-block;
-  width: 6rem;
-  margin-top: -10px !important;
+  width: 5rem;
+  margin-top: -5px !important;
 }
 @media screen and (min-width: 768px) {
   #nutritional-properties .title-nutritional-properties {
@@ -907,26 +1006,46 @@ body section.section-primary {
   color: black !important;
   margin: 10px;
   font-size: 1rem;
+  font-weight: 500;
+  line-height: 2rem;
 }
 #nutritional-table .li-info {
   color: black !important;
   margin: 10px;
   font-size: 1rem;
+  font-weight: 500;
+  line-height: 2rem;
 }
 #nutritional-table .li-info .img-text {
   display: inline-block;
   width: 5rem;
   margin-top: -5px;
 }
+@media screen and (min-width: 768px) {
+  #nutritional-table .text-info-2 {
+    font-size: 1.2rem !important;
+  }
+  #nutritional-table .li-info {
+    color: black !important;
+    margin: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 2rem;
+  }
+  #nutritional-table .li-info .img-text {
+    display: inline-block;
+    width: 5rem;
+    margin-top: -4px;
+  }
+}
 #nutritional-table .card {
   background-color: #393d32;
 }
 #nutritional-table .card .img-text {
   display: inline-block;
-  width: 5rem;
+  width: 4rem;
   height: 100%;
-  margin-top: 4px !important;
-  margin-left: 10px;
+  margin-top: -4px !important;
 }
 #nutritional-table .card .dataTables_length {
   color: whitesmoke;
@@ -959,6 +1078,9 @@ body section.section-primary {
 #nutritional-table .card .pagination > li > span:focus {
   color: #ff6601;
 }
+#nutritional-table .card #table_info {
+  color: white !important;
+}
 #nutritional-table .card table {
   position: relative;
   border-collapse: collapse;
@@ -982,11 +1104,11 @@ body section.section-primary {
 @media screen and (min-width: 768px) {
   #nutritional-table .card table thead tr th {
     color: #ff6601;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
   #nutritional-table .card table tbody tr td {
     color: white;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -1015,9 +1137,17 @@ body section.section-primary {
 }
 #contact-us a {
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: normal;
   color: #393d32;
+}
+@media screen and (min-width: 768px) {
+  #contact-us a {
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: normal;
+    color: #393d32;
+  }
 }
 #contact-us .secondary {
   background-color: #393d32;
@@ -1060,4 +1190,4 @@ a.scroll-to-top:hover {
   color: #ff7519;
 }
 
-/*# sourceMappingURL=custom.css.map */
+/*# sourceMappingURL=custom-6.css.map */

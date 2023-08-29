@@ -23,11 +23,9 @@ $base: #f1f3ee;
 
 html,
 body {
-  // font-family: "Oswald", Arial, sans-serif !important;
-  // font-family: "Ubuntu", sans-serif !important;
-  // font-family: "Lato", sans-serif !important;
   font-family: "Montserrat", sans-serif !important;
-  // font-family: "Roboto", sans-serif !important;
+  font-size: 14px !important;
+  line-height: 2rem;
   background-color: $base !important;
 
   section.section-primary {
@@ -71,10 +69,6 @@ body {
       margin-bottom: 10px;
       width: 200px;
       padding-left: 0px;
-    }
-
-    @media screen and (min-width: 768px) {
-      padding-left: 50px;
     }
 
     nav {
@@ -153,6 +147,10 @@ body {
         }
       }
     }
+
+    @media screen and (min-width: 768px) {
+      padding-left: 50px;
+    }
   }
 }
 
@@ -183,14 +181,14 @@ body {
 
   .img-text {
     display: inline-block;
-    width: 6rem;
+    width: 5rem;
     margin-top: -5px;
   }
 
   .title-discover-method {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 500;
-    line-height: normal;
+    line-height: 2rem;
     letter-spacing: normal;
   }
 
@@ -204,7 +202,7 @@ body {
     .title-discover-method {
       font-size: 1.5rem;
       font-weight: 500;
-      line-height: normal;
+      line-height: 2rem;
       letter-spacing: normal;
     }
   }
@@ -235,10 +233,22 @@ body {
 
   .title-pos {
     text-align: center;
-    font-size: 2rem !important;
+    font-size: 1.5rem !important;
+    line-height: 2rem;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
     color: $primary !important;
+  }
+
+  .list-pos {
+    padding: 0 0px;
+
+    p {
+      color: white !important;
+      font-size: 1rem;
+      line-height: 2rem;
+      font-weight: 500;
+    }
   }
 
   @media screen and (min-width: 768px) {
@@ -248,17 +258,7 @@ body {
       font-weight: 700 !important;
       letter-spacing: 1px !important;
       color: $primary !important;
-    }
-  }
-
-  .list-pos {
-    padding: 0 0px;
-
-    p {
-      color: white !important;
-      font-size: 1rem;
-      // font-family: "Barlow", sans-serif;
-      font-weight: 400;
+      line-height: 2rem;
     }
   }
 }
@@ -270,29 +270,30 @@ body {
 
   .title-benefits {
     color: black;
-    font-size: 2rem;
+    font-size: 1.5rem !important;
+    line-height: 2rem;
     font-weight: 700;
-    line-height: normal;
     letter-spacing: normal;
+    margin-bottom: 10px;
 
     .img-text {
       display: inline-block;
-      width: 8rem;
-      margin-top: -12px;
+      width: 6rem;
+      margin-top: -5px;
     }
   }
 
   .sub-title-benefits {
     color: black;
-    font-size: 1.2rem;
-    font-weight: 400;
-    line-height: normal;
+    font-size: 1rem !important;
+    line-height: 2rem;
+    font-weight: 500;
     letter-spacing: normal;
 
     .img-text {
       display: inline-block;
-      width: 5.5rem;
-      margin-top: -10px;
+      width: 4rem;
+      margin-top: -5px;
     }
   }
 
@@ -301,10 +302,9 @@ body {
 
     h2 {
       color: $primary !important;
-      font-size: 1.2rem !important;
-      font-weight: 400;
+      font-size: 1.5rem !important;
+      line-height: 2rem;
       margin: 0px;
-      line-height: 22px;
       text-justify: inter-word !important;
       width: 100% !important;
       letter-spacing: 0.1px;
@@ -314,8 +314,9 @@ body {
     p {
       // font-family: "Barlow", sans-serif !important;
       color: $secondary !important;
-      font-size: 1.1rem !important;
-      font-weight: 400;
+      font-size: 1rem !important;
+      line-height: 2rem;
+      font-weight: 500;
       margin: 0px;
       text-align: center !important;
       text-justify: inter-word !important;
@@ -324,8 +325,8 @@ body {
 
       .img-text {
         display: inline-block;
-        width: 5rem;
-        margin-top: -4px;
+        width: 4rem;
+        margin-top: -5px;
       }
     }
   }
@@ -334,8 +335,8 @@ body {
     .title-benefits {
       color: black;
       font-size: 2.6rem;
+      line-height: 2rem;
       font-weight: 700;
-      line-height: normal;
       letter-spacing: normal;
 
       .img-text {
@@ -347,9 +348,9 @@ body {
 
     .sub-title-benefits {
       color: black;
-      font-size: 1.3rem;
+      font-size: 1.5rem;
+      line-height: 2rem;
       font-weight: 400;
-      line-height: normal;
       letter-spacing: normal;
 
       .img-text {
@@ -397,23 +398,24 @@ body {
 #applications {
   .title-applications {
     color: black;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
     font-weight: 700;
-    line-height: normal;
     letter-spacing: normal;
+    margin-bottom: 7px !important;
   }
 
   .sub-title-applications {
     color: black;
-    font-size: 1.3rem;
+    font-size: 1rem;
+    line-height: 2rem;
     font-weight: 500;
-    line-height: normal;
     letter-spacing: normal;
 
     .img-text {
       display: inline-block;
-      width: 6rem;
-      margin-top: -10px;
+      width: 4rem;
+      margin-top: -5px;
     }
   }
 
@@ -422,13 +424,13 @@ body {
       color: black;
       font-size: 2.6rem;
       font-weight: 700;
-      line-height: normal;
+      line-height: 2rem;
       letter-spacing: normal;
     }
 
     .sub-title-applications {
       color: black;
-      font-size: 1.3rem;
+      font-size: 1.2rem;
       font-weight: 500;
       line-height: normal;
       letter-spacing: normal;
@@ -449,22 +451,22 @@ body {
   }
 
   .application-point-title {
-    font-family: "Oswald", sans-serif;
-    font-size: 1.5rem;
-    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
     color: $primary;
     text-align: center;
     margin-bottom: 10px;
-    line-height: 28px;
+    line-height: 2rem;
   }
 
   .application-point-sub-title {
     // font-family: "Barlow", sans-serif;
     font-size: 1rem;
-    font-weight: 400;
-    color: $secondary;
+    font-weight: 500;
+    color: black;
     text-align: center;
-    line-height: normal;
+    line-height: 2rem;
   }
 }
 
@@ -474,7 +476,8 @@ body {
 
   .title-certificates {
     text-align: center;
-    font-size: 2rem !important;
+    font-size: 1.5rem !important;
+    line-height: 2rem;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
     color: $primary !important;
@@ -482,15 +485,15 @@ body {
 
   .sub-title-certificates {
     color: white;
-    font-size: 1.3rem;
-    font-weight: 400;
-    line-height: normal;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 2rem;
     letter-spacing: normal;
 
     .img-text {
       display: inline-block;
-      width: 6rem;
-      margin-top: -10px;
+      width: 5rem;
+      margin-top: -5px;
     }
   }
 
@@ -525,7 +528,7 @@ body {
 
   .title-about-us {
     text-align: center;
-    font-size: 2rem !important;
+    font-size: 1.5rem !important;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
     color: $primary !important;
@@ -534,14 +537,14 @@ body {
   .sub-title-about-us {
     p {
       color: white;
-      font-size: 1.2rem;
-      font-weight: 400;
-      line-height: normal;
+      font-size: 1rem;
+      font-weight: 500;
+      line-height: 2rem;
       letter-spacing: normal;
 
       .img-text {
         display: inline-block;
-        width: 4.5rem;
+        width: 4rem;
         margin-top: -5px;
       }
     }
@@ -575,18 +578,43 @@ body {
 }
 
 #mission {
-  .flask {
-    background: white url("../img/COCO-flask.jpeg") no-repeat left center;
+  .mission-image {
+    background: white url("../img/IMAGE-1.jpg") no-repeat left center;
+    background-size: cover;
+    height: 500px;
+  }
+
+  .vision-image {
+    background: white url("../img/IMAGE-2.jpg") no-repeat left center;
     background-size: cover;
     height: 500px;
   }
 
   .title-mission {
     text-align: center;
-    font-size: 2rem !important;
+    font-size: 1.5rem !important;
+    line-height: 2rem;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
     color: $primary !important;
+    margin: 1rem 0rem 1rem 0rem;
+  }
+
+  .sub-title-mission {
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: normal;
+
+    li {
+      line-height: 2rem !important;
+    }
+
+    .img-text {
+      display: inline-block;
+      width: 4rem;
+      margin-top: -5px;
+    }
   }
 
   @media screen and (min-width: 768px) {
@@ -598,23 +626,6 @@ body {
       color: $primary !important;
     }
   }
-
-  .sub-title-mission {
-    color: $secondary;
-    font-size: 1.2rem;
-    font-weight: 500;
-    letter-spacing: normal;
-
-    li {
-      line-height: 30px !important;
-    }
-
-    .img-text {
-      display: inline-block;
-      width: 5rem;
-      margin-top: 0px;
-    }
-  }
 }
 
 #footer {
@@ -623,7 +634,7 @@ body {
   border-top: 2px white solid !important;
 
   .title {
-    // font-family: "Oswald", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 1.5rem;
     font-weight: 400;
     color: white;
@@ -642,7 +653,7 @@ body {
     li {
       a {
         // font-family: "Barlow", sans-serif !important;
-        font-size: 1rem !important;
+        font-size: 1.2rem !important;
         color: $primary !important;
         font-weight: 700;
         text-align: center !important;
@@ -656,7 +667,7 @@ body {
 
   @media screen and (min-width: 768px) {
     .title {
-      font-family: "Oswald", sans-serif;
+      font-family: "Montserrat", sans-serif !important;
       font-size: 1.5rem;
       font-weight: 400;
       color: white;
@@ -693,7 +704,7 @@ body {
     border-top: 2px white solid !important;
 
     p {
-      font-family: "Oswald", sans-serif;
+      font-family: "Montserrat", sans-serif;
       color: white;
       font-weight: 400;
       font-size: 1rem;
@@ -721,16 +732,16 @@ body {
     background-color: $secondary;
 
     .custom-card-body {
-      padding: 20px;
+      padding: 1rem 0 1rem 0;
 
       h1.title-our-story {
-        text-align: left;
-        font-size: 2rem !important;
+        text-align: center;
+        font-size: 1.5rem !important;
         font-weight: 700 !important;
         letter-spacing: normal !important;
         color: $primary !important;
-        margin: 0 0 14px 0 !important;
-        line-height: 44px;
+        margin: 1rem 0 1rem 0 !important;
+        line-height: 2rem;
       }
 
       .sub-title-our-story {
@@ -738,23 +749,22 @@ body {
         color: white;
         font-size: 1rem !important;
         font-weight: 500;
-        line-height: normal;
+        line-height: 2rem;
         letter-spacing: normal;
-        text-align: left;
+        text-align: center;
         margin-bottom: 20px;
 
         .img-text {
           display: inline-block;
-          width: 5rem;
+          width: 4rem;
           margin-top: 0px;
         }
       }
 
       @media screen and (min-width: 768px) {
-        padding: 0px 150px 20px 150px;
+        padding: 3rem;
 
         h1.title-our-story {
-          text-align: left;
           font-size: 2.4rem !important;
           font-weight: 700 !important;
           letter-spacing: 1px !important;
@@ -762,27 +772,44 @@ body {
           margin: 0 0 14px 0 !important;
           line-height: 44px;
         }
+
+        .sub-title-our-story {
+          // font-family: "Barlow", sans-serif;
+          color: white;
+          font-size: 1.2rem !important;
+          font-weight: 400;
+          line-height: 2rem;
+          letter-spacing: normal;
+          margin-bottom: 20px;
+
+          .img-text {
+            display: inline-block;
+            width: 5rem;
+            margin-top: 0px;
+          }
+        }
       }
     }
   }
 }
 
 #story-1 {
-  margin: 0px;
+  margin: 0 !important;
+
   .story-wrapper {
-    padding: 20px;
     @media screen and (min-width: 768px) {
       padding: 0px 150px 20px 150px;
     }
 
     h1.title-story-1 {
-      text-align: left;
-      font-size: 2rem !important;
+      margin-top: 5rem;
+      text-align: center;
+      font-size: 1.5rem !important;
       font-weight: 700 !important;
       letter-spacing: normal !important;
       color: $primary !important;
       margin-bottom: 14px !important;
-      line-height: 44px;
+      line-height: 2rem;
       width: 100% !important;
     }
 
@@ -791,9 +818,9 @@ body {
       color: white;
       font-size: 1rem !important;
       font-weight: 500;
-      line-height: 22px;
+      line-height: 2rem;
       letter-spacing: normal;
-      text-align: left;
+      text-align: center;
       margin-bottom: 14px;
 
       .img-text {
@@ -805,13 +832,29 @@ body {
 
     @media screen and (min-width: 768px) {
       h1.title-story-1 {
-        text-align: left;
         font-size: 2.4rem !important;
         font-weight: 700 !important;
         letter-spacing: 1px !important;
         color: $primary !important;
         margin-bottom: 14px !important;
-        line-height: 44px;
+        line-height: 2rem;
+      }
+
+      .sub-title-story-1 {
+        // font-family: "Barlow", sans-serif;
+        color: white;
+        font-size: 1.2rem !important;
+        font-weight: 400;
+        line-height: 2rem;
+        letter-spacing: normal;
+        text-align: center;
+        margin-bottom: 14px;
+
+        .img-text {
+          display: inline-block;
+          width: 5rem;
+          margin-top: 0px;
+        }
       }
     }
   }
@@ -823,7 +866,8 @@ body {
 
   .title-our-method {
     text-align: center;
-    font-size: 2rem !important;
+    font-size: 1.5rem !important;
+    line-height: 2rem !important;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
     color: $primary !important;
@@ -841,6 +885,16 @@ body {
 }
 
 .timeline {
+  .accordion.accordion-modern .card:first-of-type,
+  .accordion.accordion-modern .card:not(:first-of-type):not(:last-of-type),
+  .accordion.accordion-modern .card:last-of-type {
+    border: 0px solid white;
+  }
+
+  .accordion .card-header a {
+    padding: 10px;
+  }
+
   background-color: $base;
   margin: 0px !important;
   padding: 50px 0px 5px 0px !important;
@@ -856,16 +910,45 @@ body {
 
     h2 {
       color: $primary;
+      font-size: 1.3rem !important;
       font-weight: 500 !important;
+      line-height: 2rem;
       letter-spacing: normal;
     }
 
     p {
       // font-family: "Barlow", sans-serif;
-      font-weight: 600 !important;
+      font-size: 0.9rem !important;
+      font-weight: 500 !important;
       letter-spacing: normal;
+      line-height: 2rem;
       text-align: justify;
-      color: $secondary !important;
+      color: black !important;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .timeline-box {
+      border: 2px solid $primary !important;
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+
+      h2 {
+        color: $primary;
+        font-size: 1.3rem !important;
+        font-weight: 500 !important;
+        line-height: 2rem;
+        letter-spacing: normal;
+      }
+
+      p {
+        // font-family: "Barlow", sans-serif;
+        font-size: 1rem !important;
+        font-weight: 500 !important;
+        letter-spacing: normal;
+        line-height: 2rem;
+        text-align: justify;
+        color: black !important;
+      }
     }
   }
 
@@ -921,7 +1004,7 @@ body {
         font-weight: 500;
         transition: all 0.2s ease, visibility 0s;
         min-width: 10px;
-        width: 262px;
+        width: 290px;
         height: 40px;
         border-radius: 0;
         padding-top: 5px;
@@ -940,17 +1023,43 @@ body {
 #compete-system {
   .title-compete-system {
     color: black;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
-    line-height: normal;
+    line-height: 2rem;
     letter-spacing: normal;
     text-align: center;
 
     .img-text {
       display: inline-block;
-      width: 10rem;
-      margin-top: -6px;
+      width: 8rem;
+      margin-top: 0px;
     }
+  }
+
+  p {
+    font-weight: 500 !important;
+    letter-spacing: normal;
+    text-align: left;
+    color: $secondary !important;
+    font-size: 1rem;
+    line-height: 2rem;
+
+    .img-text {
+      display: inline-block;
+      width: 4rem;
+      margin-top: -5px;
+      margin-left: 3px;
+      margin-right: 3px;
+    }
+  }
+
+  ul > li {
+    font-weight: 500 !important;
+    letter-spacing: normal;
+    text-align: left;
+    color: $secondary !important;
+    font-size: 1rem;
+    line-height: 2rem;
   }
 
   @media screen and (min-width: 768px) {
@@ -968,32 +1077,32 @@ body {
         margin-top: -8px;
       }
     }
-  }
 
-  p {
-    // font-family: "Barlow", sans-serif;
-    font-weight: 500 !important;
-    letter-spacing: normal;
-    text-align: left;
-    color: $secondary !important;
-    font-size: 1rem;
+    p {
+      font-weight: 500 !important;
+      letter-spacing: normal;
+      text-align: left;
+      color: $secondary !important;
+      font-size: 1.2rem;
+      line-height: 2rem;
 
-    .img-text {
-      display: inline-block;
-      width: 4.5rem;
-      margin-top: -4px;
-      margin-left: 3px;
-      margin-right: 3px;
+      .img-text {
+        display: inline-block;
+        width: 5rem;
+        margin-top: -4px;
+        margin-left: 3px;
+        margin-right: 3px;
+      }
     }
-  }
 
-  ul > li {
-    // font-family: "Barlow", sans-serif;
-    font-weight: 500 !important;
-    letter-spacing: normal;
-    text-align: left;
-    color: $secondary !important;
-    font-size: 1rem;
+    ul > li {
+      font-weight: 500 !important;
+      letter-spacing: normal;
+      text-align: left;
+      color: $secondary !important;
+      font-size: 1.2rem;
+      line-height: 2rem;
+    }
   }
 }
 
@@ -1003,23 +1112,25 @@ body {
 
   .title-nutritional-properties {
     text-align: center;
-    font-size: 2rem !important;
+    font-size: 1.5rem !important;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
     color: $primary !important;
+    line-height: 2rem;
   }
 
   .subtitle-nutritional-properties {
     text-align: center;
-    font-size: 1.2rem !important;
+    font-size: 1rem !important;
     font-weight: 500 !important;
     letter-spacing: 1px !important;
     color: white !important;
+    line-height: 2rem;
 
     .img-text {
       display: inline-block;
-      width: 6rem;
-      margin-top: -10px !important;
+      width: 5rem;
+      margin-top: -5px !important;
     }
   }
 
@@ -1084,12 +1195,16 @@ body {
     color: black !important;
     margin: 10px;
     font-size: 1rem;
+    font-weight: 500;
+    line-height: 2rem;
   }
 
   .li-info {
     color: black !important;
     margin: 10px;
     font-size: 1rem;
+    font-weight: 500;
+    line-height: 2rem;
 
     .img-text {
       display: inline-block;
@@ -1098,15 +1213,35 @@ body {
     }
   }
 
+  @media screen and (min-width: 768px) {
+    .text-info-2 {
+      font-size: 1.2rem !important;
+    }
+
+    .li-info {
+      color: black !important;
+      margin: 10px;
+      font-size: 1.2rem;
+      font-weight: 500;
+      line-height: 2rem;
+
+      .img-text {
+        display: inline-block;
+        width: 5rem;
+        margin-top: -4px;
+      }
+    }
+  }
+
   .card {
     background-color: $secondary;
 
     .img-text {
       display: inline-block;
-      width: 5rem;
+      width: 4rem;
       height: 100%;
-      margin-top: 4px !important;
-      margin-left: 10px;
+      margin-top: -4px !important;
+      // margin-left: 10px;
     }
 
     .dataTables_length {
@@ -1145,6 +1280,10 @@ body {
       color: $primary;
     }
 
+    #table_info {
+      color: white !important;
+    }
+
     table {
       position: relative;
       border-collapse: collapse;
@@ -1181,7 +1320,7 @@ body {
           tr {
             th {
               color: $primary;
-              font-size: 1.1rem;
+              font-size: 1.2rem;
             }
           }
         }
@@ -1190,7 +1329,7 @@ body {
           tr {
             td {
               color: white;
-              font-size: 1rem;
+              font-size: 1.2rem;
             }
           }
         }
@@ -1201,7 +1340,7 @@ body {
 
 #contact-us {
   h1 {
-    // font-family: "Oswald", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 2rem;
     font-weight: 700;
     letter-spacing: normal;
@@ -1209,7 +1348,7 @@ body {
 
   @media screen and (min-width: 768px) {
     h1 {
-      // font-family: "Oswald", sans-serif;
+      font-family: "Montserrat", sans-serif;
       font-size: 2.4rem;
       font-weight: 500;
       letter-spacing: normal;
@@ -1229,11 +1368,20 @@ body {
   }
 
   a {
-    // font-family: "Barlow", sans-serif;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: normal;
     color: #393d32;
+  }
+
+  @media screen and (min-width: 768px) {
+    a {
+      // font-family: "Barlow", sans-serif;
+      font-size: 1.2rem;
+      font-weight: 500;
+      letter-spacing: normal;
+      color: #393d32;
+    }
   }
 
   .secondary {

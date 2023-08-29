@@ -144,7 +144,7 @@
     <link id="skinCSS" rel="stylesheet" href="css/skins/default.css" />
 
     <!-- Theme Custom CSS -->
-    <link rel="stylesheet" href="css/custom-5.css" />
+    <link rel="stylesheet" href="css/custom-6.css" />
 
     <!-- Head Libs -->
     <script src="vendor/modernizr/modernizr.min.js"></script>
@@ -168,7 +168,7 @@
     <div class="body">
       <header
         id="header"
-        data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyChangeLogo': false, 'stickyStartAt': 0}"
+        data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': false, 'stickyStartAt': 0}"
       >
         <div class="header-body border-top-0">
           <div class="header-container container-fluid">
@@ -179,7 +179,7 @@
                     <a href="/">
                       <img
                         alt="COCONUTRATE"
-                        src="img/COCONUTRATE-MINI-LOGO.png"
+                        src="img/COCONUTRATE-LOGO.webp"
                         class="img-logo"
                       />
                     </a>
@@ -195,7 +195,7 @@
                       <nav class="collapse">
                         <ul class="nav nav-pills" id="mainNav">
                           <li class="">
-                            <a class="d-sm-block" href="index.html">Home</a>
+                            <a class="d-sm-block" href="/">Home</a>
                           </li>
                           <li class="active">
                             <a class="d-sm-block" href="about-us.html"
@@ -243,20 +243,27 @@
       </header>
 
       <div role="main" class="main">
-        <section
+        <!-- <section
           id="about-us"
           class="section section-primary border-0 mb-0 appear-animation"
           data-appear-animation="fadeIn"
           style="margin: 0px"
+        > -->
+        <section
+          id="about-us"
+          class="parallax section-parallax section-center page-header page-header-modern page-header-background page-header-background-sm"
+          data-plugin-parallax
+          data-plugin-options="{'speed': 1.5}"
+          data-image-src="img/IMAGE-2.png"
         >
           <div class="container">
             <div class="row">
               <div class="col">
                 <div class="row text-center">
                   <div class="col-md-10 mx-md-auto">
-                    <div class="overflow-hidden mb-3">
+                    <div class="overflow-hidden">
                       <h1
-                        class="title-about-us appear-animation"
+                        class="title-about-us appear-animation mb-3"
                         data-appear-animation="maskUp"
                       >
                         ABOUT US
@@ -335,13 +342,17 @@
               <div class="col">
                 <div class="row text-center">
                   <div
-                    class="col-sm-12 col-md-6 flask appear-animation order-2 order-md-1"
-                    data-appear-animation="maskRight"
+                    class="col-sm-12 col-md-6 order-2 order-md-1 parallax section section-parallax section-center h-100 p-0 m-0 appear-animation"
+                    data-plugin-parallax
+                    data-plugin-options="{'speed': 1.5}"
+                    data-image-src="img/IMAGE-1.jpg"
+                    data-appear-animation="fadeIn"
+                    style="min-height: 460px"
                   >
                     &nbsp;
                   </div>
                   <div
-                    class="col-sm-12 col-md-6 p-5 d-flex flex-column justify-content-center align-items-center order-1 order-md-2"
+                    class="col-sm-12 col-md-6 py-3 px-4 d-flex flex-column justify-content-center align-items-center order-1 order-md-2"
                   >
                     <h1
                       class="title-mission appear-animation"
@@ -360,7 +371,7 @@
                 </div>
                 <div class="row text-center">
                   <div
-                    class="col-sm-12 col-md-6 p-5 d-flex flex-column justify-content-center align-items-center"
+                    class="col-sm-12 col-md-6 d-flex py-3 px-4 flex-column justify-content-center align-items-center"
                   >
                     <h1
                       class="title-mission appear-animation"
@@ -411,8 +422,12 @@
                     </h2>
                   </div>
                   <div
-                    class="col-sm-12 col-md-6 flask appear-animation"
-                    data-appear-animation="maskLeft"
+                    class="col-sm-12 col-md-6 parallax section section-parallax section-center h-100 p-0 m-0 appear-animation"
+                    data-plugin-parallax
+                    data-plugin-options="{'speed': 1.5}"
+                    data-image-src="img/IMAGE-5.jpg"
+                    data-appear-animation="fadeIn"
+                    style="min-height: 460px"
                   >
                     &nbsp;
                   </div>
@@ -427,19 +442,21 @@
         <div class="container">
           <div class="row my-5">
             <div class="col-sm-12 col-md-4 col-lg-4 mb-5 px-5">
-              <img
-                src="img/COCONUTRATE-WHITE-LOGO.png"
-                alt="COCONUTRATE"
-                class="img-fluid"
-              />
+              <a href="/">
+                <img
+                  src="img/COCONUTRATE-WHITE-LOGO.webp"
+                  alt="COCONUTRATE"
+                  class="img-fluid"
+                />
+              </a>
             </div>
             <div class="col-12 col-md-4 col-lg-4 mb-5 px-5">
               <h5 class="title">Menu</h5>
               <ul class="list list-unstyled mb-0">
-                <li class="mb-0"><a href="index.html">Home</a></li>
+                <li class="mb-0"><a href="/">Home</a></li>
                 <li class="mb-0"><a href="about-us.html">About us</a></li>
-                <li class="mb-0"><a href="our-story.html">Our Story</a></li>
-                <li class="mb-0"><a href="our-method.html">Our Method</a></li>
+                <li class="mb-0"><a href="our-story.html">Our story</a></li>
+                <li class="mb-0"><a href="our-method.html">Our method</a></li>
                 <li class="mb-0">
                   <a href="nutritional-properties.html"
                     >Nutritional properties</a
@@ -458,12 +475,6 @@
                     contact@coconutrate.com
                   </a>
                 </li>
-                <li class="mb-0">
-                  <a href="tel:1234567890"> 123-456-7890 </a>
-                </li>
-                <li class="mb-0">Mon-Fri 9:00AM - 5:00PM</li>
-                <li class="mb-0">Sat-Sun 10:00AM - 6:00PM</li>
-                <li class="mb-0">Toronto, Canada</li>
               </ul>
             </div>
           </div>
