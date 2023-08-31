@@ -445,6 +445,11 @@ body section.section-primary {
   margin-bottom: 0px !important;
   background-color: #393d32 !important;
 }
+#about-us .card-blur {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 2rem;
+  border-radius: 25px;
+}
 #about-us .title-about-us {
   text-align: center;
   font-size: 1.5rem !important;
@@ -487,14 +492,28 @@ body section.section-primary {
 }
 
 #mission .mission-image {
-  background: white url("../img/IMAGE-1.jpg") no-repeat left center;
-  background-size: cover;
-  height: 500px;
+  background: white url("../img/img-mission.png") no-repeat;
+  background-position: center !important;
+  background-size: contain;
+  height: 400px;
+}
+@media screen and (min-width: 768px) {
+  #mission .mission-image {
+    background-size: cover;
+    height: 500px;
+  }
 }
 #mission .vision-image {
-  background: white url("../img/IMAGE-2.jpg") no-repeat left center;
-  background-size: cover;
-  height: 500px;
+  background: white url("../img/img-vision.png") no-repeat;
+  background-position: center !important;
+  background-size: contain;
+  height: 400px;
+}
+@media screen and (min-width: 768px) {
+  #mission .vision-image {
+    background-size: cover;
+    height: 500px;
+  }
 }
 #mission .title-mission {
   text-align: center;
@@ -609,132 +628,160 @@ body section.section-primary {
 
 #our-story {
   margin-bottom: 0px !important;
-  background-color: #f1f3ee !important;
-  background: url("../img/bg-our-story.jpg") no-repeat center top;
-  background-size: 620px;
-  width: 100%;
+  background-color: #393d32 !important;
 }
-@media screen and (min-width: 768px) {
-  #our-story {
-    margin-bottom: 0px !important;
-    background-color: #f1f3ee !important;
-    background: url("../img/bg-our-story.jpg") no-repeat left top;
-    background-size: 650px;
-    background-position: 0px 10px;
-    width: 100%;
-  }
+#our-story .card-blur {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  backdrop-filter: blur(4px);
 }
-#our-story .custom-card {
-  background-color: #393d32;
-}
-#our-story .custom-card .custom-card-body {
-  padding: 1rem 0 1rem 0;
-}
-#our-story .custom-card .custom-card-body h1.title-our-story {
+#our-story .title-our-story {
   text-align: center;
   font-size: 1.5rem !important;
   font-weight: 700 !important;
-  letter-spacing: normal !important;
+  letter-spacing: 1px !important;
   color: #ff6601 !important;
-  margin: 1rem 0 1rem 0 !important;
-  line-height: 2rem;
 }
-#our-story .custom-card .custom-card-body .sub-title-our-story {
+#our-story .sub-title-our-story p {
   color: white;
-  font-size: 1rem !important;
+  font-size: 1rem;
   font-weight: 500;
   line-height: 2rem;
   letter-spacing: normal;
-  text-align: center;
-  margin-bottom: 20px;
 }
-#our-story .custom-card .custom-card-body .sub-title-our-story .img-text {
+#our-story .sub-title-our-story p .img-text {
   display: inline-block;
   width: 4rem;
-  margin-top: 0px;
+  margin-top: -5px;
 }
 @media screen and (min-width: 768px) {
-  #our-story .custom-card .custom-card-body {
-    padding: 3rem;
-  }
-  #our-story .custom-card .custom-card-body h1.title-our-story {
-    font-size: 2.4rem !important;
+  #our-story .title-our-story {
+    text-align: center;
+    font-size: 2.3rem !important;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
     color: #ff6601 !important;
-    margin: 0 0 14px 0 !important;
-    line-height: 44px;
   }
-  #our-story .custom-card .custom-card-body .sub-title-our-story {
+  #our-story .sub-title-our-story p {
     color: white;
-    font-size: 1.2rem !important;
+    font-size: 1.2rem;
     font-weight: 400;
     line-height: 2rem;
     letter-spacing: normal;
-    margin-bottom: 20px;
   }
-  #our-story .custom-card .custom-card-body .sub-title-our-story .img-text {
+  #our-story .sub-title-our-story p .img-text {
     display: inline-block;
     width: 5rem;
     margin-top: 0px;
   }
 }
 
-#story-1 {
-  margin: 0 !important;
+#story-1 .story-1-image {
+  background: white url("../img/IMAGE-3.jpg") no-repeat;
+  background-position: center !important;
+  background-size: cover;
+  height: 300px;
 }
 @media screen and (min-width: 768px) {
-  #story-1 .story-wrapper {
-    padding: 0px 150px 20px 150px;
+  #story-1 .story-1-image {
+    background-size: cover;
+    height: 500px;
   }
 }
-#story-1 .story-wrapper h1.title-story-1 {
-  margin-top: 5rem;
+#story-1 .title-story-1 {
   text-align: center;
   font-size: 1.5rem !important;
+  line-height: 2rem !important;
   font-weight: 700 !important;
-  letter-spacing: normal !important;
+  letter-spacing: 1px !important;
   color: #ff6601 !important;
-  margin-bottom: 14px !important;
-  line-height: 2rem;
-  width: 100% !important;
+  margin: 1rem 0rem 1rem 0rem;
 }
-#story-1 .story-wrapper .sub-title-story-1 {
-  color: white;
-  font-size: 1rem !important;
+#story-1 .sub-title-story-1 {
+  color: black;
+  font-size: 1rem;
   font-weight: 500;
-  line-height: 2rem;
   letter-spacing: normal;
-  text-align: center;
-  margin-bottom: 14px;
+  line-height: 2rem !important;
 }
-#story-1 .story-wrapper .sub-title-story-1 .img-text {
+#story-1 .sub-title-story-1 .img-text {
   display: inline-block;
-  width: 5rem;
-  margin-top: 0px;
+  width: 4rem;
+  margin-top: -5px;
 }
 @media screen and (min-width: 768px) {
-  #story-1 .story-wrapper h1.title-story-1 {
-    font-size: 2.4rem !important;
+  #story-1 .title-story-1 {
+    text-align: center;
+    font-size: 2.3rem !important;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
     color: #ff6601 !important;
-    margin-bottom: 14px !important;
-    line-height: 2rem;
+    line-height: 2rem !important;
   }
-  #story-1 .story-wrapper .sub-title-story-1 {
+  #story-1 .sub-title-story-1 {
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: normal;
+    line-height: 2rem !important;
+  }
+  #story-1 .sub-title-story-1 li {
+    line-height: 2rem !important;
+  }
+  #story-1 .sub-title-story-1 .img-text {
+    display: inline-block;
+    width: 4rem;
+    margin-top: -5px;
+  }
+}
+
+#story-2 {
+  margin-bottom: 0px !important;
+  background-color: #393d32 !important;
+}
+#story-2 .title-story-2 {
+  text-align: center;
+  font-size: 1.5rem !important;
+  line-height: 2rem;
+  font-weight: 700 !important;
+  letter-spacing: normal !important;
+  color: #ff6601 !important;
+  margin: 1rem 0rem 1rem 0rem;
+}
+#story-2 .sub-title-story-2 {
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 2rem;
+  letter-spacing: normal;
+  margin-bottom: 0px;
+}
+#story-2 .sub-title-story-2 .img-text {
+  display: inline-block;
+  width: 5rem;
+  margin-top: -5px;
+}
+@media screen and (min-width: 768px) {
+  #story-2 .title-story-2 {
+    text-align: center;
+    font-size: 2.3rem !important;
+    font-weight: 700 !important;
+    letter-spacing: 1px !important;
+    color: #ff6601 !important;
+    line-height: 2rem;
+    margin: 1rem 0rem 1rem 0rem;
+  }
+  #story-2 .sub-title-story-2 {
     color: white;
-    font-size: 1.2rem !important;
-    font-weight: 400;
+    font-size: 1.2rem;
+    font-weight: 500;
     line-height: 2rem;
     letter-spacing: normal;
-    text-align: center;
-    margin-bottom: 14px;
   }
-  #story-1 .story-wrapper .sub-title-story-1 .img-text {
+  #story-2 .sub-title-story-2 .img-text {
     display: inline-block;
-    width: 5rem;
-    margin-top: 0px;
+    width: 6rem;
+    margin-top: -4px;
   }
 }
 
@@ -839,13 +886,13 @@ body section.section-primary {
 }
 .timeline .timeline-date .btn-primary {
   background-color: #ff6601 !important;
-  border-color: #ff6601 #ff6601 #cd5200 !important;
+  border-color: #ff6601 !important;
   font-size: 1rem;
   font-weight: 500;
   transition: all 0.2s ease, visibility 0s;
   min-width: 10px;
   width: 262px;
-  height: 40px;
+  height: 2.5rem !important;
   border-radius: 0;
   padding-top: 5px;
   letter-spacing: 2px;
@@ -853,20 +900,20 @@ body section.section-primary {
 @media screen and (min-width: 768px) {
   .timeline .timeline-date .btn-primary {
     background-color: #ff6601 !important;
-    border-color: #ff6601 #ff6601 #cd5200 !important;
+    border-color: #ff6601 !important;
     font-size: 1.1rem;
     font-weight: 500;
     transition: all 0.2s ease, visibility 0s;
     min-width: 10px;
     width: 290px;
-    height: 40px;
+    height: 2.5rem !important;
     border-radius: 0;
     padding-top: 5px;
     letter-spacing: 2px;
   }
 }
 .timeline .timeline-date .btn-primary:hover {
-  background-color: transparent !important;
+  background-color: #f1f3ee !important;
   border-color: black !important;
   color: black !important;
 }

@@ -17303,7 +17303,7 @@ section.timeline .timeline-date {
 	padding: 5px;
 	border: 1px solid #E5E5E5;
 	margin: 0 auto 10px;
-	text-shadow: 0 1px 1px #fff;
+	/* text-shadow: 0 1px 1px #fff; */
 	border-radius: 4px;
 	background: #FFF;
 	z-index: 1;
