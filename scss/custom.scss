@@ -33,6 +33,22 @@ body {
   }
 }
 
+.btn-primary {
+  background-color: $primary !important;
+  border-radius: 0;
+  border: 1px solid $btn-border-2 !important;
+  letter-spacing: normal;
+  font-weight: 700 !important;
+  font-size: 1rem;
+}
+
+.btn-primary:hover {
+  color: black !important;
+  background-color: transparent !important;
+  border-radius: 0;
+  border: 1px solid $btn-border-2 !important;
+}
+
 .owl-carousel {
   .owl-nav {
     .owl-prev:before {
@@ -158,9 +174,9 @@ body {
   margin: 0px;
 
   .home-title {
-    font-size: 2.4rem !important;
+    font-size: 2.3rem !important;
     font-weight: 700 !important;
-    letter-spacing: 4px !important;
+    letter-spacing: 1px !important;
     max-width: 100% !important;
   }
 
@@ -233,8 +249,8 @@ body {
 
   .title-pos {
     text-align: center;
-    font-size: 1.5rem !important;
-    line-height: 2rem;
+    font-size: 2.3rem !important;
+    line-height: 2.3rem;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
     color: $primary !important;
@@ -270,16 +286,16 @@ body {
 
   .title-benefits {
     color: black;
-    font-size: 1.5rem !important;
-    line-height: 2rem;
+    font-size: 2.3rem !important;
+    line-height: 2.3rem !important;
     font-weight: 700;
     letter-spacing: normal;
-    margin-bottom: 10px;
+    margin-bottom: 2rem !important;
 
     .img-text {
       display: inline-block;
-      width: 6rem;
-      margin-top: -5px;
+      width: 10rem;
+      margin-top: -6px;
     }
   }
 
@@ -289,43 +305,103 @@ body {
     line-height: 2rem;
     font-weight: 500;
     letter-spacing: normal;
+    margin-bottom: 2rem;
 
     .img-text {
       display: inline-block;
-      width: 4rem;
+      width: 5rem;
       margin-top: -5px;
     }
   }
 
-  .text-carousel {
-    margin-bottom: 0.5px;
+  .nav-pills {
+    .nav-link {
+      padding: 1.5rem 0.5rem 1.5rem 0.5rem;
+      border-radius: 0px;
+      text-decoration: none;
+      transition: all 0.4s linear;
+      text-align: center;
 
-    h2 {
-      color: $primary !important;
-      font-size: 1.5rem !important;
-      line-height: 2rem;
-      margin: 0px;
-      text-justify: inter-word !important;
-      width: 100% !important;
-      letter-spacing: 0.1px;
-      margin-bottom: 10px;
+      i {
+        font-size: 3rem;
+        text-align: center;
+        color: #000000;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: $primary;
+        text-align: center;
+        line-height: 2rem;
+        margin-bottom: 0px;
+      }
     }
 
-    p {
-      color: $secondary !important;
-      font-size: 1rem !important;
-      line-height: 2rem;
-      font-weight: 500;
-      margin: 0px;
-      text-align: center !important;
-      text-justify: inter-word !important;
-      width: 100% !important;
-      letter-spacing: normal;
+    .nav-link.active {
+      padding: 1.5rem 0.5rem 1.5rem 0.5rem;
+      text-decoration: none;
+      background-color: $primary;
 
-      .img-text {
-        display: inline-block;
-        width: 4rem;
-        margin-top: -5px;
+      i {
+        font-size: 3rem;
+        text-align: center;
+        color: whitesmoke;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: whitesmoke;
+        text-align: center;
+        line-height: 2rem;
+        margin-bottom: 0px;
+      }
+    }
+  }
+
+  .tab-content {
+    border-radius: 0px;
+    padding-bottom: 3rem;
+
+    .tab-pane {
+      text-align: center;
+
+      h3 {
+        font-size: 1.5rem;
+        margin-bottom: 0px;
+        text-transform: none;
+        line-height: 2rem;
+        font-weight: 400 !important;
+
+        .img-text {
+          display: inline-block;
+          width: 5.5rem;
+          margin-top: -4px;
+        }
+      }
+
+      h4 {
+        font-size: 1.2rem;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        font-weight: 500;
+
+        .img-text {
+          display: inline-block;
+          width: 5rem;
+          margin-top: -4px;
+        }
+      }
+
+      p {
+        font-size: 1rem;
+        color: black;
+        font-weight: 500;
+        line-height: 2rem;
+        margin-bottom: 0px;
       }
     }
   }
@@ -337,7 +413,7 @@ body {
       line-height: 2rem !important;
       font-weight: 700;
       letter-spacing: normal;
-      margin-bottom: 0.5rem !important;
+      margin-bottom: 2rem !important;
 
       .img-text {
         display: inline-block;
@@ -352,6 +428,7 @@ body {
       line-height: 2rem;
       font-weight: 500;
       letter-spacing: normal;
+      margin-bottom: 2rem;
 
       .img-text {
         display: inline-block;
@@ -360,113 +437,98 @@ body {
       }
     }
 
-    .text-carousel {
-      margin-bottom: 0.5px;
+    .nav-pills {
+      margin-bottom: 10px;
 
-      h2 {
-        color: $primary !important;
-        font-size: 1.4rem !important;
-        margin: 0px;
-        line-height: 2rem;
-        text-justify: inter-word !important;
-        width: 100% !important;
-        letter-spacing: 0.1px;
+      .nav-link {
+        padding: 1.5rem 0.5rem 1.5rem 0.5rem;
+        border-radius: 0px;
+        text-decoration: none;
+        transition: all 0.4s linear;
+
+        i {
+          font-size: 5rem;
+          text-align: center;
+          color: #000000;
+          margin-bottom: 10px;
+        }
+
+        p {
+          font-size: 1.2rem;
+          font-weight: 700;
+          color: $primary;
+          text-align: center;
+          line-height: 2rem;
+          margin-bottom: 0px;
+        }
       }
 
-      p {
-        // font-family: "Barlow", sans-serif !important;
-        color: $secondary !important;
-        font-size: 1rem !important;
-        font-weight: 500;
-        margin: 0px;
-        text-align: justify !important;
-        text-justify: inter-word !important;
-        width: 100% !important;
-        letter-spacing: 0.2px;
+      .nav-link.active {
+        padding: 1.5rem 0.5rem 1.5rem 0.5rem;
+        text-decoration: none;
+        background-color: $primary;
 
-        .img-text {
-          display: inline-block;
-          width: 5rem;
-          margin-top: -4px;
+        i {
+          font-size: 5rem;
+          text-align: center;
+          color: whitesmoke;
+          margin-bottom: 10px;
+        }
+
+        p {
+          font-size: 1.2rem;
+          font-weight: 700;
+          color: whitesmoke;
+          text-align: center;
+          line-height: 2rem;
+          margin-bottom: 0px;
         }
       }
     }
-  }
-}
 
-#applications {
-  .title-applications {
-    color: black;
-    font-size: 1.5rem;
-    line-height: 2rem;
-    font-weight: 700;
-    letter-spacing: normal;
-    margin-bottom: 7px !important;
-  }
+    .tab-content {
+      border-radius: 0px;
+      padding-bottom: 3rem;
 
-  .sub-title-applications {
-    color: black;
-    font-size: 1rem;
-    line-height: 2rem;
-    font-weight: 500;
-    letter-spacing: normal;
+      .tab-pane {
+        text-align: center;
 
-    .img-text {
-      display: inline-block;
-      width: 4rem;
-      margin-top: -5px;
-    }
-  }
+        h3 {
+          font-size: 1.5rem;
+          margin-bottom: 0px;
+          text-transform: none;
+          line-height: 2rem;
+          font-weight: 400 !important;
 
-  @media screen and (min-width: 768px) {
-    .title-applications {
-      color: black;
-      font-size: 2.3rem;
-      font-weight: 700;
-      line-height: 2rem;
-      letter-spacing: normal;
-      margin-bottom: 0.5rem !important;
-    }
+          .img-text {
+            display: inline-block;
+            width: 5.5rem;
+            margin-top: -4px;
+          }
+        }
 
-    .sub-title-applications {
-      color: black;
-      font-size: 1.2rem;
-      font-weight: 500;
-      line-height: normal;
-      letter-spacing: normal;
+        h4 {
+          font-size: 1.2rem;
+          margin-top: 10px;
+          margin-bottom: 0px;
+          font-weight: 500;
 
-      .img-text {
-        display: inline-block;
-        width: 6rem;
-        margin-top: -4px;
+          .img-text {
+            display: inline-block;
+            width: 5rem;
+            margin-top: -4px;
+          }
+        }
+
+        p {
+          font-size: 1rem;
+          color: black;
+          font-weight: 500;
+          line-height: 2rem;
+          margin-bottom: 0px;
+        }
       }
     }
-  }
-
-  .svg-wrapper {
-    width: 25% !important;
-    height: auto;
-    min-height: 70px;
-    margin-bottom: 10px;
-  }
-
-  .application-point-title {
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.4rem;
-    font-weight: 700;
-    color: $primary;
-    text-align: center;
-    margin-bottom: 10px;
-    line-height: 2rem;
-  }
-
-  .application-point-sub-title {
-    // font-family: "Barlow", sans-serif;
-    font-size: 1rem;
-    font-weight: 500;
-    color: black;
-    text-align: center;
-    line-height: 2rem;
   }
 }
 
@@ -529,7 +591,7 @@ body {
   background-color: $secondary !important;
 
   .card-blur {
-    background-color: rgba($color: #000000, $alpha: 0.4);
+    background-color: rgba($color: #000000, $alpha: 0.7);
     padding: 2rem;
     border-radius: 25px;
   }
@@ -577,7 +639,7 @@ body {
 
         .img-text {
           display: inline-block;
-          width: 5rem;
+          width: 5.5rem;
           margin-top: 0px;
         }
       }
@@ -587,7 +649,8 @@ body {
 
 #mission {
   .mission-image {
-    background: white url("../img/img-mission.png") no-repeat;
+    background: white url("../img/coconut-nipanan-lifestyle-unsplash.jpg")
+      no-repeat;
     background-position: center !important;
     background-size: contain;
     height: 400px;
@@ -599,8 +662,8 @@ body {
   }
 
   .vision-image {
-    background: white url("../img/img-vision.png") no-repeat;
-    background-position: center !important;
+    background: white url("../img/Coconut+Sap+2.jpg") no-repeat;
+    background-position: left center !important;
     background-size: contain;
     height: 400px;
 
@@ -660,7 +723,7 @@ body {
 
       .img-text {
         display: inline-block;
-        width: 4rem;
+        width: 5rem;
         margin-top: -5px;
       }
     }
@@ -678,6 +741,15 @@ body {
     font-weight: 400;
     color: white;
     text-align: center;
+  }
+
+  p.title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+    line-height: 1.5rem;
+    margin-top: 1rem;
   }
 
   ul {

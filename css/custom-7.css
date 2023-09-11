@@ -18,6 +18,22 @@ body section.section-primary {
   background-color: #393d32 !important;
 }
 
+.btn-primary {
+  background-color: #ff6601 !important;
+  border-radius: 0;
+  border: 1px solid #cd5200 !important;
+  letter-spacing: normal;
+  font-weight: 700 !important;
+  font-size: 1rem;
+}
+
+.btn-primary:hover {
+  color: black !important;
+  background-color: transparent !important;
+  border-radius: 0;
+  border: 1px solid #cd5200 !important;
+}
+
 .owl-carousel .owl-nav .owl-prev:before {
   border-color: #cd5200 #cd5200 #cd5200 !important;
 }
@@ -121,9 +137,9 @@ body section.section-primary {
   margin: 0px;
 }
 #hero .home-title {
-  font-size: 2.4rem !important;
+  font-size: 2.3rem !important;
   font-weight: 700 !important;
-  letter-spacing: 4px !important;
+  letter-spacing: 1px !important;
   max-width: 100% !important;
 }
 @media screen and (min-width: 768px) {
@@ -188,8 +204,8 @@ body section.section-primary {
 }
 #we-care .title-pos {
   text-align: center;
-  font-size: 1.5rem !important;
-  line-height: 2rem;
+  font-size: 2.3rem !important;
+  line-height: 2.3rem;
   font-weight: 700 !important;
   letter-spacing: 1px !important;
   color: #ff6601 !important;
@@ -221,16 +237,16 @@ body section.section-primary {
 }
 #benefits .title-benefits {
   color: black;
-  font-size: 1.5rem !important;
-  line-height: 2rem;
+  font-size: 2.3rem !important;
+  line-height: 2.3rem !important;
   font-weight: 700;
   letter-spacing: normal;
-  margin-bottom: 10px;
+  margin-bottom: 2rem !important;
 }
 #benefits .title-benefits .img-text {
   display: inline-block;
-  width: 6rem;
-  margin-top: -5px;
+  width: 10rem;
+  margin-top: -6px;
 }
 #benefits .sub-title-benefits {
   color: black;
@@ -238,40 +254,89 @@ body section.section-primary {
   line-height: 2rem;
   font-weight: 500;
   letter-spacing: normal;
+  margin-bottom: 2rem;
 }
 #benefits .sub-title-benefits .img-text {
   display: inline-block;
-  width: 4rem;
+  width: 5rem;
   margin-top: -5px;
 }
-#benefits .text-carousel {
-  margin-bottom: 0.5px;
+#benefits .nav-pills .nav-link {
+  padding: 1.5rem 0.5rem 1.5rem 0.5rem;
+  border-radius: 0px;
+  text-decoration: none;
+  transition: all 0.4s linear;
+  text-align: center;
 }
-#benefits .text-carousel h2 {
-  color: #ff6601 !important;
-  font-size: 1.5rem !important;
-  line-height: 2rem;
-  margin: 0px;
-  text-justify: inter-word !important;
-  width: 100% !important;
-  letter-spacing: 0.1px;
+#benefits .nav-pills .nav-link i {
+  font-size: 3rem;
+  text-align: center;
+  color: #000000;
   margin-bottom: 10px;
 }
-#benefits .text-carousel p {
-  color: #393d32 !important;
-  font-size: 1rem !important;
+#benefits .nav-pills .nav-link p {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #ff6601;
+  text-align: center;
   line-height: 2rem;
-  font-weight: 500;
-  margin: 0px;
-  text-align: center !important;
-  text-justify: inter-word !important;
-  width: 100% !important;
-  letter-spacing: normal;
+  margin-bottom: 0px;
 }
-#benefits .text-carousel p .img-text {
+#benefits .nav-pills .nav-link.active {
+  padding: 1.5rem 0.5rem 1.5rem 0.5rem;
+  text-decoration: none;
+  background-color: #ff6601;
+}
+#benefits .nav-pills .nav-link.active i {
+  font-size: 3rem;
+  text-align: center;
+  color: whitesmoke;
+  margin-bottom: 10px;
+}
+#benefits .nav-pills .nav-link.active p {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: whitesmoke;
+  text-align: center;
+  line-height: 2rem;
+  margin-bottom: 0px;
+}
+#benefits .tab-content {
+  border-radius: 0px;
+  padding-bottom: 3rem;
+}
+#benefits .tab-content .tab-pane {
+  text-align: center;
+}
+#benefits .tab-content .tab-pane h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0px;
+  text-transform: none;
+  line-height: 2rem;
+  font-weight: 400 !important;
+}
+#benefits .tab-content .tab-pane h3 .img-text {
   display: inline-block;
-  width: 4rem;
-  margin-top: -5px;
+  width: 5.5rem;
+  margin-top: -4px;
+}
+#benefits .tab-content .tab-pane h4 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-weight: 500;
+}
+#benefits .tab-content .tab-pane h4 .img-text {
+  display: inline-block;
+  width: 5rem;
+  margin-top: -4px;
+}
+#benefits .tab-content .tab-pane p {
+  font-size: 1rem;
+  color: black;
+  font-weight: 500;
+  line-height: 2rem;
+  margin-bottom: 0px;
 }
 @media screen and (min-width: 768px) {
   #benefits .title-benefits {
@@ -280,7 +345,7 @@ body section.section-primary {
     line-height: 2rem !important;
     font-weight: 700;
     letter-spacing: normal;
-    margin-bottom: 0.5rem !important;
+    margin-bottom: 2rem !important;
   }
   #benefits .title-benefits .img-text {
     display: inline-block;
@@ -293,104 +358,92 @@ body section.section-primary {
     line-height: 2rem;
     font-weight: 500;
     letter-spacing: normal;
+    margin-bottom: 2rem;
   }
   #benefits .sub-title-benefits .img-text {
     display: inline-block;
     width: 6rem;
     margin-top: -4px;
   }
-  #benefits .text-carousel {
-    margin-bottom: 0.5px;
+  #benefits .nav-pills {
+    margin-bottom: 10px;
   }
-  #benefits .text-carousel h2 {
-    color: #ff6601 !important;
-    font-size: 1.4rem !important;
-    margin: 0px;
+  #benefits .nav-pills .nav-link {
+    padding: 1.5rem 0.5rem 1.5rem 0.5rem;
+    border-radius: 0px;
+    text-decoration: none;
+    transition: all 0.4s linear;
+  }
+  #benefits .nav-pills .nav-link i {
+    font-size: 5rem;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  #benefits .nav-pills .nav-link p {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #ff6601;
+    text-align: center;
     line-height: 2rem;
-    text-justify: inter-word !important;
-    width: 100% !important;
-    letter-spacing: 0.1px;
+    margin-bottom: 0px;
   }
-  #benefits .text-carousel p {
-    color: #393d32 !important;
-    font-size: 1rem !important;
+  #benefits .nav-pills .nav-link.active {
+    padding: 1.5rem 0.5rem 1.5rem 0.5rem;
+    text-decoration: none;
+    background-color: #ff6601;
+  }
+  #benefits .nav-pills .nav-link.active i {
+    font-size: 5rem;
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 10px;
+  }
+  #benefits .nav-pills .nav-link.active p {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: whitesmoke;
+    text-align: center;
+    line-height: 2rem;
+    margin-bottom: 0px;
+  }
+  #benefits .tab-content {
+    border-radius: 0px;
+    padding-bottom: 3rem;
+  }
+  #benefits .tab-content .tab-pane {
+    text-align: center;
+  }
+  #benefits .tab-content .tab-pane h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+    text-transform: none;
+    line-height: 2rem;
+    font-weight: 400 !important;
+  }
+  #benefits .tab-content .tab-pane h3 .img-text {
+    display: inline-block;
+    width: 5.5rem;
+    margin-top: -4px;
+  }
+  #benefits .tab-content .tab-pane h4 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 0px;
     font-weight: 500;
-    margin: 0px;
-    text-align: justify !important;
-    text-justify: inter-word !important;
-    width: 100% !important;
-    letter-spacing: 0.2px;
   }
-  #benefits .text-carousel p .img-text {
+  #benefits .tab-content .tab-pane h4 .img-text {
     display: inline-block;
     width: 5rem;
     margin-top: -4px;
   }
-}
-
-#applications .title-applications {
-  color: black;
-  font-size: 1.5rem;
-  line-height: 2rem;
-  font-weight: 700;
-  letter-spacing: normal;
-  margin-bottom: 7px !important;
-}
-#applications .sub-title-applications {
-  color: black;
-  font-size: 1rem;
-  line-height: 2rem;
-  font-weight: 500;
-  letter-spacing: normal;
-}
-#applications .sub-title-applications .img-text {
-  display: inline-block;
-  width: 4rem;
-  margin-top: -5px;
-}
-@media screen and (min-width: 768px) {
-  #applications .title-applications {
+  #benefits .tab-content .tab-pane p {
+    font-size: 1rem;
     color: black;
-    font-size: 2.3rem;
-    font-weight: 700;
-    line-height: 2rem;
-    letter-spacing: normal;
-    margin-bottom: 0.5rem !important;
-  }
-  #applications .sub-title-applications {
-    color: black;
-    font-size: 1.2rem;
     font-weight: 500;
-    line-height: normal;
-    letter-spacing: normal;
+    line-height: 2rem;
+    margin-bottom: 0px;
   }
-  #applications .sub-title-applications .img-text {
-    display: inline-block;
-    width: 6rem;
-    margin-top: -4px;
-  }
-}
-#applications .svg-wrapper {
-  width: 25% !important;
-  height: auto;
-  min-height: 70px;
-  margin-bottom: 10px;
-}
-#applications .application-point-title {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.4rem;
-  font-weight: 700;
-  color: #ff6601;
-  text-align: center;
-  margin-bottom: 10px;
-  line-height: 2rem;
-}
-#applications .application-point-sub-title {
-  font-size: 1rem;
-  font-weight: 500;
-  color: black;
-  text-align: center;
-  line-height: 2rem;
 }
 
 #certificates {
@@ -446,7 +499,7 @@ body section.section-primary {
   background-color: #393d32 !important;
 }
 #about-us .card-blur {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.7);
   padding: 2rem;
   border-radius: 25px;
 }
@@ -486,13 +539,13 @@ body section.section-primary {
   }
   #about-us .sub-title-about-us p .img-text {
     display: inline-block;
-    width: 5rem;
+    width: 5.5rem;
     margin-top: 0px;
   }
 }
 
 #mission .mission-image {
-  background: white url("../img/img-mission.png") no-repeat;
+  background: white url("../img/coconut-nipanan-lifestyle-unsplash.jpg") no-repeat;
   background-position: center !important;
   background-size: contain;
   height: 400px;
@@ -504,8 +557,8 @@ body section.section-primary {
   }
 }
 #mission .vision-image {
-  background: white url("../img/img-vision.png") no-repeat;
-  background-position: center !important;
+  background: white url("../img/Coconut+Sap+2.jpg") no-repeat;
+  background-position: left center !important;
   background-size: contain;
   height: 400px;
 }
@@ -559,7 +612,7 @@ body section.section-primary {
   }
   #mission .sub-title-mission .img-text {
     display: inline-block;
-    width: 4rem;
+    width: 5rem;
     margin-top: -5px;
   }
 }
@@ -575,6 +628,14 @@ body section.section-primary {
   font-weight: 400;
   color: white;
   text-align: center;
+}
+#footer p.title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: white;
+  line-height: 1.5rem;
+  margin-top: 1rem;
 }
 #footer ul li {
   font-size: 1rem !important;
