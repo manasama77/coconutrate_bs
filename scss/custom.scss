@@ -823,7 +823,7 @@ body {
   }
 }
 
-#our-story {
+#our-innovation {
   margin-bottom: 0px !important;
   background-color: $secondary !important;
 
@@ -833,7 +833,7 @@ body {
     backdrop-filter: blur(4px);
   }
 
-  .title-our-story {
+  .title-our-innovation {
     text-align: center;
     font-size: 1.5rem !important;
     font-weight: 700 !important;
@@ -841,7 +841,7 @@ body {
     color: $primary !important;
   }
 
-  .sub-title-our-story {
+  .sub-title-our-innovation {
     p {
       color: white;
       font-size: 1rem;
@@ -858,7 +858,7 @@ body {
   }
 
   @media screen and (min-width: 768px) {
-    .title-our-story {
+    .title-our-innovation {
       text-align: center;
       font-size: 2.3rem !important;
       font-weight: 700 !important;
@@ -866,7 +866,7 @@ body {
       color: $primary !important;
     }
 
-    .sub-title-our-story {
+    .sub-title-our-innovation {
       p {
         color: white;
         font-size: 1.2rem;
@@ -884,8 +884,8 @@ body {
   }
 }
 
-#story-1 {
-  .story-1-image {
+#innovation-1 {
+  .innovation-1-image {
     background: white url("../img/IMAGE-3.jpg") no-repeat;
     background-position: center !important;
     background-size: cover;
@@ -897,7 +897,7 @@ body {
     }
   }
 
-  .title-story-1 {
+  .title-innovation-1 {
     text-align: center;
     font-size: 1.5rem !important;
     line-height: 2rem !important;
@@ -907,7 +907,7 @@ body {
     margin: 1rem 0rem 1rem 0rem;
   }
 
-  .sub-title-story-1 {
+  .sub-title-innovation-1 {
     color: black;
     font-size: 1rem;
     font-weight: 500;
@@ -922,7 +922,7 @@ body {
   }
 
   @media screen and (min-width: 768px) {
-    .title-story-1 {
+    .title-innovation-1 {
       text-align: center;
       font-size: 2.3rem !important;
       font-weight: 700 !important;
@@ -931,7 +931,7 @@ body {
       line-height: 2rem !important;
     }
 
-    .sub-title-story-1 {
+    .sub-title-innovation-1 {
       color: black;
       font-size: 1.2rem;
       font-weight: 500;
@@ -951,11 +951,11 @@ body {
   }
 }
 
-#story-2 {
+#innovation-2 {
   margin-bottom: 0px !important;
   background-color: $secondary !important;
 
-  .title-story-2 {
+  .title-innovation-2 {
     text-align: center;
     font-size: 1.5rem !important;
     line-height: 2rem;
@@ -965,7 +965,7 @@ body {
     margin: 1rem 0rem 1rem 0rem;
   }
 
-  .sub-title-story-2 {
+  .sub-title-innovation-2 {
     color: white;
     font-size: 1rem;
     font-weight: 500;
@@ -981,7 +981,7 @@ body {
   }
 
   @media screen and (min-width: 768px) {
-    .title-story-2 {
+    .title-innovation-2 {
       text-align: center;
       font-size: 2.3rem !important;
       font-weight: 700 !important;
@@ -991,7 +991,7 @@ body {
       margin: 1rem 0rem 1rem 0rem;
     }
 
-    .sub-title-story-2 {
+    .sub-title-innovation-2 {
       color: white;
       font-size: 1.2rem;
       font-weight: 500;
@@ -1014,7 +1014,7 @@ body {
   .title-our-method {
     text-align: center;
     font-size: 1.5rem !important;
-    line-height: 2rem !important;
+    line-height: 1.5rem !important;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
     color: $primary !important;
@@ -1027,7 +1027,152 @@ body {
       font-weight: 700 !important;
       letter-spacing: 1px !important;
       color: $primary !important;
+      line-height: 2.6rem !important;
     }
+  }
+}
+
+#icon-section {
+  padding: 2rem;
+  min-height: 48vw;
+
+  .icon-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .icon-button {
+      height: 13vw;
+
+      .icon-pack {
+        max-width: 10vw;
+      }
+
+      img {
+        margin-left: 50%;
+        transform: translateX(-50%);
+        transition: all 0.2s ease-in-out;
+      }
+
+      img:hover {
+        filter: drop-shadow(1px 2px 2px #3e3e3e);
+      }
+
+      p {
+        width: 10vw;
+        text-align: center;
+        color: black;
+        font-size: 0.8vw;
+        word-wrap: break-word;
+        font-weight: 600;
+        line-height: 1vw;
+        margin-top: 10px;
+      }
+    }
+
+    .icon-arrow {
+      margin-top: 1vw;
+      max-width: 8vw;
+      height: 8vw;
+    }
+
+    .icon-arrow-turn-down {
+      margin-top: 5vw;
+      margin-right: 2vw;
+      max-width: 8vw;
+      height: 8vw;
+    }
+  }
+
+  .icon-group-middle {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: end;
+    padding-top: 1vw;
+
+    .icon-button {
+      height: 13vw;
+
+      .icon-pack {
+        max-width: 10vw;
+      }
+
+      img {
+        margin-left: 50%;
+        transform: translateX(-50%);
+        transition: all 0.2s ease-in-out;
+      }
+
+      img:hover {
+        filter: drop-shadow(1px 2px 2px #3e3e3e);
+      }
+
+      p {
+        width: 10vw;
+        text-align: center;
+        color: black;
+        font-size: 0.8vw;
+        word-wrap: break-word;
+        font-weight: 600;
+        line-height: 1vw;
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .icon-group-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .icon-button {
+      height: 13vw;
+
+      .icon-pack {
+        max-width: 10vw;
+      }
+
+      img {
+        margin-left: 50%;
+        transform: translateX(-50%);
+        transition: all 0.2s ease-in-out;
+      }
+
+      img:hover {
+        filter: drop-shadow(1px 2px 2px #3e3e3e);
+      }
+
+      p {
+        width: 10vw;
+        text-align: center;
+        color: black;
+        font-size: 0.8vw;
+        word-wrap: break-word;
+        font-weight: 600;
+        line-height: 1vw;
+        margin-top: 10px;
+      }
+    }
+
+    .icon-arrow {
+      margin-top: 1vw;
+      max-width: 8vw;
+      height: 8vw;
+    }
+
+    .icon-arrow-turn-down-left {
+      margin-top: 0vw;
+      margin-right: 1vw;
+      max-width: 8vw;
+      height: 8vw;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
   }
 }
 
@@ -1168,8 +1313,8 @@ body {
   }
 }
 
-#compete-system {
-  .title-compete-system {
+#complete-system {
+  .title-complete-system {
     color: black;
     font-size: 1.5rem;
     font-weight: 700;
@@ -1179,7 +1324,7 @@ body {
 
     .img-text {
       display: inline-block;
-      width: 8rem;
+      width: 7rem;
       margin-top: 0px;
     }
   }
@@ -1211,7 +1356,7 @@ body {
   }
 
   @media screen and (min-width: 768px) {
-    .title-compete-system {
+    .title-complete-system {
       color: black;
       font-size: 2.6rem;
       font-weight: 700;

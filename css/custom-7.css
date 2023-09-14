@@ -687,69 +687,69 @@ body section.section-primary {
   font-size: 1rem;
 }
 
-#our-story {
+#our-innovation {
   margin-bottom: 0px !important;
   background-color: #393d32 !important;
 }
-#our-story .card-blur {
+#our-innovation .card-blur {
   background-color: rgba(0, 0, 0, 0.6);
   padding: 2rem;
   backdrop-filter: blur(4px);
 }
-#our-story .title-our-story {
+#our-innovation .title-our-innovation {
   text-align: center;
   font-size: 1.5rem !important;
   font-weight: 700 !important;
   letter-spacing: 1px !important;
   color: #ff6601 !important;
 }
-#our-story .sub-title-our-story p {
+#our-innovation .sub-title-our-innovation p {
   color: white;
   font-size: 1rem;
   font-weight: 500;
   line-height: 2rem;
   letter-spacing: normal;
 }
-#our-story .sub-title-our-story p .img-text {
+#our-innovation .sub-title-our-innovation p .img-text {
   display: inline-block;
   width: 4rem;
   margin-top: -5px;
 }
 @media screen and (min-width: 768px) {
-  #our-story .title-our-story {
+  #our-innovation .title-our-innovation {
     text-align: center;
     font-size: 2.3rem !important;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
     color: #ff6601 !important;
   }
-  #our-story .sub-title-our-story p {
+  #our-innovation .sub-title-our-innovation p {
     color: white;
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 2rem;
     letter-spacing: normal;
   }
-  #our-story .sub-title-our-story p .img-text {
+  #our-innovation .sub-title-our-innovation p .img-text {
     display: inline-block;
     width: 5rem;
     margin-top: 0px;
   }
 }
 
-#story-1 .story-1-image {
+#innovation-1 .innovation-1-image {
   background: white url("../img/IMAGE-3.jpg") no-repeat;
   background-position: center !important;
   background-size: cover;
   height: 300px;
 }
 @media screen and (min-width: 768px) {
-  #story-1 .story-1-image {
+  #innovation-1 .innovation-1-image {
     background-size: cover;
     height: 500px;
   }
 }
-#story-1 .title-story-1 {
+#innovation-1 .title-innovation-1 {
   text-align: center;
   font-size: 1.5rem !important;
   line-height: 2rem !important;
@@ -758,20 +758,20 @@ body section.section-primary {
   color: #ff6601 !important;
   margin: 1rem 0rem 1rem 0rem;
 }
-#story-1 .sub-title-story-1 {
+#innovation-1 .sub-title-innovation-1 {
   color: black;
   font-size: 1rem;
   font-weight: 500;
   letter-spacing: normal;
   line-height: 2rem !important;
 }
-#story-1 .sub-title-story-1 .img-text {
+#innovation-1 .sub-title-innovation-1 .img-text {
   display: inline-block;
   width: 4rem;
   margin-top: -5px;
 }
 @media screen and (min-width: 768px) {
-  #story-1 .title-story-1 {
+  #innovation-1 .title-innovation-1 {
     text-align: center;
     font-size: 2.3rem !important;
     font-weight: 700 !important;
@@ -779,28 +779,28 @@ body section.section-primary {
     color: #ff6601 !important;
     line-height: 2rem !important;
   }
-  #story-1 .sub-title-story-1 {
+  #innovation-1 .sub-title-innovation-1 {
     color: black;
     font-size: 1.2rem;
     font-weight: 500;
     letter-spacing: normal;
     line-height: 2rem !important;
   }
-  #story-1 .sub-title-story-1 li {
+  #innovation-1 .sub-title-innovation-1 li {
     line-height: 2rem !important;
   }
-  #story-1 .sub-title-story-1 .img-text {
+  #innovation-1 .sub-title-innovation-1 .img-text {
     display: inline-block;
     width: 4rem;
     margin-top: -5px;
   }
 }
 
-#story-2 {
+#innovation-2 {
   margin-bottom: 0px !important;
   background-color: #393d32 !important;
 }
-#story-2 .title-story-2 {
+#innovation-2 .title-innovation-2 {
   text-align: center;
   font-size: 1.5rem !important;
   line-height: 2rem;
@@ -809,7 +809,7 @@ body section.section-primary {
   color: #ff6601 !important;
   margin: 1rem 0rem 1rem 0rem;
 }
-#story-2 .sub-title-story-2 {
+#innovation-2 .sub-title-innovation-2 {
   color: white;
   font-size: 1rem;
   font-weight: 500;
@@ -817,13 +817,13 @@ body section.section-primary {
   letter-spacing: normal;
   margin-bottom: 0px;
 }
-#story-2 .sub-title-story-2 .img-text {
+#innovation-2 .sub-title-innovation-2 .img-text {
   display: inline-block;
   width: 5rem;
   margin-top: -5px;
 }
 @media screen and (min-width: 768px) {
-  #story-2 .title-story-2 {
+  #innovation-2 .title-innovation-2 {
     text-align: center;
     font-size: 2.3rem !important;
     font-weight: 700 !important;
@@ -832,14 +832,14 @@ body section.section-primary {
     line-height: 2rem;
     margin: 1rem 0rem 1rem 0rem;
   }
-  #story-2 .sub-title-story-2 {
+  #innovation-2 .sub-title-innovation-2 {
     color: white;
     font-size: 1.2rem;
     font-weight: 500;
     line-height: 2rem;
     letter-spacing: normal;
   }
-  #story-2 .sub-title-story-2 .img-text {
+  #innovation-2 .sub-title-innovation-2 .img-text {
     display: inline-block;
     width: 6rem;
     margin-top: -4px;
@@ -853,7 +853,7 @@ body section.section-primary {
 #our-method .title-our-method {
   text-align: center;
   font-size: 1.5rem !important;
-  line-height: 2rem !important;
+  line-height: 1.5rem !important;
   font-weight: 700 !important;
   letter-spacing: 1px !important;
   color: #ff6601 !important;
@@ -865,9 +865,128 @@ body section.section-primary {
     font-weight: 700 !important;
     letter-spacing: 1px !important;
     color: #ff6601 !important;
+    line-height: 2.6rem !important;
   }
 }
 
+#icon-section {
+  padding: 2rem;
+  min-height: 48vw;
+}
+#icon-section .icon-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#icon-section .icon-group .icon-button {
+  height: 13vw;
+}
+#icon-section .icon-group .icon-button .icon-pack {
+  max-width: 10vw;
+}
+#icon-section .icon-group .icon-button img {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  transition: all 0.2s ease-in-out;
+}
+#icon-section .icon-group .icon-button img:hover {
+  filter: drop-shadow(1px 2px 2px #3e3e3e);
+}
+#icon-section .icon-group .icon-button p {
+  width: 10vw;
+  text-align: center;
+  color: black;
+  font-size: 0.8vw;
+  word-wrap: break-word;
+  font-weight: 600;
+  line-height: 1vw;
+  margin-top: 10px;
+}
+#icon-section .icon-group .icon-arrow {
+  margin-top: 1vw;
+  max-width: 8vw;
+  height: 8vw;
+}
+#icon-section .icon-group .icon-arrow-turn-down {
+  margin-top: 5vw;
+  margin-right: 2vw;
+  max-width: 8vw;
+  height: 8vw;
+}
+#icon-section .icon-group-middle {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: end;
+  align-items: end;
+  padding-top: 1vw;
+}
+#icon-section .icon-group-middle .icon-button {
+  height: 13vw;
+}
+#icon-section .icon-group-middle .icon-button .icon-pack {
+  max-width: 10vw;
+}
+#icon-section .icon-group-middle .icon-button img {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  transition: all 0.2s ease-in-out;
+}
+#icon-section .icon-group-middle .icon-button img:hover {
+  filter: drop-shadow(1px 2px 2px #3e3e3e);
+}
+#icon-section .icon-group-middle .icon-button p {
+  width: 10vw;
+  text-align: center;
+  color: black;
+  font-size: 0.8vw;
+  word-wrap: break-word;
+  font-weight: 600;
+  line-height: 1vw;
+  margin-top: 10px;
+}
+#icon-section .icon-group-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#icon-section .icon-group-reverse .icon-button {
+  height: 13vw;
+}
+#icon-section .icon-group-reverse .icon-button .icon-pack {
+  max-width: 10vw;
+}
+#icon-section .icon-group-reverse .icon-button img {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  transition: all 0.2s ease-in-out;
+}
+#icon-section .icon-group-reverse .icon-button img:hover {
+  filter: drop-shadow(1px 2px 2px #3e3e3e);
+}
+#icon-section .icon-group-reverse .icon-button p {
+  width: 10vw;
+  text-align: center;
+  color: black;
+  font-size: 0.8vw;
+  word-wrap: break-word;
+  font-weight: 600;
+  line-height: 1vw;
+  margin-top: 10px;
+}
+#icon-section .icon-group-reverse .icon-arrow {
+  margin-top: 1vw;
+  max-width: 8vw;
+  height: 8vw;
+}
+#icon-section .icon-group-reverse .icon-arrow-turn-down-left {
+  margin-top: 0vw;
+  margin-right: 1vw;
+  max-width: 8vw;
+  height: 8vw;
+}
 .timeline {
   background-color: #f1f3ee;
   margin: 0px !important;
@@ -980,7 +1099,7 @@ body section.section-primary {
   color: black !important;
 }
 
-#compete-system .title-compete-system {
+#complete-system .title-complete-system {
   color: black;
   font-size: 1.5rem;
   font-weight: 700;
@@ -988,12 +1107,12 @@ body section.section-primary {
   letter-spacing: normal;
   text-align: center;
 }
-#compete-system .title-compete-system .img-text {
+#complete-system .title-complete-system .img-text {
   display: inline-block;
-  width: 8rem;
+  width: 7rem;
   margin-top: 0px;
 }
-#compete-system p {
+#complete-system p {
   font-weight: 500 !important;
   letter-spacing: normal;
   text-align: left;
@@ -1001,14 +1120,14 @@ body section.section-primary {
   font-size: 1rem;
   line-height: 2rem;
 }
-#compete-system p .img-text {
+#complete-system p .img-text {
   display: inline-block;
   width: 4rem;
   margin-top: -5px;
   margin-left: 3px;
   margin-right: 3px;
 }
-#compete-system ul > li {
+#complete-system ul > li {
   font-weight: 500 !important;
   letter-spacing: normal;
   text-align: left;
@@ -1017,7 +1136,7 @@ body section.section-primary {
   line-height: 2rem;
 }
 @media screen and (min-width: 768px) {
-  #compete-system .title-compete-system {
+  #complete-system .title-complete-system {
     color: black;
     font-size: 2.6rem;
     font-weight: 700;
@@ -1025,12 +1144,12 @@ body section.section-primary {
     letter-spacing: normal;
     text-align: center;
   }
-  #compete-system .title-compete-system .img-text {
+  #complete-system .title-complete-system .img-text {
     display: inline-block;
     width: 10rem;
     margin-top: -8px;
   }
-  #compete-system p {
+  #complete-system p {
     font-weight: 500 !important;
     letter-spacing: normal;
     text-align: left;
@@ -1038,14 +1157,14 @@ body section.section-primary {
     font-size: 1.2rem;
     line-height: 2rem;
   }
-  #compete-system p .img-text {
+  #complete-system p .img-text {
     display: inline-block;
     width: 5rem;
     margin-top: -4px;
     margin-left: 3px;
     margin-right: 3px;
   }
-  #compete-system ul > li {
+  #complete-system ul > li {
     font-weight: 500 !important;
     letter-spacing: normal;
     text-align: left;

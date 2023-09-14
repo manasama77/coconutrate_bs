@@ -17281,7 +17281,7 @@ section.timeline:before {
 	left: 50%;
 	margin-left: -2px;
 	position: absolute;
-	top: -60px;
+	top: -20px;
 	width: 3px;
 	z-index: 0;
 	filter: alpha(opacity=35);
