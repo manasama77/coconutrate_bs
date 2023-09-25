@@ -190,57 +190,105 @@ body {
   }
 }
 
-#discover-our-method {
-  background-color: $base;
-  padding-top: 50px;
-  padding-bottom: 50px;
+// #discover-our-method {
+//   background-color: $base;
+//   padding-top: 50px;
+//   padding-bottom: 50px;
 
-  .img-text {
-    display: inline-block;
-    width: 5rem;
-    margin-top: -5px;
+//   .img-text {
+//     display: inline-block;
+//     width: 5rem;
+//     margin-top: -5px;
+//   }
+
+//   .title-discover-method {
+//     font-size: 1rem;
+//     font-weight: 500;
+//     line-height: 2rem;
+//     letter-spacing: normal;
+//   }
+
+//   @media screen and (min-width: 768px) {
+//     .img-text {
+//       display: inline-block;
+//       width: 8rem;
+//       margin-top: -8px;
+//     }
+
+//     .title-discover-method {
+//       font-size: 2rem;
+//       font-weight: 500;
+//       line-height: 2.5rem;
+//       letter-spacing: normal;
+//     }
+//   }
+
+//   .btn-primary {
+//     background-color: $btn-primary !important;
+//     border-color: $btn-border-1 $btn-border-1 $btn-border-2 !important;
+//     font-size: 1.1rem;
+//     font-weight: 500;
+//     transition: all 0.2s ease, visibility 0s;
+//     min-width: 10px;
+//     width: 262px;
+//     height: 40px;
+//     border-radius: 0;
+//     padding-top: 5px;
+//     letter-spacing: 2px;
+//   }
+
+//   .btn-primary:hover {
+//     background-color: transparent !important;
+//     border-color: black !important;
+//     color: black !important;
+//   }
+// }
+
+#discover-our-method {
+  .discover-our-method-image {
+    background: white url("../img/intro-img.webp") no-repeat;
+    background-position: top center !important;
+    background-size: cover;
+    height: 400px;
+
+    @media screen and (min-width: 768px) {
+      background-position: center !important;
+      background-size: cover;
+      height: 500px;
+    }
   }
 
-  .title-discover-method {
-    font-size: 1rem;
+  .sub-title-discover-our-method {
+    color: black;
+    font-size: 1rem !important;
+    line-height: 2rem !important;
     font-weight: 500;
-    line-height: 2rem;
     letter-spacing: normal;
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+
+    .img-text {
+      display: inline-block;
+      width: 6rem;
+      margin-top: -4px;
+    }
   }
 
   @media screen and (min-width: 768px) {
-    .img-text {
-      display: inline-block;
-      width: 8rem;
-      margin-top: -8px;
-    }
-
-    .title-discover-method {
-      font-size: 2rem;
+    .sub-title-discover-our-method {
+      color: black;
+      font-size: 1.2rem !important;
+      line-height: 2rem !important;
       font-weight: 500;
-      line-height: 2.5rem;
       letter-spacing: normal;
+      margin-bottom: 2rem !important;
+
+      .img-text {
+        display: inline-block;
+        width: 6rem;
+        margin-top: -4px;
+      }
     }
-  }
-
-  .btn-primary {
-    background-color: $btn-primary !important;
-    border-color: $btn-border-1 $btn-border-1 $btn-border-2 !important;
-    font-size: 1.1rem;
-    font-weight: 500;
-    transition: all 0.2s ease, visibility 0s;
-    min-width: 10px;
-    width: 262px;
-    height: 40px;
-    border-radius: 0;
-    padding-top: 5px;
-    letter-spacing: 2px;
-  }
-
-  .btn-primary:hover {
-    background-color: transparent !important;
-    border-color: black !important;
-    color: black !important;
   }
 }
 
