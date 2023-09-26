@@ -499,7 +499,7 @@ body section.section-primary {
   background-color: #393d32 !important;
 }
 #about-us .card-blur {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.8);
   padding: 2rem;
   backdrop-filter: blur(2px);
 }
@@ -692,7 +692,7 @@ body section.section-primary {
   background-color: #393d32 !important;
 }
 #our-innovation .card-blur {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.8);
   padding: 2rem;
   backdrop-filter: blur(2px);
 }
