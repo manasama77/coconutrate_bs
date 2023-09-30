@@ -24,7 +24,7 @@ body section.section-primary {
   border: 1px solid #cd5200 !important;
   letter-spacing: normal;
   font-weight: 700 !important;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .btn-primary:hover {
@@ -152,7 +152,7 @@ body section.section-primary {
 }
 
 #discover-our-method .discover-our-method-image {
-  background: white url("../img/intro-img.webp") no-repeat;
+  background: white url("../img/IMAGEX.jpg") no-repeat;
   background-position: top center !important;
   background-size: cover;
   height: 400px;
@@ -166,7 +166,7 @@ body section.section-primary {
 }
 #discover-our-method .sub-title-discover-our-method {
   color: black;
-  font-size: 1rem !important;
+  font-size: 1.2rem !important;
   line-height: 2rem !important;
   font-weight: 500;
   letter-spacing: normal;
@@ -198,24 +198,27 @@ body section.section-primary {
   margin-top: 0px;
 }
 #we-care .title-pos {
+  font-family: "Montserrat", sans-serif;
+  color: #ff6601 !important;
   text-align: center;
   font-size: 2.3rem !important;
   line-height: 2.3rem;
   font-weight: 700 !important;
-  letter-spacing: 1px !important;
-  color: #ff6601 !important;
+  letter-spacing: normal !important;
 }
 #we-care .list-pos {
   padding: 0 0px;
 }
 #we-care .list-pos p {
+  font-family: "Montserrat", sans-serif;
   color: white !important;
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 2rem;
   font-weight: 500;
 }
 @media screen and (min-width: 768px) {
   #we-care .title-pos {
+    font-family: "Montserrat", sans-serif;
     text-align: center;
     font-size: 2.3rem !important;
     font-weight: 700 !important;
@@ -240,12 +243,12 @@ body section.section-primary {
 }
 #benefits .title-benefits .img-text {
   display: inline-block;
-  width: 10rem;
-  margin-top: -6px;
+  width: 9rem;
+  margin-top: 0px;
 }
 #benefits .sub-title-benefits {
   color: black;
-  font-size: 1rem !important;
+  font-size: 1.2rem !important;
   line-height: 2rem;
   font-weight: 500;
   letter-spacing: normal;
@@ -304,12 +307,13 @@ body section.section-primary {
   text-align: center;
 }
 #benefits .tab-content .tab-pane h1 {
-  font-size: 2rem;
+  font-size: 2.3rem;
   font-weight: 700;
   text-decoration: underline;
+  color: black;
 }
 #benefits .tab-content .tab-pane h3 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-bottom: 0px;
   text-transform: none;
   line-height: 2rem;
@@ -332,7 +336,7 @@ body section.section-primary {
   margin-top: -4px;
 }
 #benefits .tab-content .tab-pane p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: black;
   font-weight: 500;
   line-height: 2rem;
@@ -414,8 +418,13 @@ body section.section-primary {
   #benefits .tab-content .tab-pane {
     text-align: center;
   }
+  #benefits .tab-content .tab-pane h1 {
+    font-size: 2.3rem;
+    font-weight: 700;
+    text-decoration: underline;
+  }
   #benefits .tab-content .tab-pane h3 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-bottom: 0px;
     text-transform: none;
     line-height: 2rem;
@@ -427,6 +436,7 @@ body section.section-primary {
     margin-top: -4px;
   }
   #benefits .tab-content .tab-pane h4 {
+    font-family: "Montserrat", sans-serif;
     font-size: 1.2rem;
     margin-top: 10px;
     margin-bottom: 0px;
@@ -438,7 +448,8 @@ body section.section-primary {
     margin-top: -4px;
   }
   #benefits .tab-content .tab-pane p {
-    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
     color: black;
     font-weight: 500;
     line-height: 2rem;
@@ -452,7 +463,7 @@ body section.section-primary {
 }
 #certificates .title-certificates {
   text-align: center;
-  font-size: 1.5rem !important;
+  font-size: 2.3rem !important;
   line-height: 2rem;
   font-weight: 700 !important;
   letter-spacing: 1px !important;
@@ -460,7 +471,7 @@ body section.section-primary {
 }
 #certificates .sub-title-certificates {
   color: white;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 500;
   line-height: 2rem;
   letter-spacing: normal;
@@ -505,22 +516,22 @@ body section.section-primary {
 }
 #about-us .title-about-us {
   text-align: center;
-  font-size: 1.5rem !important;
+  font-size: 2.3rem !important;
   font-weight: 700 !important;
   letter-spacing: 1px !important;
   color: #ff6601 !important;
 }
 #about-us .sub-title-about-us p {
   color: white;
-  font-size: 1rem;
-  font-weight: 500;
-  line-height: 2rem;
+  font-size: 1.2rem !important;
+  font-weight: 400 !important;
+  line-height: 2.3rem;
   letter-spacing: normal;
 }
 #about-us .sub-title-about-us p .img-text {
   display: inline-block;
-  width: 4rem;
-  margin-top: -5px;
+  width: 6rem;
+  margin-top: -4px;
 }
 @media screen and (min-width: 768px) {
   #about-us .title-about-us {
@@ -547,8 +558,8 @@ body section.section-primary {
 #mission .mission-image {
   background: white url("../img/bg-mission.webp") no-repeat;
   background-position: center !important;
-  background-size: contain;
-  height: 400px;
+  background-size: cover;
+  height: 300px;
 }
 @media screen and (min-width: 768px) {
   #mission .mission-image {
@@ -559,8 +570,8 @@ body section.section-primary {
 #mission .vision-image {
   background: white url("../img/bg-vision.webp") no-repeat;
   background-position: 0px top !important;
-  background-size: contain;
-  height: 500px;
+  background-size: cover;
+  height: 300px;
 }
 @media screen and (min-width: 768px) {
   #mission .vision-image {
@@ -570,8 +581,8 @@ body section.section-primary {
 }
 #mission .title-mission {
   text-align: center;
-  font-size: 1.5rem !important;
-  line-height: 2rem !important;
+  font-size: 2.3rem !important;
+  line-height: 2.3rem !important;
   font-weight: 700 !important;
   letter-spacing: 1px !important;
   color: #ff6601 !important;
@@ -579,17 +590,18 @@ body section.section-primary {
 }
 #mission .sub-title-mission {
   color: black;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 500;
   letter-spacing: normal;
+  line-height: 2rem;
 }
 #mission .sub-title-mission li {
   line-height: 2rem !important;
 }
 #mission .sub-title-mission .img-text {
   display: inline-block;
-  width: 4rem;
-  margin-top: -5px;
+  width: 6rem;
+  margin-top: -4px;
 }
 @media screen and (min-width: 768px) {
   #mission .title-mission {
@@ -624,14 +636,14 @@ body section.section-primary {
 }
 #footer .title {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 400;
   color: white;
   text-align: center;
 }
 #footer p.title {
   font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 400;
   color: white;
   line-height: 1.5rem;
@@ -655,7 +667,7 @@ body section.section-primary {
 @media screen and (min-width: 768px) {
   #footer .title {
     font-family: "Montserrat", sans-serif !important;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 400;
     color: white;
     text-align: left;
@@ -698,15 +710,15 @@ body section.section-primary {
 }
 #our-innovation .title-our-innovation {
   text-align: center;
-  font-size: 1.5rem !important;
+  font-size: 2.3rem !important;
   font-weight: 700 !important;
-  letter-spacing: 1px !important;
+  letter-spacing: normal !important;
   color: #ff6601 !important;
 }
 #our-innovation .sub-title-our-innovation p {
   color: white;
-  font-size: 1rem;
-  font-weight: 500;
+  font-size: 1.2rem;
+  font-weight: 400;
   line-height: 2rem;
   letter-spacing: normal;
 }
@@ -751,16 +763,16 @@ body section.section-primary {
 }
 #innovation-1 .title-innovation-1 {
   text-align: center;
-  font-size: 1.5rem !important;
+  font-size: 2.3rem !important;
   line-height: 2rem !important;
   font-weight: 700 !important;
-  letter-spacing: 1px !important;
+  letter-spacing: normal !important;
   color: #ff6601 !important;
   margin: 1rem 0rem 1rem 0rem;
 }
 #innovation-1 .sub-title-innovation-1 {
   color: black;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 500;
   letter-spacing: normal;
   line-height: 2rem !important;
@@ -802,7 +814,7 @@ body section.section-primary {
 }
 #innovation-2 .title-innovation-2 {
   text-align: center;
-  font-size: 1.5rem !important;
+  font-size: 2.3rem !important;
   line-height: 2rem;
   font-weight: 700 !important;
   letter-spacing: normal !important;
@@ -811,8 +823,8 @@ body section.section-primary {
 }
 #innovation-2 .sub-title-innovation-2 {
   color: white;
-  font-size: 1rem;
-  font-weight: 500;
+  font-size: 1.2rem;
+  font-weight: 400;
   line-height: 2rem;
   letter-spacing: normal;
   margin-bottom: 0px;
@@ -852,8 +864,8 @@ body section.section-primary {
 }
 #our-method .title-our-method {
   text-align: center;
-  font-size: 1.5rem !important;
-  line-height: 1.5rem !important;
+  font-size: 2.3rem !important;
+  line-height: 2.3rem !important;
   font-weight: 700 !important;
   letter-spacing: 1px !important;
   color: #ff6601 !important;
@@ -861,11 +873,11 @@ body section.section-primary {
 @media screen and (min-width: 768px) {
   #our-method .title-our-method {
     text-align: center;
-    font-size: 2.6rem !important;
+    font-size: 2.3rem !important;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
     color: #ff6601 !important;
-    line-height: 2.6rem !important;
+    line-height: 2rem !important;
   }
 }
 
@@ -1133,12 +1145,12 @@ body section.section-primary {
   font-size: 2.3rem;
   font-weight: 700;
   text-align: center;
-  line-height: 2rem;
+  line-height: 2.3rem;
 }
 #timeline #anchor_target p {
   color: whitesmoke;
   font-size: 1.2rem;
-  font-weight: 500;
+  font-weight: 400;
   text-align: center;
   line-height: 2rem;
 }
@@ -1239,28 +1251,28 @@ body section.section-primary {
 
 #complete-system .title-complete-system {
   color: black;
-  font-size: 1.5rem;
+  font-size: 2.3rem;
   font-weight: 700;
-  line-height: 2rem;
+  line-height: 2.3rem;
   letter-spacing: normal;
   text-align: center;
 }
 #complete-system .title-complete-system .img-text {
   display: inline-block;
-  width: 7rem;
-  margin-top: 0px;
+  width: 9rem;
+  margin-top: -4px;
 }
 #complete-system p {
   font-weight: 500 !important;
   letter-spacing: normal;
   text-align: left;
   color: #393d32 !important;
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 2rem;
 }
 #complete-system p .img-text {
   display: inline-block;
-  width: 4rem;
+  width: 5.5rem;
   margin-top: -5px;
   margin-left: 3px;
   margin-right: 3px;
@@ -1270,13 +1282,13 @@ body section.section-primary {
   letter-spacing: normal;
   text-align: left;
   color: #393d32 !important;
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 2rem;
 }
 @media screen and (min-width: 768px) {
   #complete-system .title-complete-system {
     color: black;
-    font-size: 2.6rem;
+    font-size: 2.3rem;
     font-weight: 700;
     line-height: normal;
     letter-spacing: normal;
@@ -1284,8 +1296,8 @@ body section.section-primary {
   }
   #complete-system .title-complete-system .img-text {
     display: inline-block;
-    width: 10rem;
-    margin-top: -8px;
+    width: 9rem;
+    margin-top: -6px;
   }
   #complete-system p {
     font-weight: 500 !important;
@@ -1318,44 +1330,44 @@ body section.section-primary {
 }
 #nutritional-properties .title-nutritional-properties {
   text-align: center;
-  font-size: 1.5rem !important;
+  font-size: 2.3rem !important;
   font-weight: 700 !important;
-  letter-spacing: 1px !important;
+  letter-spacing: normal !important;
   color: #ff6601 !important;
-  line-height: 2rem;
+  line-height: 2.3rem;
 }
 #nutritional-properties .subtitle-nutritional-properties {
   text-align: center;
-  font-size: 1rem !important;
-  font-weight: 500 !important;
-  letter-spacing: 1px !important;
+  font-size: 1.2rem !important;
+  font-weight: 400 !important;
+  letter-spacing: normal !important;
   color: white !important;
   line-height: 2rem;
 }
 #nutritional-properties .subtitle-nutritional-properties .img-text {
   display: inline-block;
-  width: 5rem;
+  width: 6rem;
   margin-top: -5px !important;
 }
 @media screen and (min-width: 768px) {
   #nutritional-properties .title-nutritional-properties {
     text-align: center;
-    font-size: 2.6rem !important;
+    font-size: 2.3rem !important;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
     color: #ff6601 !important;
   }
   #nutritional-properties .subtitle-nutritional-properties {
     text-align: center;
-    font-size: 1.5rem !important;
+    font-size: 1.2rem !important;
     font-weight: 400 !important;
     letter-spacing: 1px !important;
     color: white !important;
   }
   #nutritional-properties .subtitle-nutritional-properties .img-text {
     display: inline-block;
-    width: 9rem;
-    margin-top: -8px !important;
+    width: 6rem;
+    margin-top: -6px !important;
   }
 }
 
@@ -1390,21 +1402,21 @@ body section.section-primary {
 #nutritional-table .text-info-2 {
   color: black !important;
   margin: 10px;
-  font-size: 1rem;
-  font-weight: 500;
+  font-size: 1.2rem;
+  font-weight: 400;
   line-height: 2rem;
 }
 #nutritional-table .li-info {
   color: black !important;
   margin: 10px;
-  font-size: 1rem;
-  font-weight: 500;
+  font-size: 1.2rem;
+  font-weight: 400;
   line-height: 2rem;
 }
 #nutritional-table .li-info .img-text {
   display: inline-block;
-  width: 5rem;
-  margin-top: -5px;
+  width: 6rem;
+  margin-top: -4px;
 }
 @media screen and (min-width: 768px) {
   #nutritional-table .text-info-2 {
@@ -1483,7 +1495,7 @@ body section.section-primary {
 }
 #nutritional-table .card table tbody tr td {
   color: white;
-  font-size: 0.8rem;
+  font-size: 0.8rem !important;
   border-color: whitesmoke;
 }
 @media screen and (min-width: 768px) {
@@ -1499,14 +1511,15 @@ body section.section-primary {
 
 #contact-us h1 {
   font-family: "Montserrat", sans-serif;
-  font-size: 2rem;
+  font-size: 2.3rem;
   font-weight: 700;
   letter-spacing: normal;
+  margin-top: 50px;
 }
 @media screen and (min-width: 768px) {
   #contact-us h1 {
     font-family: "Montserrat", sans-serif;
-    font-size: 2.4rem;
+    font-size: 2.3rem;
     font-weight: 500;
     letter-spacing: normal;
   }
@@ -1515,13 +1528,13 @@ body section.section-primary {
   }
 }
 #contact-us p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 400;
   letter-spacing: normal;
   color: #393d32;
 }
 #contact-us a {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 500;
   letter-spacing: normal;
   color: #393d32;
@@ -1539,7 +1552,7 @@ body section.section-primary {
   padding: 40px;
 }
 #contact-us .secondary label {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: white;
   margin-bottom: 5px;
 }
@@ -1563,7 +1576,7 @@ body section.section-primary {
   border: 1px solid #cd5200;
   letter-spacing: normal;
   font-weight: 700 !important;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 #contact-us .secondary .btn-primary:hover {
   background-color: transparent;
@@ -1573,6 +1586,29 @@ body section.section-primary {
 
 a.scroll-to-top:hover {
   color: #ff7519;
+}
+
+#step-method .accordion-header .accordion-button {
+  background-color: #ff791f;
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+#step-method .accordion-header .accordion-button img {
+  width: 50px;
+  margin-right: 1rem;
+}
+#step-method .accordion-header .accordion-button::after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+#step-method .accordion-header .accordion-button:focus {
+  border-color: #ff791f !important;
+  box-shadow: 0 0 0 0.25rem rgba(255, 121, 31, 0.25);
+}
+#step-method .accordion-body p {
+  font-size: 1rem;
+  color: black !important;
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=custom-2023-09-26.css.map */
