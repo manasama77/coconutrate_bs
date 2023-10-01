@@ -261,8 +261,8 @@
           id="hero"
           class="parallax section-parallax section-center page-header page-header-modern page-header-background page-header-background-md"
           data-plugin-parallax
-          data-plugin-options="{'speed': 1.5}"
-          data-image-src="img/main-hero.jpg"
+          data-plugin-options="{'speed': 3, }"
+          data-image-src="img/IMAGEX.jpg"
         >
           <div class="container">
             <div class="row">
@@ -272,7 +272,8 @@
                 <h1
                   class="home-title appear-animation"
                   data-plugin-animated-letters
-                  data-plugin-options="{'startDelay': 10, 'minWindowWidth': 0, 'animationName': 'typeWriter', 'animationSpeed': 100}"
+                  data-plugin-options="{'startDelay': 2, 'minWindowWidth': 0, 'animationName': 'typeWriter', 'animationSpeed': 80}"
+                  style="text-shadow: 2px 2px #000"
                 >
                   100% ORGANIC MULTI-NUTRIENT
                 </h1>
@@ -281,27 +282,28 @@
           </div>
         </section>
 
-        <section id="discover-our-method">
-          <div class="container-fluid">
+        <section id="discover-our-method" class="section-primary">
+          <div class="container">
             <div class="row">
               <div class="col">
                 <div class="row text-center">
-                  <div
+                  <!-- <div
                     class="col-md-6 section-center h-100 p-0 m-0 appear-animation"
                     data-appear-animation="fadeIn"
                   >
                     <div class="discover-our-method-image"></div>
-                  </div>
+                  </div> -->
                   <div
-                    class="col-sm-12 col-md-6 py-3 px-4 d-flex flex-column justify-content-center align-items-center"
+                    class="col-sm-12 py-3 px-4 d-flex flex-column justify-content-center align-items-center"
                   >
                     <h2
-                      class="sub-title-discover-our-method appear-animation"
-                      data-appear-animation="maskUp"
+                      class="sub-title-discover-our-method appear-animation text-white"
+                      data-appear-animation="zoomIn"
+                      data-plugin-options="{'accY': -150}"
                     >
                       <img
                         alt="COCONUTRATE"
-                        src="img/COCONUTRATE-MINI-LOGO.png"
+                        src="img/COCONUTRATE-MINI-WHITE-LOGO.png"
                         class="img-text"
                       />
                       is a 100% organic, single-ingredient nutritious sweet
@@ -320,7 +322,7 @@
 
         <section
           id="we-care"
-          class="section section-primary border-0 mb-0 appear-animation"
+          class="section border-0 mb-0 appear-animation"
           data-appear-animation="fadeIn"
           data-plugin-options="{'accY': -150}"
         >
@@ -455,7 +457,6 @@
                 class="col-sm-12 col-md-8 offset-md-2 d-flex justify-content-center"
               >
                 <nav class="nav nav-pills flex-column flex-sm-row flex-grow-1">
-                  <!-- adam -->
                   <a
                     id="btn-medicine"
                     class="flex-sm-fill text-sm-center nav-link anim-hover-translate-top-10px transition-3ms active"
@@ -464,6 +465,7 @@
                     data-bs-toggle="tab"
                     data-bs-target="#nav-medicine"
                     type="button"
+                    data-appear-animation="fadeIn"
                   >
                     <i
                       class="fa-solid fa-prescription-bottle-medical fa-fw"
@@ -476,6 +478,7 @@
                     data-bs-toggle="tab"
                     data-bs-target="#nav-sports"
                     type="button"
+                    data-appear-animation="fadeIn"
                   >
                     <i class="fa-solid fa-bicycle fa-fw"></i>
                     <p>Sports</p>
@@ -486,6 +489,7 @@
                     data-bs-toggle="tab"
                     data-bs-target="#nav-food"
                     type="button"
+                    data-appear-animation="fadeIn"
                   >
                     <i class="fa-solid fa-utensils fa-fw"></i>
                     <p>Food</p>
@@ -496,6 +500,7 @@
                     data-bs-toggle="tab"
                     data-bs-target="#nav-skincare"
                     type="button"
+                    data-appear-animation="fadeIn"
                   >
                     <i class="fa-solid fa-hand-holding-droplet fa-fw"></i>
                     <p>Skincare Cosmetics</p>
@@ -504,6 +509,7 @@
               </div>
               <div
                 class="col-sm-12 col-md-8 offset-md-2 d-flex justify-content-center"
+                data-appear-animation="fadeIn"
               >
                 <div
                   class="tab-content bg-transparent w-100"

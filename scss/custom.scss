@@ -295,6 +295,7 @@ body {
 
 #we-care {
   margin-top: 0px;
+  background-color: white;
 
   .title-pos {
     font-family: "Montserrat", sans-serif;
@@ -311,7 +312,7 @@ body {
 
     p {
       font-family: "Montserrat", sans-serif;
-      color: white !important;
+      color: black !important;
       font-size: 1.2rem;
       line-height: 2rem;
       font-weight: 500;
@@ -960,7 +961,7 @@ body {
 
     @media screen and (min-width: 768px) {
       background-size: cover;
-      height: 500px;
+      height: 510px;
     }
   }
 
@@ -1868,6 +1869,12 @@ body {
     margin-top: 50px;
   }
 
+  .img-text {
+    display: inline-block;
+    width: 6rem;
+    margin-top: -3px;
+  }
+
   @media screen and (min-width: 768px) {
     h1 {
       font-family: "Montserrat", sans-serif;
@@ -1878,6 +1885,12 @@ body {
 
     .p-md-5 {
       padding: 3rem !important;
+    }
+
+    .img-text {
+      display: inline-block;
+      width: 6rem;
+      margin-top: -3px;
     }
   }
 

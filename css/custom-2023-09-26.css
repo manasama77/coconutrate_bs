@@ -196,6 +196,7 @@ body section.section-primary {
 
 #we-care {
   margin-top: 0px;
+  background-color: white;
 }
 #we-care .title-pos {
   font-family: "Montserrat", sans-serif;
@@ -211,7 +212,7 @@ body section.section-primary {
 }
 #we-care .list-pos p {
   font-family: "Montserrat", sans-serif;
-  color: white !important;
+  color: black !important;
   font-size: 1.2rem;
   line-height: 2rem;
   font-weight: 500;
@@ -758,7 +759,7 @@ body section.section-primary {
 @media screen and (min-width: 768px) {
   #innovation-1 .innovation-1-image {
     background-size: cover;
-    height: 500px;
+    height: 510px;
   }
 }
 #innovation-1 .title-innovation-1 {
@@ -1516,6 +1517,11 @@ body section.section-primary {
   letter-spacing: normal;
   margin-top: 50px;
 }
+#contact-us .img-text {
+  display: inline-block;
+  width: 6rem;
+  margin-top: -3px;
+}
 @media screen and (min-width: 768px) {
   #contact-us h1 {
     font-family: "Montserrat", sans-serif;
@@ -1525,6 +1531,11 @@ body section.section-primary {
   }
   #contact-us .p-md-5 {
     padding: 3rem !important;
+  }
+  #contact-us .img-text {
+    display: inline-block;
+    width: 6rem;
+    margin-top: -3px;
   }
 }
 #contact-us p {
