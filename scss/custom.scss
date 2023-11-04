@@ -25,11 +25,11 @@ html,
 body {
   font-family: "Montserrat", sans-serif !important;
   font-size: 14px !important;
-  line-height: 2rem;
+  line-height: normal;
   background-color: $base !important;
 
   section.section-primary {
-    background-color: #393d32 !important;
+    background-color: #f1f3ee !important;
   }
 }
 
@@ -278,9 +278,9 @@ body {
   @media screen and (min-width: 768px) {
     .sub-title-discover-our-method {
       color: black;
-      font-size: 1.2rem !important;
+      font-size: 1.3rem !important;
       line-height: 2rem !important;
-      font-weight: 500;
+      font-weight: 600;
       letter-spacing: normal;
       margin-bottom: 2rem !important;
 
@@ -295,7 +295,9 @@ body {
 
 #we-care {
   margin-top: 0px;
-  background-color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #393d32;
 
   .title-pos {
     font-family: "Montserrat", sans-serif;
@@ -312,7 +314,7 @@ body {
 
     p {
       font-family: "Montserrat", sans-serif;
-      color: black !important;
+      color: whitesmoke !important;
       font-size: 1.2rem;
       line-height: 2rem;
       font-weight: 500;
@@ -516,10 +518,35 @@ body {
         p {
           font-size: 1.2rem;
           font-weight: 700;
+          color: black;
+          text-align: center;
+          line-height: 2rem;
+          margin-bottom: 0px;
+        }
+      }
+
+      .nav-link:hover {
+        padding: 1.5rem 0.5rem 1.5rem 0.5rem;
+        border-radius: 0px;
+        text-decoration: none;
+        transition: all 0.2s linear;
+
+        i {
+          font-size: 5rem;
+          text-align: center;
+          color: $primary;
+          margin-bottom: 10px;
+          transition: all 0.2s linear;
+        }
+
+        p {
+          font-size: 1.2rem;
+          font-weight: 700;
           color: $primary;
           text-align: center;
           line-height: 2rem;
           margin-bottom: 0px;
+          transition: all 0.2s linear;
         }
       }
 
