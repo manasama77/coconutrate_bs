@@ -19,7 +19,7 @@ body section.section-primary {
 }
 
 .btn-primary {
-  background-color: #ff6601 !important;
+  background-color: #d15a0b !important;
   border-radius: 0;
   border: 1px solid #cd5200 !important;
   letter-spacing: normal;
@@ -51,7 +51,7 @@ body section.section-primary {
 }
 
 #header .header-btn-collapse-nav {
-  background-color: #ff6601;
+  background-color: #d15a0b;
 }
 #header .header-body {
   background-color: #f1f3ee !important;
@@ -91,10 +91,10 @@ body section.section-primary {
   font-weight: 700;
 }
 #header .header-body nav ul li:hover {
-  background-color: #ff7519 !important;
+  background-color: #e4b896 !important;
 }
 #header .header-body nav ul li:hover a {
-  background-color: #ff7519 !important;
+  background-color: #e4b896 !important;
 }
 #header .header-body nav ul li.active {
   background-color: #eb5e00 !important;
@@ -202,7 +202,7 @@ body section.section-primary {
 }
 #we-care .title-pos {
   font-family: "Montserrat", sans-serif;
-  color: #ff6601 !important;
+  color: #d15a0b !important;
   text-align: center;
   font-size: 2.3rem !important;
   line-height: 2.3rem;
@@ -226,7 +226,7 @@ body section.section-primary {
     font-size: 2.3rem !important;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
-    color: #ff6601 !important;
+    color: #d15a0b !important;
     line-height: 2rem;
   }
 }
@@ -278,7 +278,7 @@ body section.section-primary {
 #benefits .nav-pills .nav-link p {
   font-size: 1.2rem;
   font-weight: 700;
-  color: #ff6601;
+  color: #d15a0b;
   text-align: center;
   line-height: 2rem;
   margin-bottom: 0px;
@@ -286,7 +286,7 @@ body section.section-primary {
 #benefits .nav-pills .nav-link.active {
   padding: 1.5rem 0.5rem 1.5rem 0.5rem;
   text-decoration: none;
-  background-color: #ff6601;
+  background-color: #d15a0b;
 }
 #benefits .nav-pills .nav-link.active i {
   font-size: 3rem;
@@ -404,14 +404,14 @@ body section.section-primary {
   #benefits .nav-pills .nav-link:hover i {
     font-size: 5rem;
     text-align: center;
-    color: #ff6601;
+    color: #d15a0b;
     margin-bottom: 10px;
     transition: all 0.2s linear;
   }
   #benefits .nav-pills .nav-link:hover p {
     font-size: 1.2rem;
     font-weight: 700;
-    color: #ff6601;
+    color: #d15a0b;
     text-align: center;
     line-height: 2rem;
     margin-bottom: 0px;
@@ -420,7 +420,7 @@ body section.section-primary {
   #benefits .nav-pills .nav-link.active {
     padding: 1.5rem 0.5rem 1.5rem 0.5rem;
     text-decoration: none;
-    background-color: #ff6601;
+    background-color: #d15a0b;
   }
   #benefits .nav-pills .nav-link.active i {
     font-size: 5rem;
@@ -492,7 +492,7 @@ body section.section-primary {
   line-height: 2rem;
   font-weight: 700 !important;
   letter-spacing: 1px !important;
-  color: #ff6601 !important;
+  color: #d15a0b !important;
 }
 #certificates .sub-title-certificates {
   color: white;
@@ -512,7 +512,7 @@ body section.section-primary {
     font-size: 2.3rem !important;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
-    color: #ff6601 !important;
+    color: #d15a0b !important;
     line-height: 2rem;
     margin-bottom: 0.5rem !important;
   }
@@ -544,7 +544,7 @@ body section.section-primary {
   font-size: 2.3rem !important;
   font-weight: 700 !important;
   letter-spacing: 1px !important;
-  color: #ff6601 !important;
+  color: #d15a0b !important;
 }
 #about-us .sub-title-about-us p {
   color: white;
@@ -564,7 +564,7 @@ body section.section-primary {
     font-size: 2.3rem !important;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
-    color: #ff6601 !important;
+    color: #d15a0b !important;
   }
   #about-us .sub-title-about-us p {
     color: white;
@@ -610,7 +610,7 @@ body section.section-primary {
   line-height: 2.3rem !important;
   font-weight: 700 !important;
   letter-spacing: 1px !important;
-  color: #ff6601 !important;
+  color: #d15a0b !important;
   margin: 1rem 0rem 1rem 0rem;
 }
 #mission .sub-title-mission {
@@ -634,7 +634,7 @@ body section.section-primary {
     font-size: 2.3rem !important;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
-    color: #ff6601 !important;
+    color: #d15a0b !important;
     line-height: 2rem !important;
   }
   #mission .sub-title-mission {
@@ -676,18 +676,18 @@ body section.section-primary {
 }
 #footer ul li {
   font-size: 1rem !important;
-  color: #ff6601 !important;
+  color: #d15a0b !important;
   font-weight: 700;
   text-align: center;
 }
 #footer ul li a {
   font-size: 1.2rem !important;
-  color: #ff6601 !important;
+  color: #d15a0b !important;
   font-weight: 700;
   text-align: center !important;
 }
 #footer ul li a:hover {
-  color: #ff7519 !important;
+  color: #e4b896 !important;
 }
 @media screen and (min-width: 768px) {
   #footer .title {
@@ -699,18 +699,18 @@ body section.section-primary {
   }
   #footer ul li {
     font-size: 1.2rem !important;
-    color: #ff6601 !important;
+    color: #d15a0b !important;
     font-weight: 700;
     text-align: left;
   }
   #footer ul li a {
     font-size: 1.2rem !important;
-    color: #ff6601 !important;
+    color: #d15a0b !important;
     font-weight: 700;
     text-align: left;
   }
   #footer ul li a:hover {
-    color: #ff7519 !important;
+    color: #e4b896 !important;
   }
 }
 #footer .footer-copyright {
@@ -738,7 +738,7 @@ body section.section-primary {
   font-size: 2.3rem !important;
   font-weight: 700 !important;
   letter-spacing: normal !important;
-  color: #ff6601 !important;
+  color: #d15a0b !important;
 }
 #our-innovation .sub-title-our-innovation p {
   color: white;
@@ -758,7 +758,7 @@ body section.section-primary {
     font-size: 2.3rem !important;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
-    color: #ff6601 !important;
+    color: #d15a0b !important;
   }
   #our-innovation .sub-title-our-innovation p {
     color: white;
@@ -792,7 +792,7 @@ body section.section-primary {
   line-height: 2rem !important;
   font-weight: 700 !important;
   letter-spacing: normal !important;
-  color: #ff6601 !important;
+  color: #d15a0b !important;
   margin: 1rem 0rem 1rem 0rem;
 }
 #innovation-1 .sub-title-innovation-1 {
@@ -813,7 +813,7 @@ body section.section-primary {
     font-size: 2.3rem !important;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
-    color: #ff6601 !important;
+    color: #d15a0b !important;
     line-height: 2rem !important;
   }
   #innovation-1 .sub-title-innovation-1 {
@@ -843,7 +843,7 @@ body section.section-primary {
   line-height: 2rem;
   font-weight: 700 !important;
   letter-spacing: normal !important;
-  color: #ff6601 !important;
+  color: #d15a0b !important;
   margin: 1rem 0rem 1rem 0rem;
 }
 #innovation-2 .sub-title-innovation-2 {
@@ -865,7 +865,7 @@ body section.section-primary {
     font-size: 2.3rem !important;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
-    color: #ff6601 !important;
+    color: #d15a0b !important;
     line-height: 2rem;
     margin: 1rem 0rem 1rem 0rem;
   }
@@ -893,7 +893,7 @@ body section.section-primary {
   line-height: 2.3rem !important;
   font-weight: 700 !important;
   letter-spacing: 1px !important;
-  color: #ff6601 !important;
+  color: #d15a0b !important;
 }
 @media screen and (min-width: 768px) {
   #our-method .title-our-method {
@@ -901,7 +901,7 @@ body section.section-primary {
     font-size: 2.3rem !important;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
-    color: #ff6601 !important;
+    color: #d15a0b !important;
     line-height: 2rem !important;
   }
 }
@@ -939,7 +939,7 @@ body section.section-primary {
 }
 #icon-section .icon-group .icon-button p:hover {
   text-decoration: underline;
-  text-decoration-color: #ff6601;
+  text-decoration-color: #d15a0b;
 }
 #icon-section .icon-group .icon-arrow {
   margin-top: 3vw;
@@ -983,7 +983,7 @@ body section.section-primary {
 }
 #icon-section .icon-group-middle .icon-button p:hover {
   text-decoration: underline;
-  text-decoration-color: #ff6601;
+  text-decoration-color: #d15a0b;
 }
 #icon-section .icon-group-reverse {
   display: flex;
@@ -1015,7 +1015,7 @@ body section.section-primary {
 }
 #icon-section .icon-group-reverse .icon-button p:hover {
   text-decoration: underline;
-  text-decoration-color: #ff6601;
+  text-decoration-color: #d15a0b;
 }
 #icon-section .icon-group-reverse .icon-arrow {
   margin-top: 3vw;
@@ -1066,7 +1066,7 @@ body section.section-primary {
   }
   #icon-section .icon-group .icon-button p:hover {
     text-decoration: underline;
-    text-decoration-color: #ff6601;
+    text-decoration-color: #d15a0b;
   }
   #icon-section .icon-group .icon-arrow {
     margin-top: 1vw;
@@ -1113,7 +1113,7 @@ body section.section-primary {
   }
   #icon-section .icon-group-middle .icon-button p:hover {
     text-decoration: underline;
-    text-decoration-color: #ff6601;
+    text-decoration-color: #d15a0b;
   }
   #icon-section .icon-group-reverse {
     display: flex;
@@ -1147,7 +1147,7 @@ body section.section-primary {
   }
   #icon-section .icon-group-reverse .icon-button p:hover {
     text-decoration: underline;
-    text-decoration-color: #ff6601;
+    text-decoration-color: #d15a0b;
   }
   #icon-section .icon-group-reverse .icon-arrow {
     margin-top: 1vw;
@@ -1166,7 +1166,7 @@ body section.section-primary {
   padding: 50px 0px 50px 0px !important;
 }
 #timeline #anchor_target h1 {
-  color: #ff6601;
+  color: #d15a0b;
   font-size: 2.3rem;
   font-weight: 700;
   text-align: center;
@@ -1180,11 +1180,11 @@ body section.section-primary {
   line-height: 2rem;
 }
 #timeline .timeline-box {
-  border: 2px solid #ff6601 !important;
+  border: 2px solid #d15a0b !important;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 #timeline .timeline-box h2 {
-  color: #ff6601;
+  color: #d15a0b;
   font-size: 1.3rem !important;
   font-weight: 500 !important;
   line-height: 2rem;
@@ -1200,11 +1200,11 @@ body section.section-primary {
 }
 @media screen and (min-width: 768px) {
   #timeline .timeline-box {
-    border: 2px solid #ff6601 !important;
+    border: 2px solid #d15a0b !important;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
   }
   #timeline .timeline-box h2 {
-    color: #ff6601;
+    color: #d15a0b;
     font-size: 1.3rem !important;
     font-weight: 500 !important;
     line-height: 2rem;
@@ -1223,15 +1223,15 @@ body section.section-primary {
   text-align: left;
 }
 #timeline .timeline-box.left .timeline-box-arrow {
-  border-top: 2px solid #ff6601 !important;
-  border-right: 2px solid #ff6601 !important;
+  border-top: 2px solid #d15a0b !important;
+  border-right: 2px solid #d15a0b !important;
 }
 #timeline .timeline-box.right h2 {
   text-align: right;
 }
 #timeline .timeline-box.right .timeline-box-arrow {
-  border-bottom: 2px solid #ff6601 !important;
-  border-left: 2px solid #ff6601 !important;
+  border-bottom: 2px solid #d15a0b !important;
+  border-left: 2px solid #d15a0b !important;
 }
 #timeline .timeline-date {
   background: none !important;
@@ -1241,8 +1241,8 @@ body section.section-primary {
   box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.04) !important;
 }
 #timeline .timeline-date .btn-primary {
-  background-color: #ff6601 !important;
-  border-color: #ff6601 !important;
+  background-color: #d15a0b !important;
+  border-color: #d15a0b !important;
   font-size: 1rem;
   font-weight: 500;
   transition: all 0.2s ease, visibility 0s;
@@ -1255,8 +1255,8 @@ body section.section-primary {
 }
 @media screen and (min-width: 768px) {
   #timeline .timeline-date .btn-primary {
-    background-color: #ff6601 !important;
-    border-color: #ff6601 !important;
+    background-color: #d15a0b !important;
+    border-color: #d15a0b !important;
     font-size: 1.1rem;
     font-weight: 500;
     transition: all 0.2s ease, visibility 0s;
@@ -1358,7 +1358,7 @@ body section.section-primary {
   font-size: 2.3rem !important;
   font-weight: 700 !important;
   letter-spacing: normal !important;
-  color: #ff6601 !important;
+  color: #d15a0b !important;
   line-height: 2.3rem;
 }
 #nutritional-properties .subtitle-nutritional-properties {
@@ -1380,7 +1380,7 @@ body section.section-primary {
     font-size: 2.3rem !important;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
-    color: #ff6601 !important;
+    color: #d15a0b !important;
   }
   #nutritional-properties .subtitle-nutritional-properties {
     text-align: center;
@@ -1405,7 +1405,7 @@ body section.section-primary {
   font-size: 2.6rem !important;
   font-weight: 700 !important;
   letter-spacing: 1px !important;
-  color: #ff6601 !important;
+  color: #d15a0b !important;
 }
 #nutritional-table .subtitle-nutritional-properties {
   text-align: center;
@@ -1485,7 +1485,7 @@ body section.section-primary {
 #nutritional-table .card .pagination > .active > a:focus,
 #nutritional-table .card .pagination > .active > span:focus,
 #nutritional-table .card .pagination .page-item.active .page-link {
-  background-color: #ff6601 !important;
+  background-color: #d15a0b !important;
   border-color: #cd5200;
   color: whitesmoke;
 }
@@ -1498,7 +1498,7 @@ body section.section-primary {
 #nutritional-table .card .pagination > li > span:hover,
 #nutritional-table .card .pagination > li > a:focus,
 #nutritional-table .card .pagination > li > span:focus {
-  color: #ff6601;
+  color: #d15a0b;
 }
 #nutritional-table .card #table_info {
   color: white !important;
@@ -1508,7 +1508,7 @@ body section.section-primary {
   border-collapse: collapse;
 }
 #nutritional-table .card table thead {
-  background-color: #ff6601;
+  background-color: #d15a0b;
 }
 #nutritional-table .card table thead tr th {
   color: whitesmoke !important;
@@ -1525,7 +1525,7 @@ body section.section-primary {
 }
 @media screen and (min-width: 768px) {
   #nutritional-table .card table thead tr th {
-    color: #ff6601;
+    color: #d15a0b;
     font-size: 1.2rem;
   }
   #nutritional-table .card table tbody tr td {
@@ -1606,7 +1606,7 @@ body section.section-primary {
   border-radius: 0;
 }
 #contact-us .secondary .btn-primary {
-  background-color: #ff6601;
+  background-color: #d15a0b;
   border-radius: 0;
   border: 1px solid #cd5200;
   letter-spacing: normal;
@@ -1620,7 +1620,7 @@ body section.section-primary {
 }
 
 a.scroll-to-top:hover {
-  color: #ff7519;
+  color: #e4b896;
 }
 
 #step-method .accordion-header .accordion-button {
