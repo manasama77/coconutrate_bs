@@ -137,6 +137,7 @@ body section.section-primary {
 
 #hero {
   margin: 0px;
+  padding: 200px 0 !important;
 }
 #hero .home-title {
   font-size: 3rem !important;
@@ -211,7 +212,7 @@ body section.section-primary {
   font-family: "Oswald", sans-serif;
   color: #d15a0b !important;
   text-align: center;
-  font-size: 2.3rem !important;
+  font-size: 2rem !important;
   line-height: 2.3rem;
   font-weight: 700 !important;
   letter-spacing: normal !important;
@@ -246,7 +247,7 @@ body section.section-primary {
 }
 #benefits .title-benefits {
   color: black;
-  font-size: 2.3rem !important;
+  font-size: 2rem !important;
   line-height: 2.3rem !important;
   font-weight: 700;
   letter-spacing: normal;
@@ -267,7 +268,7 @@ body section.section-primary {
 }
 #benefits .sub-title-benefits .img-text {
   display: inline-block;
-  width: 5rem;
+  width: 6rem;
   margin-top: -5px;
 }
 #benefits .nav-pills .nav-link {
@@ -276,39 +277,87 @@ body section.section-primary {
   text-decoration: none;
   transition: all 0.4s linear;
   text-align: center;
+  width: 100%;
 }
 #benefits .nav-pills .nav-link i {
-  font-size: 3rem;
+  font-size: 3rem !important;
   text-align: center;
-  color: #000000;
+  color: black !important;
   margin-bottom: 10px;
 }
 #benefits .nav-pills .nav-link p {
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: #d15a0b;
+  font-size: 1.3rem !important;
+  font-weight: 600;
   text-align: center;
-  line-height: 2rem;
+  margin-bottom: 5px;
+  color: black !important;
+  transition: all 0.2s linear;
+}
+#benefits .nav-pills .nav-link p.small {
+  font-family: "Barlow";
+  font-size: 1.1rem !important;
+  font-weight: 400 !important;
+  text-align: center;
   margin-bottom: 0px;
+  line-height: 17px !important;
+}
+#benefits .nav-pills .nav-link:hover {
+  padding: 1.5rem 0.5rem 1.5rem 0.5rem;
+  border-radius: 0px;
+  text-decoration: none;
+  transition: all 0.2s linear;
+}
+#benefits .nav-pills .nav-link:hover i {
+  font-size: 5rem;
+  text-align: center;
+  color: #d15a0b;
+  margin-bottom: 10px;
+  transition: all 0.2s linear;
+}
+#benefits .nav-pills .nav-link:hover p {
+  font-size: 1.3rem !important;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 5px;
+  transition: all 0.2s linear;
+}
+#benefits .nav-pills .nav-link:hover p.small {
+  font-family: "Barlow";
+  font-size: 1.1rem !important;
+  font-weight: 400 !important;
+  text-align: center;
+  margin-bottom: 0px;
+  line-height: 17px !important;
 }
 #benefits .nav-pills .nav-link.active {
   padding: 1.5rem 0.5rem 1.5rem 0.5rem;
   text-decoration: none;
   background-color: #d15a0b;
 }
-#benefits .nav-pills .nav-link.active i {
-  font-size: 3rem;
-  text-align: center;
-  color: whitesmoke;
-  margin-bottom: 10px;
+#benefits .nav-pills .nav-link.active img {
+  filter: brightness(0) invert(1);
 }
 #benefits .nav-pills .nav-link.active p {
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: whitesmoke;
+  font-size: 1.3rem !important;
+  font-weight: 600;
+  color: white !important;
   text-align: center;
-  line-height: 2rem;
+  margin-bottom: 5px;
+}
+#benefits .nav-pills .nav-link.active p.small {
+  font-family: "Barlow";
+  font-size: 1.1rem !important;
+  font-weight: 400 !important;
+  color: white !important;
+  text-align: center;
   margin-bottom: 0px;
+  line-height: 17px !important;
+}
+#benefits .nav-pills .nav-link.active i {
+  font-size: 5rem;
+  text-align: center;
+  color: white !important;
+  margin-bottom: 10px;
 }
 #benefits .tab-content {
   border-radius: 0px;
@@ -389,6 +438,7 @@ body section.section-primary {
     border-radius: 0px;
     text-decoration: none;
     transition: all 0.4s linear;
+    width: 25%;
   }
   #benefits .nav-pills .nav-link i {
     font-size: 4rem !important;
