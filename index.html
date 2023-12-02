@@ -105,11 +105,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Barlow&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
 
@@ -156,7 +152,7 @@
     <link id="skinCSS" rel="stylesheet" href="css/skins/default.css" />
 
     <!-- Theme Custom CSS -->
-    <link rel="stylesheet" href="css/custom-2023-11-04.css" />
+    <link rel="stylesheet" href="css/custom-2023-12-02.css" />
 
     <link
       rel="stylesheet"
@@ -259,9 +255,9 @@
       <div role="main" class="main">
         <section
           id="hero"
-          class="parallax section-parallax section-center page-header page-header-modern page-header-background page-header-background-md"
+          class="parallax section-parallax section-center page-header page-header-modern page-header-background page-header-background-custom"
           data-plugin-parallax
-          data-plugin-options="{'speed': 1.5, 'parallaxHeight': '130%', 'parallaxDirection': 'top' }"
+          data-plugin-options="{'speed': 1.5, 'parallaxHeight': '100%', 'parallaxDirection': 'top', 'height': '550px' }"
           data-image-src="img/HERO_BG.jpg"
         >
           <div class="container">
@@ -269,14 +265,7 @@
               <div
                 class="col-md-12 align-self-center p-static order-2 text-center"
               >
-                <h1
-                  class="home-title appear-animation"
-                  data-plugin-animated-letters
-                  data-plugin-options="{'startDelay': 2, 'minWindowWidth': 0, 'animationName': 'typeWriter', 'animationSpeed': 80}"
-                  style="text-shadow: 0px 0px #000"
-                >
-                  100% ORGANIC MULTI-NUTRIENT
-                </h1>
+                <h1 class="home-title">100% ORGANIC MULTI-NUTRIENT</h1>
               </div>
             </div>
           </div>
@@ -296,11 +285,7 @@
                   <div
                     class="col-sm-12 col-md-8 offset-md-2 py-5 px-4 d-flex flex-column justify-content-center align-items-center"
                   >
-                    <h2
-                      class="sub-title-discover-our-method appear-animation"
-                      data-appear-animation="zoomIn"
-                      data-plugin-options="{'accY': -150}"
-                    >
+                    <h2 class="sub-title-discover-our-method">
                       <img
                         alt="COCONUTRATE"
                         src="img/COCONUTRATE-MINI-LOGO.png"
@@ -316,7 +301,7 @@
                     <a
                       id="nutritional_properties_button"
                       href="our-method.html"
-                      class="btn btn-primary mt-5"
+                      class="btn btn-primary mt-5 mb-5"
                     >
                       Discover Our Method
                     </a>
@@ -424,7 +409,7 @@
                     class="title-benefits appear-animation"
                     data-appear-animation="maskUp"
                   >
-                    BENEFITS AND APPLICATIONS OF
+                    APPLICATION AND BENEFITS OF
                     <img
                       alt="COCONUTRATE"
                       src="img/COCONUTRATE-MINI-LOGO.png"
@@ -461,12 +446,12 @@
 
             <div class="row">
               <div
-                class="col-sm-12 col-md-8 offset-md-2 d-flex justify-content-center"
+                class="col-sm-12 col-md-10 offset-md-1 d-flex justify-content-center"
               >
                 <nav class="nav nav-pills flex-column flex-sm-row flex-grow-1">
                   <a
                     id="btn-medicine"
-                    class="flex-sm-fill text-sm-center nav-link anim-hover-translate-top-10px transition-3ms active btn-custom"
+                    class="flex-sm-fill text-sm-center nav-link anim-hover-translate-top-10px transition-3ms active btn-custom w-25"
                     aria-current="page"
                     href=""
                     data-bs-toggle="tab"
@@ -478,9 +463,12 @@
                       class="fa-solid fa-prescription-bottle-medical fa-fw"
                     ></i>
                     <p>Medicine</p>
+                    <p class="small">
+                      As an ingredient in medicines and as a dietary supplement
+                    </p>
                   </a>
                   <a
-                    class="flex-sm-fill text-sm-center nav-link anim-hover-translate-top-10px transition-3ms btn-custom"
+                    class="flex-sm-fill text-sm-center nav-link anim-hover-translate-top-10px transition-3ms btn-custom w-25"
                     href=""
                     data-bs-toggle="tab"
                     data-bs-target="#nav-sports"
@@ -489,9 +477,12 @@
                   >
                     <i class="fa-solid fa-bicycle fa-fw"></i>
                     <p>Sports</p>
+                    <p class="small">
+                      As an ingredient in sport drinks and energy gels
+                    </p>
                   </a>
                   <a
-                    class="flex-sm-fill text-sm-center nav-link anim-hover-translate-top-10px transition-3ms"
+                    class="flex-sm-fill text-sm-center nav-link anim-hover-translate-top-10px transition-3ms w-25"
                     href=""
                     data-bs-toggle="tab"
                     data-bs-target="#nav-food"
@@ -500,17 +491,30 @@
                   >
                     <i class="fa-solid fa-utensils fa-fw"></i>
                     <p>Food</p>
+                    <p class="small">
+                      As sweetener, in syrups, bubble/boba drinks, coffee
+                      drinks, baking
+                    </p>
                   </a>
                   <a
-                    class="flex-sm-fill text-sm-center nav-link anim-hover-translate-top-10px transition-3ms"
+                    class="flex-sm-fill text-sm-center nav-link anim-hover-translate-top-10px transition-3ms w-25"
                     href=""
                     data-bs-toggle="tab"
                     data-bs-target="#nav-skincare"
                     type="button"
                     data-appear-animation="fadeIn"
                   >
-                    <i class="fa-solid fa-hand-holding-droplet fa-fw"></i>
+                    <!-- <i class="fa-solid fa-hand-holding-droplet fa-fw"></i> -->
+                    <img
+                      src="img/icon-skincare.png"
+                      class="fa-solid"
+                      style="width: 70px"
+                    />
                     <p>Skincare Cosmetics</p>
+                    <p class="small">
+                      As an exfoliator, a moisturizer, and as a damage
+                      protection and anti-inflammatory agent
+                    </p>
                   </a>
                 </nav>
               </div>

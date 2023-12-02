@@ -5295,12 +5295,14 @@ window.theme.fn = {
       background.css({
         "background-image":
           "url(" + self.options.wrapper.data("image-src") + ")",
+        // "background-size": "cover",
         "background-size": "cover",
         position: "absolute",
         top: 0,
         left: 0,
         width: "100%",
         height: self.options.parallaxHeight,
+        // height: "100%",
       });
 
       if (self.options.parallaxScale) {
@@ -5313,10 +5315,18 @@ window.theme.fn = {
       self.options.wrapper.prepend(background);
 
       // Set Overlfow Hidden and Position Relative to Parallax Wrapper
-      self.options.wrapper.css({
-        position: "relative",
-        overflow: "hidden",
-      });
+      if (self.options.height) {
+        self.options.wrapper.css({
+          position: "relative",
+          overflow: "hidden",
+          height: self.options.height,
+        });
+      } else {
+        self.options.wrapper.css({
+          position: "relative",
+          overflow: "hidden",
+        });
+      }
 
       // Parallax Effect on Scroll & Resize
       var parallaxEffectOnScrolResize = function () {

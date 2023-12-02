@@ -5,7 +5,7 @@
 
 // $primary: #d15a0b;
 $primary: #d15a0b;
-$secondary: #393d32;
+$secondary: #2e3023;
 $link-primary: #eb5e00;
 $link-primary-hover: #e4b896;
 // $btn-primary: #d15a0b;
@@ -23,7 +23,8 @@ $base: #f1f3ee;
 
 html,
 body {
-  font-family: "Montserrat", sans-serif !important;
+  font-family: "Oswald", "Montserrat", sans-serif !important;
+  // font-family: "Montserrat", sans-serif !important;
   font-size: 14px !important;
   line-height: normal;
   background-color: $base !important;
@@ -38,8 +39,10 @@ body {
   border-radius: 0;
   border: 1px solid $btn-border-2 !important;
   letter-spacing: normal;
-  font-weight: 700 !important;
+  font-weight: 600 !important;
   font-size: 1.2rem;
+  font-family: "Barlow", sans-serif !important;
+  padding: 5px 60px;
 }
 
 .btn-primary:hover {
@@ -174,16 +177,22 @@ body {
   margin: 0px;
 
   .home-title {
-    font-size: 2.3rem !important;
-    font-weight: 700 !important;
+    font-size: 3rem !important;
+    font-weight: 400 !important;
     letter-spacing: 1px !important;
     max-width: 100% !important;
   }
 
+  .page-header-background-custom {
+    min-height: 300px;
+  }
+
   @media screen and (min-width: 768px) {
+    padding: 225px 0 !important;
+
     .home-title {
-      font-size: 3rem !important;
-      font-weight: 700 !important;
+      font-size: 4.3rem !important;
+      font-weight: 500 !important;
       letter-spacing: 1px !important;
       max-width: 100% !important;
     }
@@ -263,7 +272,7 @@ body {
     color: black;
     font-size: 1.2rem !important;
     line-height: 2rem !important;
-    font-weight: 500;
+    font-weight: 500 !important;
     letter-spacing: normal;
     margin-top: 2rem !important;
     margin-bottom: 2rem !important;
@@ -278,11 +287,11 @@ body {
   @media screen and (min-width: 768px) {
     .sub-title-discover-our-method {
       color: black;
-      font-size: 1.3rem !important;
-      line-height: 2rem !important;
-      font-weight: 600;
+      font-size: 1.5rem !important;
+      // line-height: 2rem !important;
+      font-weight: 400;
       letter-spacing: normal;
-      margin-bottom: 2rem !important;
+      margin-bottom: 1rem !important;
 
       .img-text {
         display: inline-block;
@@ -297,10 +306,10 @@ body {
   margin-top: 0px;
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: #393d32;
+  background-color: #2e3023;
 
   .title-pos {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Oswald", sans-serif;
     color: $primary !important;
     text-align: center;
     font-size: 2.3rem !important;
@@ -323,13 +332,14 @@ body {
 
   @media screen and (min-width: 768px) {
     .title-pos {
-      font-family: "Montserrat", sans-serif;
+      font-family: "Oswald", sans-serif;
       text-align: center;
-      font-size: 2.3rem !important;
-      font-weight: 700 !important;
+      font-size: 3rem !important;
+      font-weight: 600 !important;
       letter-spacing: 1px !important;
       color: $primary !important;
       line-height: 2rem;
+      margin-top: 1rem !important;
     }
   }
 }
@@ -470,23 +480,24 @@ body {
 
   @media screen and (min-width: 768px) {
     .title-benefits {
-      color: black;
-      font-size: 2.3rem !important;
+      color: #2e3023;
+      font-size: 3rem !important;
       line-height: 2rem !important;
       font-weight: 700;
       letter-spacing: normal;
-      margin-bottom: 2rem !important;
+      margin-top: 1rem !important;
+      margin-bottom: 3.5rem !important;
 
       .img-text {
         display: inline-block;
-        width: 9rem;
-        margin-top: -8px;
+        width: 12rem;
+        margin-top: -15px;
       }
     }
 
     .sub-title-benefits {
-      color: black;
-      font-size: 1.2rem !important;
+      color: #2e3023;
+      font-size: 1.5rem !important;
       line-height: 2rem;
       font-weight: 500;
       letter-spacing: normal;
@@ -509,19 +520,28 @@ body {
         transition: all 0.4s linear;
 
         i {
-          font-size: 5rem;
+          font-size: 4rem !important;
           text-align: center;
-          color: #000000;
+          color: black !important;
           margin-bottom: 10px;
         }
 
         p {
-          font-size: 1.2rem;
-          font-weight: 700;
-          color: black;
+          font-size: 1.3rem !important;
+          font-weight: 600;
           text-align: center;
-          line-height: 2rem;
+          margin-bottom: 5px;
+          color: black !important;
+          transition: all 0.2s linear;
+        }
+
+        p.small {
+          font-family: "Barlow";
+          font-size: 1.1rem !important;
+          font-weight: 400 !important;
+          text-align: center;
           margin-bottom: 0px;
+          line-height: 17px !important;
         }
       }
 
@@ -540,13 +560,20 @@ body {
         }
 
         p {
-          font-size: 1.2rem;
-          font-weight: 700;
-          color: $primary;
+          font-size: 1.3rem !important;
+          font-weight: 600;
           text-align: center;
-          line-height: 2rem;
-          margin-bottom: 0px;
+          margin-bottom: 5px;
           transition: all 0.2s linear;
+        }
+
+        p.small {
+          font-family: "Barlow";
+          font-size: 1.1rem !important;
+          font-weight: 400 !important;
+          text-align: center;
+          margin-bottom: 0px;
+          line-height: 17px !important;
         }
       }
 
@@ -555,20 +582,33 @@ body {
         text-decoration: none;
         background-color: $primary;
 
-        i {
-          font-size: 5rem;
-          text-align: center;
-          color: whitesmoke;
-          margin-bottom: 10px;
+        img {
+          filter: brightness(0) invert(1);
         }
 
         p {
-          font-size: 1.2rem;
-          font-weight: 700;
-          color: whitesmoke;
+          font-size: 1.3rem !important;
+          font-weight: 600;
+          color: white !important;
           text-align: center;
-          line-height: 2rem;
+          margin-bottom: 5px;
+        }
+
+        p.small {
+          font-family: "Barlow";
+          font-size: 1.1rem !important;
+          font-weight: 400 !important;
+          color: white !important;
+          text-align: center;
           margin-bottom: 0px;
+          line-height: 17px !important;
+        }
+
+        i {
+          font-size: 5rem;
+          text-align: center;
+          color: white !important;
+          margin-bottom: 10px;
         }
       }
     }
@@ -1926,14 +1966,14 @@ body {
     font-size: 1.2rem;
     font-weight: 400;
     letter-spacing: normal;
-    color: #393d32;
+    color: #2e3023;
   }
 
   a {
     font-size: 1.2rem;
     font-weight: 500;
     letter-spacing: normal;
-    color: #393d32;
+    color: #2e3023;
   }
 
   @media screen and (min-width: 768px) {
@@ -1942,7 +1982,7 @@ body {
       font-size: 1.2rem;
       font-weight: 500;
       letter-spacing: normal;
-      color: #393d32;
+      color: #2e3023;
     }
   }
 
