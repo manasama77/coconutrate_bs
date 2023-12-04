@@ -46,7 +46,7 @@ body {
 }
 
 .btn-primary:hover {
-  color: black !important;
+  color: #2e3023 !important;
   background-color: transparent !important;
   border-radius: 0;
   border: 1px solid $btn-border-2 !important;
@@ -102,7 +102,7 @@ body {
           margin-left: 0px;
 
           a {
-            color: black !important;
+            color: #2e3023 !important;
             padding: 7px;
             display: block !important;
             width: 100%;
@@ -145,7 +145,7 @@ body {
             margin-left: 0px;
 
             a {
-              color: black !important;
+              color: #2e3023 !important;
               padding: 7px;
               display: block !important;
               width: 100%;
@@ -178,7 +178,7 @@ body {
   padding: 200px 0 !important;
 
   .home-title {
-    font-size: 3rem !important;
+    font-size: 3.1rem !important;
     font-weight: 400 !important;
     letter-spacing: 1px !important;
     max-width: 100% !important;
@@ -192,7 +192,7 @@ body {
     padding: 225px 0 !important;
 
     .home-title {
-      font-size: 4.3rem !important;
+      font-size: 4.666rem !important;
       font-weight: 500 !important;
       letter-spacing: 1px !important;
       max-width: 100% !important;
@@ -216,7 +216,7 @@ body {
   }
 
   .sub-title-discover-our-method {
-    color: black;
+    color: #2e3023;
     font-size: 1.2rem !important;
     line-height: 2rem !important;
     font-weight: 500 !important;
@@ -233,7 +233,7 @@ body {
 
   @media screen and (min-width: 768px) {
     .sub-title-discover-our-method {
-      color: black;
+      color: #2e3023;
       font-size: 1.5rem !important;
       // line-height: 2rem !important;
       font-weight: 400;
@@ -297,7 +297,7 @@ body {
   padding-bottom: 50px;
 
   .title-benefits {
-    color: black;
+    color: #2e3023;
     font-size: 2rem !important;
     line-height: 2.3rem !important;
     font-weight: 700;
@@ -312,7 +312,7 @@ body {
   }
 
   .sub-title-benefits {
-    color: black;
+    color: #2e3023;
     font-size: 1.2rem !important;
     line-height: 2rem;
     font-weight: 500;
@@ -327,31 +327,6 @@ body {
   }
 
   .nav-pills {
-    // .nav-link {
-    //   padding: 1.5rem 0.5rem 1.5rem 0.5rem;
-    //   border-radius: 0px;
-    //   text-decoration: none;
-    //   transition: all 0.4s linear;
-    //   text-align: center;
-    //   width: 100%;
-
-    //   i {
-    //     font-size: 3rem;
-    //     text-align: center;
-    //     color: #000000;
-    //     margin-bottom: 10px;
-    //   }
-
-    //   p {
-    //     font-size: 1.2rem;
-    //     font-weight: 700;
-    //     color: $primary;
-    //     text-align: center;
-    //     line-height: 2rem;
-    //     margin-bottom: 0px;
-    //   }
-    // }
-
     .nav-link {
       padding: 1.5rem 0.5rem 1.5rem 0.5rem;
       border-radius: 0px;
@@ -363,7 +338,7 @@ body {
       i {
         font-size: 3rem !important;
         text-align: center;
-        color: black !important;
+        color: #2e3023 !important;
         margin-bottom: 10px;
       }
 
@@ -372,7 +347,7 @@ body {
         font-weight: 600;
         text-align: center;
         margin-bottom: 5px;
-        color: black !important;
+        color: #2e3023 !important;
         transition: all 0.2s linear;
       }
 
@@ -465,7 +440,7 @@ body {
         font-size: 2.3rem;
         font-weight: 700;
         text-decoration: underline;
-        color: black;
+        color: #2e3023;
       }
 
       h3 {
@@ -497,7 +472,7 @@ body {
 
       p {
         font-size: 1.2rem;
-        color: black;
+        color: #2e3023;
         font-weight: 500;
         line-height: 2rem;
         margin-bottom: 0px;
@@ -517,8 +492,8 @@ body {
 
       .img-text {
         display: inline-block;
-        width: 12rem;
-        margin-top: -15px;
+        width: 14rem;
+        margin-top: -10px;
       }
     }
 
@@ -550,7 +525,7 @@ body {
         i {
           font-size: 4rem !important;
           text-align: center;
-          color: black !important;
+          color: #2e3023 !important;
           margin-bottom: 10px;
         }
 
@@ -559,7 +534,7 @@ body {
           font-weight: 600;
           text-align: center;
           margin-bottom: 5px;
-          color: black !important;
+          color: #2e3023 !important;
           transition: all 0.2s linear;
         }
 
@@ -685,7 +660,7 @@ body {
         p {
           font-family: "Montserrat", sans-serif;
           font-size: 1.2rem;
-          color: black;
+          color: #2e3023;
           font-weight: 500;
           line-height: 2rem;
           margin-bottom: 0px;
@@ -846,7 +821,7 @@ body {
   }
 
   .sub-title-mission {
-    color: black;
+    color: #2e3023;
     font-size: 1.2rem;
     font-weight: 500;
     letter-spacing: normal;
@@ -874,7 +849,7 @@ body {
     }
 
     .sub-title-mission {
-      color: black;
+      color: #2e3023;
       font-size: 1.2rem;
       font-weight: 500;
       letter-spacing: normal;
@@ -899,7 +874,7 @@ body {
   border-top: 2px white solid !important;
 
   .title {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Oswald", sans-serif;
     font-size: 1.2rem;
     font-weight: 400;
     color: white;
@@ -907,8 +882,8 @@ body {
   }
 
   p.title {
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.2rem;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.1rem;
     font-weight: 400;
     color: white;
     line-height: 1.5rem;
@@ -941,11 +916,20 @@ body {
 
   @media screen and (min-width: 768px) {
     .title {
-      font-family: "Montserrat", sans-serif !important;
+      font-family: "Oswald", sans-serif !important;
       font-size: 1.2rem;
       font-weight: 400;
       color: white;
       text-align: left;
+    }
+
+    p.title {
+      font-family: "Oswald", sans-serif;
+      font-size: 1.3rem;
+      font-weight: 400;
+      color: white;
+      line-height: 2rem;
+      margin-top: 1rem;
     }
 
     ul {
@@ -978,7 +962,7 @@ body {
     border-top: 2px white solid !important;
 
     p {
-      font-family: "Montserrat", sans-serif;
+      font-family: "Oswald", sans-serif;
       color: white;
       font-weight: 400;
       font-size: 1rem;
@@ -1071,7 +1055,7 @@ body {
   }
 
   .sub-title-innovation-1 {
-    color: black;
+    color: #2e3023;
     font-size: 1.2rem;
     font-weight: 500;
     letter-spacing: normal;
@@ -1095,7 +1079,7 @@ body {
     }
 
     .sub-title-innovation-1 {
-      color: black;
+      color: #2e3023;
       font-size: 1.2rem;
       font-weight: 500;
       letter-spacing: normal;
@@ -1222,7 +1206,7 @@ body {
       p {
         width: 11vw;
         text-align: center;
-        color: black;
+        color: #2e3023;
         font-size: 1.8vw;
         font-weight: 500;
         line-height: 2vw;
@@ -1274,7 +1258,7 @@ body {
       p {
         width: 11vw;
         text-align: center;
-        color: black;
+        color: #2e3023;
         font-size: 1.8vw;
         font-weight: 500;
         line-height: 2vw;
@@ -1312,7 +1296,7 @@ body {
       p {
         width: 11vw;
         text-align: center;
-        color: black;
+        color: #2e3023;
         font-size: 1.8vw;
         font-weight: 500;
         line-height: 2vw;
@@ -1371,7 +1355,7 @@ body {
         p {
           width: 10vw;
           text-align: center;
-          color: black;
+          color: #2e3023;
           font-size: 1vw;
           word-wrap: break-word;
           font-weight: 600;
@@ -1427,7 +1411,7 @@ body {
         p {
           width: 10vw;
           text-align: center;
-          color: black;
+          color: #2e3023;
           font-size: 1vw;
           word-wrap: break-word;
           font-weight: 600;
@@ -1468,7 +1452,7 @@ body {
         p {
           width: 10vw;
           text-align: center;
-          color: black;
+          color: #2e3023;
           font-size: 1vw;
           word-wrap: break-word;
           font-weight: 600;
@@ -1539,7 +1523,7 @@ body {
       letter-spacing: normal;
       line-height: 2rem;
       text-align: justify;
-      color: black !important;
+      color: #2e3023 !important;
     }
   }
 
@@ -1563,7 +1547,7 @@ body {
         letter-spacing: normal;
         line-height: 2rem;
         text-align: justify;
-        color: black !important;
+        color: #2e3023 !important;
       }
     }
   }
@@ -1631,15 +1615,15 @@ body {
 
     .btn-primary:hover {
       background-color: #f1f3ee !important;
-      border-color: black !important;
-      color: black !important;
+      border-color: #2e3023 !important;
+      color: #2e3023 !important;
     }
   }
 }
 
 #complete-system {
   .title-complete-system {
-    color: black;
+    color: #2e3023;
     font-size: 2.3rem;
     font-weight: 700;
     line-height: 2.3rem;
@@ -1681,7 +1665,7 @@ body {
 
   @media screen and (min-width: 768px) {
     .title-complete-system {
-      color: black;
+      color: #2e3023;
       font-size: 2.3rem;
       font-weight: 700;
       line-height: normal;
@@ -1809,7 +1793,7 @@ body {
   }
 
   .text-info-2 {
-    color: black !important;
+    color: #2e3023 !important;
     margin: 10px;
     font-size: 1.2rem;
     font-weight: 400;
@@ -1817,7 +1801,7 @@ body {
   }
 
   .li-info {
-    color: black !important;
+    color: #2e3023 !important;
     margin: 10px;
     font-size: 1.2rem;
     font-weight: 400;
@@ -1836,7 +1820,7 @@ body {
     }
 
     .li-info {
-      color: black !important;
+      color: #2e3023 !important;
       margin: 10px;
       font-size: 1.2rem;
       font-weight: 500;
@@ -2093,7 +2077,7 @@ a.scroll-to-top:hover {
   .accordion-body {
     p {
       font-size: 1rem;
-      color: black !important;
+      color: #2e3023 !important;
       font-weight: 400;
     }
   }

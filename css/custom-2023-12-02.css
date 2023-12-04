@@ -30,7 +30,7 @@ body section.section-primary {
 }
 
 .btn-primary:hover {
-  color: black !important;
+  color: #2e3023 !important;
   background-color: transparent !important;
   border-radius: 0;
   border: 1px solid #cd5200 !important;
@@ -77,7 +77,7 @@ body section.section-primary {
   margin-left: 0px;
 }
 #header .header-body nav ul li a {
-  color: black !important;
+  color: #2e3023 !important;
   padding: 7px;
   display: block !important;
   width: 100%;
@@ -113,7 +113,7 @@ body section.section-primary {
     margin-left: 0px;
   }
   #header .header-body nav ul li a {
-    color: black !important;
+    color: #2e3023 !important;
     padding: 7px;
     display: block !important;
     width: 100%;
@@ -140,7 +140,7 @@ body section.section-primary {
   padding: 200px 0 !important;
 }
 #hero .home-title {
-  font-size: 3rem !important;
+  font-size: 3.1rem !important;
   font-weight: 400 !important;
   letter-spacing: 1px !important;
   max-width: 100% !important;
@@ -153,7 +153,7 @@ body section.section-primary {
     padding: 225px 0 !important;
   }
   #hero .home-title {
-    font-size: 4.3rem !important;
+    font-size: 4.666rem !important;
     font-weight: 500 !important;
     letter-spacing: 1px !important;
     max-width: 100% !important;
@@ -174,7 +174,7 @@ body section.section-primary {
   }
 }
 #discover-our-method .sub-title-discover-our-method {
-  color: black;
+  color: #2e3023;
   font-size: 1.2rem !important;
   line-height: 2rem !important;
   font-weight: 500 !important;
@@ -189,7 +189,7 @@ body section.section-primary {
 }
 @media screen and (min-width: 768px) {
   #discover-our-method .sub-title-discover-our-method {
-    color: black;
+    color: #2e3023;
     font-size: 1.5rem !important;
     font-weight: 400;
     letter-spacing: normal;
@@ -246,7 +246,7 @@ body section.section-primary {
   padding-bottom: 50px;
 }
 #benefits .title-benefits {
-  color: black;
+  color: #2e3023;
   font-size: 2rem !important;
   line-height: 2.3rem !important;
   font-weight: 700;
@@ -259,7 +259,7 @@ body section.section-primary {
   margin-top: 0px;
 }
 #benefits .sub-title-benefits {
-  color: black;
+  color: #2e3023;
   font-size: 1.2rem !important;
   line-height: 2rem;
   font-weight: 500;
@@ -282,7 +282,7 @@ body section.section-primary {
 #benefits .nav-pills .nav-link i {
   font-size: 3rem !important;
   text-align: center;
-  color: black !important;
+  color: #2e3023 !important;
   margin-bottom: 10px;
 }
 #benefits .nav-pills .nav-link p {
@@ -290,7 +290,7 @@ body section.section-primary {
   font-weight: 600;
   text-align: center;
   margin-bottom: 5px;
-  color: black !important;
+  color: #2e3023 !important;
   transition: all 0.2s linear;
 }
 #benefits .nav-pills .nav-link p.small {
@@ -370,7 +370,7 @@ body section.section-primary {
   font-size: 2.3rem;
   font-weight: 700;
   text-decoration: underline;
-  color: black;
+  color: #2e3023;
 }
 #benefits .tab-content .tab-pane h3 {
   font-size: 1.2rem;
@@ -397,7 +397,7 @@ body section.section-primary {
 }
 #benefits .tab-content .tab-pane p {
   font-size: 1.2rem;
-  color: black;
+  color: #2e3023;
   font-weight: 500;
   line-height: 2rem;
   margin-bottom: 0px;
@@ -414,8 +414,8 @@ body section.section-primary {
   }
   #benefits .title-benefits .img-text {
     display: inline-block;
-    width: 12rem;
-    margin-top: -15px;
+    width: 14rem;
+    margin-top: -10px;
   }
   #benefits .sub-title-benefits {
     color: #2e3023;
@@ -443,7 +443,7 @@ body section.section-primary {
   #benefits .nav-pills .nav-link i {
     font-size: 4rem !important;
     text-align: center;
-    color: black !important;
+    color: #2e3023 !important;
     margin-bottom: 10px;
   }
   #benefits .nav-pills .nav-link p {
@@ -451,7 +451,7 @@ body section.section-primary {
     font-weight: 600;
     text-align: center;
     margin-bottom: 5px;
-    color: black !important;
+    color: #2e3023 !important;
     transition: all 0.2s linear;
   }
   #benefits .nav-pills .nav-link p.small {
@@ -559,7 +559,7 @@ body section.section-primary {
   #benefits .tab-content .tab-pane p {
     font-family: "Montserrat", sans-serif;
     font-size: 1.2rem;
-    color: black;
+    color: #2e3023;
     font-weight: 500;
     line-height: 2rem;
     margin-bottom: 0px;
@@ -698,7 +698,7 @@ body section.section-primary {
   margin: 1rem 0rem 1rem 0rem;
 }
 #mission .sub-title-mission {
-  color: black;
+  color: #2e3023;
   font-size: 1.2rem;
   font-weight: 500;
   letter-spacing: normal;
@@ -722,7 +722,7 @@ body section.section-primary {
     line-height: 2rem !important;
   }
   #mission .sub-title-mission {
-    color: black;
+    color: #2e3023;
     font-size: 1.2rem;
     font-weight: 500;
     letter-spacing: normal;
@@ -744,15 +744,15 @@ body section.section-primary {
   border-top: 2px white solid !important;
 }
 #footer .title {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 1.2rem;
   font-weight: 400;
   color: white;
   text-align: center;
 }
 #footer p.title {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.2rem;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.1rem;
   font-weight: 400;
   color: white;
   line-height: 1.5rem;
@@ -775,11 +775,19 @@ body section.section-primary {
 }
 @media screen and (min-width: 768px) {
   #footer .title {
-    font-family: "Montserrat", sans-serif !important;
+    font-family: "Oswald", sans-serif !important;
     font-size: 1.2rem;
     font-weight: 400;
     color: white;
     text-align: left;
+  }
+  #footer p.title {
+    font-family: "Oswald", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: white;
+    line-height: 2rem;
+    margin-top: 1rem;
   }
   #footer ul li {
     font-size: 1.2rem !important;
@@ -802,7 +810,7 @@ body section.section-primary {
   border-top: 2px white solid !important;
 }
 #footer .footer-copyright p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Oswald", sans-serif;
   color: white;
   font-weight: 400;
   font-size: 1rem;
@@ -880,7 +888,7 @@ body section.section-primary {
   margin: 1rem 0rem 1rem 0rem;
 }
 #innovation-1 .sub-title-innovation-1 {
-  color: black;
+  color: #2e3023;
   font-size: 1.2rem;
   font-weight: 500;
   letter-spacing: normal;
@@ -901,7 +909,7 @@ body section.section-primary {
     line-height: 2rem !important;
   }
   #innovation-1 .sub-title-innovation-1 {
-    color: black;
+    color: #2e3023;
     font-size: 1.2rem;
     font-weight: 500;
     letter-spacing: normal;
@@ -1015,7 +1023,7 @@ body section.section-primary {
 #icon-section .icon-group .icon-button p {
   width: 11vw;
   text-align: center;
-  color: black;
+  color: #2e3023;
   font-size: 1.8vw;
   font-weight: 500;
   line-height: 2vw;
@@ -1059,7 +1067,7 @@ body section.section-primary {
 #icon-section .icon-group-middle .icon-button p {
   width: 11vw;
   text-align: center;
-  color: black;
+  color: #2e3023;
   font-size: 1.8vw;
   font-weight: 500;
   line-height: 2vw;
@@ -1091,7 +1099,7 @@ body section.section-primary {
 #icon-section .icon-group-reverse .icon-button p {
   width: 11vw;
   text-align: center;
-  color: black;
+  color: #2e3023;
   font-size: 1.8vw;
   font-weight: 500;
   line-height: 2vw;
@@ -1141,7 +1149,7 @@ body section.section-primary {
   #icon-section .icon-group .icon-button p {
     width: 10vw;
     text-align: center;
-    color: black;
+    color: #2e3023;
     font-size: 1vw;
     word-wrap: break-word;
     font-weight: 600;
@@ -1188,7 +1196,7 @@ body section.section-primary {
   #icon-section .icon-group-middle .icon-button p {
     width: 10vw;
     text-align: center;
-    color: black;
+    color: #2e3023;
     font-size: 1vw;
     word-wrap: break-word;
     font-weight: 600;
@@ -1222,7 +1230,7 @@ body section.section-primary {
   #icon-section .icon-group-reverse .icon-button p {
     width: 10vw;
     text-align: center;
-    color: black;
+    color: #2e3023;
     font-size: 1vw;
     word-wrap: break-word;
     font-weight: 600;
@@ -1280,7 +1288,7 @@ body section.section-primary {
   letter-spacing: normal;
   line-height: 2rem;
   text-align: justify;
-  color: black !important;
+  color: #2e3023 !important;
 }
 @media screen and (min-width: 768px) {
   #timeline .timeline-box {
@@ -1300,7 +1308,7 @@ body section.section-primary {
     letter-spacing: normal;
     line-height: 2rem;
     text-align: justify;
-    color: black !important;
+    color: #2e3023 !important;
   }
 }
 #timeline .timeline-box.left h2 {
@@ -1354,12 +1362,12 @@ body section.section-primary {
 }
 #timeline .timeline-date .btn-primary:hover {
   background-color: #f1f3ee !important;
-  border-color: black !important;
-  color: black !important;
+  border-color: #2e3023 !important;
+  color: #2e3023 !important;
 }
 
 #complete-system .title-complete-system {
-  color: black;
+  color: #2e3023;
   font-size: 2.3rem;
   font-weight: 700;
   line-height: 2.3rem;
@@ -1396,7 +1404,7 @@ body section.section-primary {
 }
 @media screen and (min-width: 768px) {
   #complete-system .title-complete-system {
-    color: black;
+    color: #2e3023;
     font-size: 2.3rem;
     font-weight: 700;
     line-height: normal;
@@ -1509,14 +1517,14 @@ body section.section-primary {
   font-size: 1rem;
 }
 #nutritional-table .text-info-2 {
-  color: black !important;
+  color: #2e3023 !important;
   margin: 10px;
   font-size: 1.2rem;
   font-weight: 400;
   line-height: 2rem;
 }
 #nutritional-table .li-info {
-  color: black !important;
+  color: #2e3023 !important;
   margin: 10px;
   font-size: 1.2rem;
   font-weight: 400;
@@ -1532,7 +1540,7 @@ body section.section-primary {
     font-size: 1.2rem !important;
   }
   #nutritional-table .li-info {
-    color: black !important;
+    color: #2e3023 !important;
     margin: 10px;
     font-size: 1.2rem;
     font-weight: 500;
@@ -1726,7 +1734,7 @@ a.scroll-to-top:hover {
 }
 #step-method .accordion-body p {
   font-size: 1rem;
-  color: black !important;
+  color: #2e3023 !important;
   font-weight: 400;
 }
 
