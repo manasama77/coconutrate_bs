@@ -615,140 +615,166 @@ body section.section-primary {
   }
 }
 
-#about-us {
+#about-us-page .overlay-bg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+}
+#about-us-page .about-us-bg {
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  transform: scale(1);
+  pointer-events: none;
+  position: fixed;
+  --fill-layer-image-opacity: 0.8;
+  --fill-layer-background-media-position: fixed;
+  --fill-layer-background-media-pointer-events: none;
+  --bg-overlay-color: rgb(46, 48, 35);
+  --bg-gradient: none;
+  min-width: 980px;
+}
+#about-us-page .about-us-bg img {
+  width: 1519px;
+  height: 1190px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  background: transparent;
+}
+#about-us-page #about-us {
+  position: relative;
   margin-bottom: 0px !important;
-  background-color: #2e3023 !important;
+  background-color: transparent !important;
+  padding-top: 5.66rem;
+  padding-bottom: 5.66rem;
 }
-#about-us .card-blur {
-  background-color: rgba(0, 0, 0, 0.8);
-  padding: 2rem;
-  backdrop-filter: blur(2px);
-}
-#about-us .title-about-us {
+#about-us-page #about-us .title-about-us {
   text-align: center;
-  font-size: 2.3rem !important;
-  font-weight: 700 !important;
+  font-size: 1.6rem !important;
+  font-weight: 600 !important;
   letter-spacing: 1px !important;
   color: white !important;
+  line-height: normal;
 }
-#about-us .title-about-us .img-text {
+#about-us-page #about-us .title-about-us .img-text {
   display: inline-block;
-  width: 5.5rem;
-  margin-top: 0px;
+  width: 9rem;
+  margin-top: -7px;
 }
-#about-us .sub-title-about-us p {
+#about-us-page #about-us .sub-title-about-us {
   color: white;
-  font-size: 1.2rem !important;
+  font-size: 1.2rem;
   font-weight: 400 !important;
-  line-height: 2.3rem;
+  line-height: normal;
   letter-spacing: normal;
 }
-#about-us .sub-title-about-us p .img-text {
+#about-us-page #about-us .sub-title-about-us .img-text {
   display: inline-block;
   width: 6rem;
   margin-top: -4px;
 }
 @media screen and (min-width: 768px) {
-  #about-us .title-about-us {
+  #about-us-page #about-us .title-about-us {
     text-align: center;
-    font-size: 2.3rem !important;
+    font-size: 2.5rem !important;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
     color: white !important;
   }
-  #about-us .title-about-us .img-text {
+  #about-us-page #about-us .title-about-us .img-text {
     display: inline-block;
     width: 13rem;
     margin-top: -10px;
   }
-  #about-us .sub-title-about-us {
+  #about-us-page #about-us .sub-title-about-us {
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: 400;
     line-height: 2rem;
     letter-spacing: normal;
   }
-  #about-us .sub-title-about-us .img-text {
+  #about-us-page #about-us .sub-title-about-us .img-text {
     display: inline-block;
     width: 5.5rem;
     margin-top: 0px;
   }
 }
-
-#mission .mission-image {
-  background: white url("../img/bg-mission.webp") no-repeat;
-  background-position: center !important;
-  background-size: cover;
-  height: 300px;
+#about-us-page #about-us-2 {
+  display: block;
+  margin-bottom: 0px !important;
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+  background-color: #eef0e9 !important;
+  position: relative;
 }
-@media screen and (min-width: 768px) {
-  #mission .mission-image {
-    background-size: cover;
-    height: 500px;
-  }
-}
-#mission .vision-image {
-  background: white url("../img/bg-vision.webp") no-repeat;
-  background-position: 0px top !important;
-  background-size: cover;
-  height: 300px;
-}
-@media screen and (min-width: 768px) {
-  #mission .vision-image {
-    background-size: cover;
-    height: 500px;
-  }
-}
-#mission .title-mission {
-  text-align: center;
-  font-size: 2.3rem !important;
-  line-height: 2.3rem !important;
-  font-weight: 700 !important;
-  letter-spacing: 1px !important;
-  color: #d15a0b !important;
-  margin: 1rem 0rem 1rem 0rem;
-}
-#mission .sub-title-mission {
+#about-us-page #about-us-2 .sub-title-about-us p {
   color: #2e3023;
-  font-size: 1.2rem;
-  font-weight: 500;
+  font-size: 1.2rem !important;
+  font-weight: 500 !important;
+  line-height: 1.6rem;
   letter-spacing: normal;
-  line-height: 2rem;
 }
-#mission .sub-title-mission li {
-  line-height: 2rem !important;
-}
-#mission .sub-title-mission .img-text {
+#about-us-page #about-us-2 .sub-title-about-us p .img-text {
   display: inline-block;
-  width: 6rem;
+  width: 5rem;
   margin-top: -4px;
 }
 @media screen and (min-width: 768px) {
-  #mission .title-mission {
+  #about-us-page #about-us-2 .title-about-us {
     text-align: center;
-    font-size: 2.3rem !important;
+    font-size: 2.5rem !important;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
-    color: #d15a0b !important;
-    line-height: 2rem !important;
+    color: white !important;
   }
-  #mission .sub-title-mission {
-    color: #2e3023;
-    font-size: 1.2rem;
-    font-weight: 500;
-    letter-spacing: normal;
-    line-height: 2rem !important;
-  }
-  #mission .sub-title-mission li {
-    line-height: 2rem !important;
-  }
-  #mission .sub-title-mission .img-text {
+  #about-us-page #about-us-2 .title-about-us .img-text {
     display: inline-block;
-    width: 5rem;
-    margin-top: -5px;
+    width: 13rem;
+    margin-top: -10px;
+  }
+  #about-us-page #about-us-2 .sub-title-about-us {
+    color: white;
+    font-size: 1.666rem;
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: normal;
+  }
+  #about-us-page #about-us-2 .sub-title-about-us .img-text {
+    display: inline-block;
+    width: 5.5rem;
+    margin-top: 0px;
   }
 }
-
+#about-us-page #about-us-3 {
+  position: relative;
+  margin-bottom: 0px !important;
+  background-color: transparent !important;
+  padding-top: 5.66rem;
+  padding-bottom: 5.66rem;
+}
+#about-us-page #about-us-3 .card-custom {
+  background-color: #f1f3ee;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  min-height: 300px;
+  padding-bottom: 0px;
+}
+#about-us-page #about-us-3 .card-custom h1 {
+  padding-top: 1rem;
+  font-weight: 500;
+  color: #d15a0b;
+}
+#about-us-page #about-us-3 .card-custom p {
+  font-size: 1.2rem;
+  color: #2e3023;
+  font-weight: 500;
+  text-align: center;
+  min-height: 100px;
+  padding: 0px !important;
+}
 #footer {
   margin-top: 0px;
   background-color: #2e3023;
@@ -756,11 +782,10 @@ body section.section-primary {
 }
 #footer .title {
   font-family: "Oswald", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: 400;
   color: white;
   text-align: center;
-  color: red;
   padding-top: 10px;
   letter-spacing: 3px;
 }
