@@ -493,15 +493,16 @@ body section.section-primary {
   #benefits .nav-pills .nav-link.active {
     padding: 1.5rem 0.5rem 1.5rem 0.5rem;
     text-decoration: none;
-    background-color: #d15a0b;
+    background-color: transparent;
   }
   #benefits .nav-pills .nav-link.active img {
-    filter: brightness(0) invert(1);
+    filter: invert(54%) sepia(80%) saturate(4714%) hue-rotate(4deg) brightness(94%) contrast(102%);
+    transition: all 0.2s linear;
   }
   #benefits .nav-pills .nav-link.active p {
     font-size: 1.3rem !important;
     font-weight: 600;
-    color: white !important;
+    color: #d15a0b !important;
     text-align: center;
     margin-bottom: 5px;
   }
@@ -509,7 +510,7 @@ body section.section-primary {
     font-family: "Barlow";
     font-size: 1.1rem !important;
     font-weight: 400 !important;
-    color: white !important;
+    color: #2e3023 !important;
     text-align: center;
     margin-bottom: 0px;
     line-height: 17px !important;
@@ -517,7 +518,7 @@ body section.section-primary {
   #benefits .nav-pills .nav-link.active i {
     font-size: 5rem;
     text-align: center;
-    color: white !important;
+    color: #d15a0b !important;
     margin-bottom: 10px;
   }
   #benefits .tab-content {
@@ -628,7 +629,12 @@ body section.section-primary {
   font-size: 2.3rem !important;
   font-weight: 700 !important;
   letter-spacing: 1px !important;
-  color: #d15a0b !important;
+  color: white !important;
+}
+#about-us .title-about-us .img-text {
+  display: inline-block;
+  width: 5.5rem;
+  margin-top: 0px;
 }
 #about-us .sub-title-about-us p {
   color: white;
@@ -648,16 +654,21 @@ body section.section-primary {
     font-size: 2.3rem !important;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
-    color: #d15a0b !important;
+    color: white !important;
   }
-  #about-us .sub-title-about-us p {
+  #about-us .title-about-us .img-text {
+    display: inline-block;
+    width: 13rem;
+    margin-top: -10px;
+  }
+  #about-us .sub-title-about-us {
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 400;
     line-height: 2rem;
     letter-spacing: normal;
   }
-  #about-us .sub-title-about-us p .img-text {
+  #about-us .sub-title-about-us .img-text {
     display: inline-block;
     width: 5.5rem;
     margin-top: 0px;
@@ -749,6 +760,9 @@ body section.section-primary {
   font-weight: 400;
   color: white;
   text-align: center;
+  color: red;
+  padding-top: 10px;
+  letter-spacing: 3px;
 }
 #footer p.title {
   font-family: "Oswald", sans-serif;
@@ -782,8 +796,8 @@ body section.section-primary {
     text-align: left;
   }
   #footer p.title {
-    font-family: "Oswald", sans-serif;
-    font-size: 1.3rem;
+    font-family: "Oswald", sans-serif !important;
+    font-size: 1rem;
     font-weight: 400;
     color: white;
     line-height: 2rem;
