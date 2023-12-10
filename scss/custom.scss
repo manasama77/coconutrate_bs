@@ -923,7 +923,7 @@ body {
 #footer {
   margin-top: 0px;
   background-color: $secondary;
-  border-top: 2px white solid !important;
+  border-top: 1px #2e3023 solid !important;
 
   .title {
     font-family: "Oswald", sans-serif;
@@ -1025,179 +1025,66 @@ body {
   }
 }
 
-#our-innovation {
-  margin-bottom: 0px !important;
-  background-color: $secondary !important;
-
-  .card-blur {
-    background-color: rgba($color: #000000, $alpha: 0.8);
-    padding: 2rem;
-    backdrop-filter: blur(2px);
+#our-innovation-page {
+  .overlay-bg {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
   }
 
-  .title-our-innovation {
-    text-align: center;
-    font-size: 2.3rem !important;
-    font-weight: 700 !important;
-    letter-spacing: normal !important;
-    color: $primary !important;
-  }
+  .our-innvovation-bg {
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    transform: scale(1);
+    pointer-events: none;
+    position: fixed;
+    --fill-layer-image-opacity: 0.8;
+    --fill-layer-background-media-position: fixed;
+    --fill-layer-background-media-pointer-events: none;
+    --bg-overlay-color: rgb(46, 48, 35);
+    --bg-gradient: none;
+    min-width: 980px;
 
-  .sub-title-our-innovation {
-    p {
-      color: white;
-      font-size: 1.2rem;
-      font-weight: 400;
-      line-height: 2rem;
-      letter-spacing: normal;
-
-      .img-text {
-        display: inline-block;
-        width: 4rem;
-        margin-top: -5px;
-      }
+    img {
+      width: 1519px;
+      height: 1190px;
+      object-fit: cover;
+      object-position: 50% 50%;
+      background: transparent;
     }
   }
 
-  @media screen and (min-width: 768px) {
+  #our-innovation {
+    position: relative;
+    margin-bottom: 0px !important;
+    background-color: transparent !important;
+    padding-top: 5.66rem;
+    padding-bottom: 5.66rem;
+
     .title-our-innovation {
       text-align: center;
-      font-size: 2.3rem !important;
-      font-weight: 700 !important;
+      font-size: 1.6rem !important;
+      font-weight: 600 !important;
       letter-spacing: 1px !important;
-      color: $primary !important;
+      color: white !important;
+      line-height: normal;
+
+      .img-text {
+        display: inline-block;
+        width: 9rem;
+        margin-top: -7px;
+      }
     }
 
     .sub-title-our-innovation {
-      p {
-        color: white;
-        font-size: 1.2rem;
-        font-weight: 400;
-        line-height: 2rem;
-        letter-spacing: normal;
-
-        .img-text {
-          display: inline-block;
-          width: 5rem;
-          margin-top: 0px;
-        }
-      }
-    }
-  }
-}
-
-#innovation-1 {
-  .innovation-1-image {
-    background: white url("../img/IMAGE-3.jpg") no-repeat;
-    background-position: center !important;
-    background-size: cover;
-    height: 300px;
-
-    @media screen and (min-width: 768px) {
-      background-size: cover;
-      height: 510px;
-    }
-  }
-
-  .title-innovation-1 {
-    text-align: center;
-    font-size: 2.3rem !important;
-    line-height: 2rem !important;
-    font-weight: 700 !important;
-    letter-spacing: normal !important;
-    color: $primary !important;
-    margin: 1rem 0rem 1rem 0rem;
-  }
-
-  .sub-title-innovation-1 {
-    color: #2e3023;
-    font-size: 1.2rem;
-    font-weight: 500;
-    letter-spacing: normal;
-    line-height: 2rem !important;
-
-    .img-text {
-      display: inline-block;
-      width: 4rem;
-      margin-top: -5px;
-    }
-  }
-
-  @media screen and (min-width: 768px) {
-    .title-innovation-1 {
-      text-align: center;
-      font-size: 2.3rem !important;
-      font-weight: 700 !important;
-      letter-spacing: 1px !important;
-      color: $primary !important;
-      line-height: 2rem !important;
-    }
-
-    .sub-title-innovation-1 {
-      color: #2e3023;
-      font-size: 1.2rem;
-      font-weight: 500;
-      letter-spacing: normal;
-      line-height: 2rem !important;
-
-      li {
-        line-height: 2rem !important;
-      }
-
-      .img-text {
-        display: inline-block;
-        width: 4rem;
-        margin-top: -5px;
-      }
-    }
-  }
-}
-
-#innovation-2 {
-  margin-bottom: 0px !important;
-  background-color: $secondary !important;
-
-  .title-innovation-2 {
-    text-align: center;
-    font-size: 2.3rem !important;
-    line-height: 2rem;
-    font-weight: 700 !important;
-    letter-spacing: normal !important;
-    color: $primary !important;
-    margin: 1rem 0rem 1rem 0rem;
-  }
-
-  .sub-title-innovation-2 {
-    color: white;
-    font-size: 1.2rem;
-    font-weight: 400;
-    line-height: 2rem;
-    letter-spacing: normal;
-    margin-bottom: 0px;
-
-    .img-text {
-      display: inline-block;
-      width: 5rem;
-      margin-top: -5px;
-    }
-  }
-
-  @media screen and (min-width: 768px) {
-    .title-innovation-2 {
-      text-align: center;
-      font-size: 2.3rem !important;
-      font-weight: 700 !important;
-      letter-spacing: 1px !important;
-      color: $primary !important;
-      line-height: 2rem;
-      margin: 1rem 0rem 1rem 0rem;
-    }
-
-    .sub-title-innovation-2 {
       color: white;
       font-size: 1.2rem;
-      font-weight: 500;
-      line-height: 2rem;
+      font-weight: 400 !important;
+      line-height: normal;
       letter-spacing: normal;
 
       .img-text {
@@ -1205,6 +1092,147 @@ body {
         width: 6rem;
         margin-top: -4px;
       }
+    }
+
+    @media screen and (min-width: 768px) {
+      .title-our-innovation {
+        text-align: center;
+        font-size: 2.5rem !important;
+        font-weight: 700 !important;
+        letter-spacing: 1px !important;
+        color: white !important;
+
+        .img-text {
+          display: inline-block;
+          width: 13rem;
+          margin-top: -10px;
+        }
+      }
+
+      .sub-title-our-innovation {
+        color: white;
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 2rem;
+        letter-spacing: normal;
+
+        .img-text {
+          display: inline-block;
+          width: 5.5rem;
+          margin-top: 0px;
+        }
+      }
+    }
+  }
+
+  #our-innovation-2 {
+    display: block;
+    margin-bottom: 0px !important;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+    background-color: #eef0e9 !important;
+    position: relative;
+
+    .title-our-innovation {
+      color: $primary;
+      font-size: 3rem !important;
+      font-weight: 600 !important;
+      line-height: 1.6rem;
+      letter-spacing: normal;
+      padding-top: 30px;
+      padding-bottom: 30px;
+
+      .img-text {
+        display: inline-block;
+        width: 5rem;
+        margin-top: -4px;
+      }
+    }
+
+    .sub-title-our-innovation {
+      p {
+        color: $secondary;
+        font-size: 1.2rem !important;
+        font-weight: 500 !important;
+        line-height: 1.6rem;
+        letter-spacing: normal;
+
+        .img-text {
+          display: inline-block;
+          width: 5rem;
+          margin-top: -4px;
+        }
+      }
+    }
+
+    @media screen and (min-width: 768px) {
+      .title-our-innovation {
+        color: $primary;
+        font-size: 3rem !important;
+        font-weight: 600 !important;
+        line-height: 1.6rem;
+        letter-spacing: normal;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+        .img-text {
+          display: inline-block;
+          width: 5rem;
+          margin-top: -4px;
+        }
+      }
+
+      .sub-title-our-innovation {
+        color: white;
+        font-size: 1.666rem;
+        font-weight: 400;
+        line-height: 2rem;
+        letter-spacing: normal;
+
+        .img-text {
+          display: inline-block;
+          width: 5.5rem;
+          margin-top: 0px;
+        }
+      }
+    }
+  }
+
+  #our-innovation-3 {
+    position: relative;
+    margin-bottom: 0px !important;
+    background-color: transparent !important;
+    padding-top: 5.66rem;
+    padding-bottom: 5.66rem;
+
+    .card-custom {
+      background-color: #f1f3ee;
+      padding-left: 2rem !important;
+      padding-right: 2rem !important;
+      min-height: 300px;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+
+      h1 {
+        padding-top: 1rem;
+        font-weight: 500;
+        color: $primary;
+      }
+
+      p {
+        font-size: 1.2rem;
+        // margin-right: 2rem;
+        // width: 100%;
+        color: $secondary;
+        font-weight: 500;
+        text-align: center;
+        // position: absolute;
+        min-height: 100px;
+        padding: 0px !important;
+      }
+    }
+
+    @media screen and (min-width: 768px) {
     }
   }
 }
