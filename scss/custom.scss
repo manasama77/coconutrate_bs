@@ -1045,7 +1045,7 @@ body {
     --fill-layer-image-opacity: 0.8;
     --fill-layer-background-media-position: fixed;
     --fill-layer-background-media-pointer-events: none;
-    --bg-overlay-color: rgb(46, 48, 35);
+    --bg-overlay-color: rgb(255, 255, 255);
     --bg-gradient: none;
     min-width: 980px;
 
@@ -1054,7 +1054,7 @@ body {
       height: 1190px;
       object-fit: cover;
       object-position: 50% 50%;
-      background: transparent;
+      background: rgba(0, 0, 0, 1);
     }
   }
 
