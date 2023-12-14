@@ -248,15 +248,15 @@ body section.section-primary {
 #benefits .title-benefits {
   color: #2e3023;
   font-size: 2rem !important;
-  line-height: 2.3rem !important;
+  line-height: 3rem !important;
   font-weight: 700;
   letter-spacing: normal;
   margin-bottom: 2rem !important;
 }
 #benefits .title-benefits .img-text {
   display: inline-block;
-  width: 9rem;
-  margin-top: 0px;
+  width: 9.5rem;
+  margin-top: -10px;
 }
 #benefits .sub-title-benefits {
   color: #2e3023;
@@ -271,16 +271,19 @@ body section.section-primary {
   width: 6rem;
   margin-top: -5px;
 }
+#benefits .nav-pills {
+  margin-bottom: 10px;
+}
 #benefits .nav-pills .nav-link {
   padding: 1.5rem 0.5rem 1.5rem 0.5rem;
   border-radius: 0px;
   text-decoration: none;
   transition: all 0.4s linear;
-  text-align: center;
   width: 100%;
+  text-align: center;
 }
 #benefits .nav-pills .nav-link i {
-  font-size: 3rem !important;
+  font-size: 4rem !important;
   text-align: center;
   color: #2e3023 !important;
   margin-bottom: 10px;
@@ -332,15 +335,16 @@ body section.section-primary {
 #benefits .nav-pills .nav-link.active {
   padding: 1.5rem 0.5rem 1.5rem 0.5rem;
   text-decoration: none;
-  background-color: #d15a0b;
+  background-color: transparent;
 }
 #benefits .nav-pills .nav-link.active img {
-  filter: brightness(0) invert(1);
+  filter: invert(54%) sepia(80%) saturate(4714%) hue-rotate(4deg) brightness(94%) contrast(102%);
+  transition: all 0.2s linear;
 }
 #benefits .nav-pills .nav-link.active p {
   font-size: 1.3rem !important;
   font-weight: 600;
-  color: white !important;
+  color: #d15a0b !important;
   text-align: center;
   margin-bottom: 5px;
 }
@@ -348,7 +352,7 @@ body section.section-primary {
   font-family: "Barlow";
   font-size: 1.1rem !important;
   font-weight: 400 !important;
-  color: white !important;
+  color: #2e3023 !important;
   text-align: center;
   margin-bottom: 0px;
   line-height: 17px !important;
@@ -356,7 +360,7 @@ body section.section-primary {
 #benefits .nav-pills .nav-link.active i {
   font-size: 5rem;
   text-align: center;
-  color: white !important;
+  color: #d15a0b !important;
   margin-bottom: 10px;
 }
 #benefits .tab-content {
@@ -389,6 +393,7 @@ body section.section-primary {
   margin-top: 10px;
   margin-bottom: 0px;
   font-weight: 500;
+  font-family: "Montserrat", sans-serif;
 }
 #benefits .tab-content .tab-pane h4 .img-text {
   display: inline-block;
@@ -414,8 +419,8 @@ body section.section-primary {
   }
   #benefits .title-benefits .img-text {
     display: inline-block;
-    width: 14rem;
-    margin-top: -10px;
+    width: 15rem;
+    margin-top: -12px;
   }
   #benefits .sub-title-benefits {
     color: #2e3023;
@@ -789,13 +794,14 @@ body section.section-primary {
   padding-top: 10px;
   letter-spacing: 3px;
 }
-#footer p.title {
+#footer .title_company {
   font-family: "Oswald", sans-serif;
-  font-size: 1.1rem;
-  font-weight: 400;
-  color: white;
-  line-height: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #d15a0b !important;
   margin-top: 1rem;
+  text-align: center;
+  padding-top: 10px;
 }
 #footer ul li {
   font-size: 1rem !important;
@@ -820,13 +826,14 @@ body section.section-primary {
     color: white;
     text-align: left;
   }
-  #footer p.title {
-    font-family: "Oswald", sans-serif !important;
-    font-size: 1rem;
-    font-weight: 400;
-    color: #d15a0b;
-    line-height: 2rem;
+  #footer .title_company {
+    font-family: "Oswald", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #d15a0b !important;
     margin-top: 1rem;
+    text-align: left;
+    padding-top: 10px;
   }
   #footer ul li {
     font-size: 1.2rem !important;

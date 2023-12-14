@@ -299,15 +299,15 @@ body {
   .title-benefits {
     color: #2e3023;
     font-size: 2rem !important;
-    line-height: 2.3rem !important;
+    line-height: 3rem !important;
     font-weight: 700;
     letter-spacing: normal;
     margin-bottom: 2rem !important;
 
     .img-text {
       display: inline-block;
-      width: 9rem;
-      margin-top: 0px;
+      width: 9.5rem;
+      margin-top: -10px;
     }
   }
 
@@ -326,17 +326,122 @@ body {
     }
   }
 
+  // .nav-pills {
+  //   .nav-link {
+  //     padding: 1.5rem 0.5rem 1.5rem 0.5rem;
+  //     border-radius: 0px;
+  //     text-decoration: none;
+  //     transition: all 0.4s linear;
+  //     text-align: center;
+  //     width: 100%;
+
+  //     i {
+  //       font-size: 3rem !important;
+  //       text-align: center;
+  //       color: #2e3023 !important;
+  //       margin-bottom: 10px;
+  //     }
+
+  //     p {
+  //       font-size: 1.3rem !important;
+  //       font-weight: 600;
+  //       text-align: center;
+  //       margin-bottom: 5px;
+  //       color: #2e3023 !important;
+  //       transition: all 0.2s linear;
+  //     }
+
+  //     p.small {
+  //       font-family: "Barlow";
+  //       font-size: 1.1rem !important;
+  //       font-weight: 400 !important;
+  //       text-align: center;
+  //       margin-bottom: 0px;
+  //       line-height: 17px !important;
+  //     }
+  //   }
+
+  //   .nav-link:hover {
+  //     padding: 1.5rem 0.5rem 1.5rem 0.5rem;
+  //     border-radius: 0px;
+  //     text-decoration: none;
+  //     transition: all 0.2s linear;
+
+  //     i {
+  //       font-size: 5rem;
+  //       text-align: center;
+  //       color: $primary;
+  //       margin-bottom: 10px;
+  //       transition: all 0.2s linear;
+  //     }
+
+  //     p {
+  //       font-size: 1.3rem !important;
+  //       font-weight: 600;
+  //       text-align: center;
+  //       margin-bottom: 5px;
+  //       transition: all 0.2s linear;
+  //     }
+
+  //     p.small {
+  //       font-family: "Barlow";
+  //       font-size: 1.1rem !important;
+  //       font-weight: 400 !important;
+  //       text-align: center;
+  //       margin-bottom: 0px;
+  //       line-height: 17px !important;
+  //     }
+  //   }
+
+  //   .nav-link.active {
+  //     padding: 1.5rem 0.5rem 1.5rem 0.5rem;
+  //     text-decoration: none;
+  //     background-color: $primary;
+
+  //     img {
+  //       filter: brightness(0) invert(1);
+  //     }
+
+  //     p {
+  //       font-size: 1.3rem !important;
+  //       font-weight: 600;
+  //       color: white !important;
+  //       text-align: center;
+  //       margin-bottom: 5px;
+  //     }
+
+  //     p.small {
+  //       font-family: "Barlow";
+  //       font-size: 1.1rem !important;
+  //       font-weight: 400 !important;
+  //       color: white !important;
+  //       text-align: center;
+  //       margin-bottom: 0px;
+  //       line-height: 17px !important;
+  //     }
+
+  //     i {
+  //       font-size: 5rem;
+  //       text-align: center;
+  //       color: white !important;
+  //       margin-bottom: 10px;
+  //     }
+  //   }
+  // }
+
   .nav-pills {
+    margin-bottom: 10px;
+
     .nav-link {
       padding: 1.5rem 0.5rem 1.5rem 0.5rem;
       border-radius: 0px;
       text-decoration: none;
       transition: all 0.4s linear;
-      text-align: center;
       width: 100%;
+      text-align: center;
 
       i {
-        font-size: 3rem !important;
+        font-size: 4rem !important;
         text-align: center;
         color: #2e3023 !important;
         margin-bottom: 10px;
@@ -396,16 +501,19 @@ body {
     .nav-link.active {
       padding: 1.5rem 0.5rem 1.5rem 0.5rem;
       text-decoration: none;
-      background-color: $primary;
+      background-color: transparent;
 
       img {
-        filter: brightness(0) invert(1);
+        // filter: brightness(0) invert(1);
+        filter: invert(54%) sepia(80%) saturate(4714%) hue-rotate(4deg)
+          brightness(94%) contrast(102%);
+        transition: all 0.2s linear;
       }
 
       p {
         font-size: 1.3rem !important;
         font-weight: 600;
-        color: white !important;
+        color: $primary !important;
         text-align: center;
         margin-bottom: 5px;
       }
@@ -414,7 +522,7 @@ body {
         font-family: "Barlow";
         font-size: 1.1rem !important;
         font-weight: 400 !important;
-        color: white !important;
+        color: $secondary !important;
         text-align: center;
         margin-bottom: 0px;
         line-height: 17px !important;
@@ -423,7 +531,7 @@ body {
       i {
         font-size: 5rem;
         text-align: center;
-        color: white !important;
+        color: $primary !important;
         margin-bottom: 10px;
       }
     }
@@ -462,6 +570,7 @@ body {
         margin-top: 10px;
         margin-bottom: 0px;
         font-weight: 500;
+        font-family: "Montserrat", sans-serif;
 
         .img-text {
           display: inline-block;
@@ -492,8 +601,8 @@ body {
 
       .img-text {
         display: inline-block;
-        width: 14rem;
-        margin-top: -10px;
+        width: 15rem;
+        margin-top: -12px;
       }
     }
 
@@ -936,18 +1045,18 @@ body {
     letter-spacing: 3px;
   }
 
-  p.title {
+  .title_company {
     font-family: "Oswald", sans-serif;
-    font-size: 1.1rem;
-    font-weight: 400;
-    color: white;
-    line-height: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: $primary !important;
     margin-top: 1rem;
+    text-align: center;
+    padding-top: 10px;
   }
 
   ul {
     li {
-      // font-family: "Barlow", sans-serif !important;
       font-size: 1rem !important;
       color: $primary !important;
       font-weight: 700;
@@ -956,7 +1065,6 @@ body {
 
     li {
       a {
-        // font-family: "Barlow", sans-serif !important;
         font-size: 1.2rem !important;
         color: $primary !important;
         font-weight: 700;
@@ -978,13 +1086,14 @@ body {
       text-align: left;
     }
 
-    p.title {
-      font-family: "Oswald", sans-serif !important;
-      font-size: 1rem;
-      font-weight: 400;
-      color: $primary;
-      line-height: 2rem;
+    .title_company {
+      font-family: "Oswald", sans-serif;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: $primary !important;
       margin-top: 1rem;
+      text-align: left;
+      padding-top: 10px;
     }
 
     ul {
