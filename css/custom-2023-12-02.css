@@ -643,10 +643,10 @@ body section.section-primary {
   min-width: 980px;
 }
 #about-us-page .about-us-bg img {
-  width: 1519px;
+  width: 100vw;
   height: 1190px;
   object-fit: cover;
-  object-position: 50% 50%;
+  object-position: 50% 10%;
   background: transparent;
 }
 #about-us-page #about-us {
