@@ -13,6 +13,10 @@ body {
   line-height: normal;
   background-color: #f1f3ee !important;
 }
+html .main,
+body .main {
+  background-color: #f1f3ee;
+}
 html section.section-primary,
 body section.section-primary {
   background-color: #f1f3ee !important;
@@ -136,8 +140,9 @@ body section.section-primary {
 }
 
 #hero {
-  margin: 0px;
   padding: 200px 0 !important;
+  background-color: #f1f3ee !important;
+  margin-top: -100px !important;
 }
 #hero .home-title {
   font-size: 3.1rem !important;
@@ -244,6 +249,10 @@ body section.section-primary {
   background-color: #f1f3ee;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+#benefits .tab-content {
+  box-shadow: none !important;
+  border: none !important;
 }
 #benefits .title-benefits {
   color: #2e3023;

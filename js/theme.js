@@ -5350,7 +5350,8 @@ window.theme.fn = {
 
             background.css({
               transform: "translate3d(0, " + y + "px, 0)" + rotateY,
-              "background-position-x": self.options.horizontalPosition,
+              "background-position-x": "0%",
+              "background-position-y": "60%",
             });
           } else {
             var scrollTop = $window.scrollTop(),

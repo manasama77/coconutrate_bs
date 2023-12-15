@@ -27,7 +27,12 @@ body {
   // font-family: "Montserrat", sans-serif !important;
   font-size: 14px !important;
   line-height: normal;
-  background-color: $base !important;
+  // background-color: $base !important;
+  background-color: #f1f3ee !important;
+
+  .main {
+    background-color: $base;
+  }
 
   section.section-primary {
     background-color: #f1f3ee !important;
@@ -174,8 +179,9 @@ body {
 }
 
 #hero {
-  margin: 0px;
   padding: 200px 0 !important;
+  background-color: $base !important;
+  margin-top: -100px !important;
 
   .home-title {
     font-size: 3.1rem !important;
@@ -295,6 +301,11 @@ body {
   background-color: $base;
   padding-top: 50px;
   padding-bottom: 50px;
+
+  .tab-content {
+    box-shadow: none !important;
+    border: none !important;
+  }
 
   .title-benefits {
     color: #2e3023;
