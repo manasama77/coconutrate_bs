@@ -693,7 +693,7 @@ body section.section-primary {
 @media screen and (min-width: 768px) {
   #about-us-page #about-us .title-about-us {
     text-align: center;
-    font-size: 2.5rem !important;
+    font-size: 3.5rem !important;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
     color: white !important;
@@ -830,15 +830,15 @@ body section.section-primary {
 @media screen and (min-width: 768px) {
   #footer .title {
     font-family: "Oswald", sans-serif !important;
-    font-size: 1.2rem;
-    font-weight: 400;
+    font-size: 1.5rem;
+    font-weight: 700;
     color: white;
     text-align: left;
   }
   #footer .title_company {
     font-family: "Oswald", sans-serif;
     font-size: 1.2rem;
-    font-weight: 700;
+    font-weight: 400;
     color: #d15a0b !important;
     margin-top: 1rem;
     text-align: left;
@@ -853,7 +853,7 @@ body section.section-primary {
   #footer ul li a {
     font-size: 1.2rem !important;
     color: #d15a0b !important;
-    font-weight: 700;
+    font-weight: 400;
     text-align: left;
   }
   #footer ul li a:hover {

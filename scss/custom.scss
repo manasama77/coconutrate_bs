@@ -919,7 +919,7 @@ body {
     @media screen and (min-width: 768px) {
       .title-about-us {
         text-align: center;
-        font-size: 2.5rem !important;
+        font-size: 3.5rem !important;
         font-weight: 700 !important;
         letter-spacing: 1px !important;
         color: white !important;
@@ -1091,8 +1091,8 @@ body {
   @media screen and (min-width: 768px) {
     .title {
       font-family: "Oswald", sans-serif !important;
-      font-size: 1.2rem;
-      font-weight: 400;
+      font-size: 1.5rem;
+      font-weight: 700;
       color: white;
       text-align: left;
     }
@@ -1100,7 +1100,7 @@ body {
     .title_company {
       font-family: "Oswald", sans-serif;
       font-size: 1.2rem;
-      font-weight: 700;
+      font-weight: 400;
       color: $primary !important;
       margin-top: 1rem;
       text-align: left;
@@ -1121,7 +1121,7 @@ body {
           // font-family: "Barlow", sans-serif !important;
           font-size: 1.2rem !important;
           color: $primary !important;
-          font-weight: 700;
+          font-weight: 400;
           text-align: left;
         }
 
