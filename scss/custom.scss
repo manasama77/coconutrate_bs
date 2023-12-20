@@ -1467,6 +1467,39 @@ body {
     background-color: #eef0e9 !important;
     position: relative;
 
+    a.icon-button {
+      font-size: 1.2rem;
+      font-weight: 500 !important;
+
+      img {
+        transition: all 0.2s ease-in-out;
+      }
+    }
+
+    a.icon-button:hover {
+      text-decoration: none;
+
+      img {
+        transform: rotate(5deg);
+      }
+
+      p {
+        color: $primary;
+      }
+    }
+
+    .arrow-down {
+      margin-top: 3.5vw;
+      margin-left: -2vw;
+    }
+
+    .arrow-down-left {
+      margin-top: -0.7vw;
+      margin-left: -1vw;
+    }
+
+    ///////////////////
+
     .icon-group {
       display: flex;
       flex-direction: row;

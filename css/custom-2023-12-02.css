@@ -1145,6 +1145,30 @@ body section.section-primary {
   background-color: #eef0e9 !important;
   position: relative;
 }
+#our-method-page #our-method-icon-section a.icon-button {
+  font-size: 1.2rem;
+  font-weight: 500 !important;
+}
+#our-method-page #our-method-icon-section a.icon-button img {
+  transition: all 0.2s ease-in-out;
+}
+#our-method-page #our-method-icon-section a.icon-button:hover {
+  text-decoration: none;
+}
+#our-method-page #our-method-icon-section a.icon-button:hover img {
+  transform: rotate(5deg);
+}
+#our-method-page #our-method-icon-section a.icon-button:hover p {
+  color: #d15a0b;
+}
+#our-method-page #our-method-icon-section .arrow-down {
+  margin-top: 3.5vw;
+  margin-left: -2vw;
+}
+#our-method-page #our-method-icon-section .arrow-down-left {
+  margin-top: -0.7vw;
+  margin-left: -1vw;
+}
 #our-method-page #our-method-icon-section .icon-group {
   display: flex;
   flex-direction: row;
