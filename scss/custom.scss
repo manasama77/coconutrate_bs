@@ -1006,8 +1006,8 @@ body {
     position: relative;
     margin-bottom: 0px !important;
     background-color: transparent !important;
-    padding-top: 5.66rem;
-    padding-bottom: 5.66rem;
+    padding-top: 8.66rem;
+    padding-bottom: 8.66rem;
 
     .card-custom {
       background-color: #f1f3ee;
@@ -1017,13 +1017,14 @@ body {
       padding-bottom: 0px;
 
       h1 {
+        font-size: 2.8rem;
         padding-top: 1rem;
         font-weight: 500;
         color: $primary;
       }
 
       p {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         // margin-right: 2rem;
         // width: 100%;
         color: $secondary;
@@ -1217,7 +1218,7 @@ body {
     @media screen and (min-width: 768px) {
       .title-our-innovation {
         text-align: center;
-        font-size: 2.5rem !important;
+        font-size: 3.5rem !important;
         font-weight: 700 !important;
         letter-spacing: 1px !important;
         color: white !important;
@@ -1288,8 +1289,8 @@ body {
     @media screen and (min-width: 768px) {
       .title-our-innovation {
         color: $primary;
-        font-size: 3rem !important;
-        font-weight: 600 !important;
+        font-size: 2.8rem !important;
+        font-weight: 500 !important;
         line-height: 1.6rem;
         letter-spacing: normal;
         padding-top: 30px;
@@ -1336,6 +1337,7 @@ body {
       h1 {
         padding-top: 1rem;
         font-weight: 500;
+        font-size: 2.8rem;
         color: $primary;
       }
 
