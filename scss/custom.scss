@@ -1862,11 +1862,11 @@ body {
 
     .card-custom {
       background-color: #f1f3ee;
-      padding-left: 2rem !important;
-      padding-right: 2rem !important;
+      padding-left: 7rem !important;
+      padding-right: 7rem !important;
       min-height: 300px;
       padding-top: 3rem;
-      padding-bottom: 3rem;
+      padding-bottom: 0.5rem;
 
       h1 {
         padding-top: 1rem;
@@ -1876,13 +1876,24 @@ body {
 
       p {
         font-size: 1.2rem;
-        // margin-right: 2rem;
-        // width: 100%;
         color: $secondary;
         font-weight: 500;
         text-align: center;
-        // position: absolute;
         min-height: 100px;
+        padding: 0px !important;
+
+        .img-text {
+          display: inline-block;
+          width: 5rem;
+          margin-top: -2px;
+        }
+      }
+
+      ul > li {
+        font-size: 1.2rem;
+        color: $secondary;
+        font-weight: 500;
+        text-align: center;
         padding: 0px !important;
       }
     }
