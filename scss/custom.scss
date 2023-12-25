@@ -1516,6 +1516,23 @@ body {
 
       img {
         transition: all 0.2s ease-in-out;
+        max-width: 50%;
+        height: auto;
+        margin-left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+
+    @media screen and (min-width: 768px) {
+      a.icon-button {
+        font-size: 1.2rem;
+        font-weight: 500 !important;
+
+        img {
+          transition: all 0.2s ease-in-out;
+          max-width: 100%;
+          height: auto;
+        }
       }
     }
 
@@ -1523,7 +1540,8 @@ body {
       text-decoration: none;
 
       img {
-        transform: rotate(5deg);
+        transform: scale(1.05) translateX(-50%);
+        margin-left: 50%;
       }
 
       p {

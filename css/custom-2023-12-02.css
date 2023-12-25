@@ -1196,12 +1196,28 @@ body section.section-primary {
 }
 #our-method-page #our-method-icon-section a.icon-button img {
   transition: all 0.2s ease-in-out;
+  max-width: 50%;
+  height: auto;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+@media screen and (min-width: 768px) {
+  #our-method-page #our-method-icon-section a.icon-button {
+    font-size: 1.2rem;
+    font-weight: 500 !important;
+  }
+  #our-method-page #our-method-icon-section a.icon-button img {
+    transition: all 0.2s ease-in-out;
+    max-width: 100%;
+    height: auto;
+  }
 }
 #our-method-page #our-method-icon-section a.icon-button:hover {
   text-decoration: none;
 }
 #our-method-page #our-method-icon-section a.icon-button:hover img {
-  transform: rotate(5deg);
+  transform: scale(1.05) translateX(-50%);
+  margin-left: 50%;
 }
 #our-method-page #our-method-icon-section a.icon-button:hover p {
   color: #d15a0b;
