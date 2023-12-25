@@ -700,8 +700,8 @@ body section.section-primary {
   }
   #about-us-page #about-us .title-about-us .img-text {
     display: inline-block;
-    width: 13rem;
-    margin-top: -10px;
+    width: 16rem;
+    margin-top: -20px;
   }
   #about-us-page #about-us .sub-title-about-us {
     color: white;
@@ -769,12 +769,21 @@ body section.section-primary {
   padding-top: 8.66rem;
   padding-bottom: 8.66rem;
 }
+#about-us-page #about-us-3 .x-custom {
+  margin: 0px 0px !important;
+}
+@media screen and (min-width: 768px) {
+  #about-us-page #about-us-3 .x-custom {
+    margin: 0px 20px !important;
+  }
+}
 #about-us-page #about-us-3 .card-custom {
   background-color: #f1f3ee;
   padding-left: 2rem !important;
   padding-right: 2rem !important;
   min-height: 300px;
   padding-bottom: 0px;
+  position: relative;
 }
 #about-us-page #about-us-3 .card-custom h1 {
   font-size: 2.8rem;
@@ -789,7 +798,42 @@ body section.section-primary {
   text-align: center;
   min-height: 100px;
   padding: 0px !important;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  transform: translate(-50%, -50%);
 }
+@media screen and (min-width: 768px) {
+  #about-us-page #about-us-3 .card-custom {
+    background-color: #f1f3ee;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    min-height: 350px;
+    padding-bottom: 0px;
+    position: relative;
+  }
+  #about-us-page #about-us-3 .card-custom h1 {
+    font-size: 2.8rem;
+    padding-top: 1rem;
+    font-weight: 500;
+    color: #d15a0b;
+  }
+  #about-us-page #about-us-3 .card-custom p {
+    font-size: 1.3rem;
+    color: #2e3023;
+    font-weight: 500;
+    text-align: center;
+    min-height: 100px;
+    padding: 0px !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+  }
+}
+
 #footer {
   margin-top: 0px;
   background-color: #2e3023;
@@ -996,7 +1040,7 @@ body section.section-primary {
 @media screen and (min-width: 768px) {
   #our-innovation-page #our-innovation-2 .title-our-innovation {
     color: #d15a0b;
-    font-size: 2.8rem !important;
+    font-size: 44px !important;
     font-weight: 500 !important;
     line-height: 1.6rem;
     letter-spacing: normal;
@@ -1034,13 +1078,14 @@ body section.section-primary {
   padding-right: 2rem !important;
   min-height: 300px;
   padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-bottom: 1rem;
 }
 #our-innovation-page #our-innovation-3 .card-custom h1 {
-  padding-top: 1rem;
+  padding-top: 0rem;
   font-weight: 500;
-  font-size: 2.8rem;
+  font-size: 44px;
   color: #d15a0b;
+  letter-spacing: 1px;
 }
 #our-innovation-page #our-innovation-3 .card-custom p {
   font-size: 1.2rem;
@@ -1114,7 +1159,7 @@ body section.section-primary {
 @media screen and (min-width: 768px) {
   #our-method-page #our-method .title-our-method {
     text-align: center;
-    font-size: 2.5rem !important;
+    font-size: 3.5rem !important;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
     color: white !important;
@@ -1133,17 +1178,15 @@ body section.section-primary {
   }
   #our-method-page #our-method .sub-title-our-method .img-text {
     display: inline-block;
-    width: 5.5rem;
-    margin-top: 0px;
+    width: 6.5rem;
+    margin-top: -5px;
   }
 }
 #our-method-page #our-method-icon-section {
-  padding: 1rem 0rem 1rem 1rem;
-  min-height: 63vw;
+  padding: 5rem 2rem !important;
+  min-height: 52vw;
   display: block;
   margin-bottom: 0px !important;
-  padding-top: 30px !important;
-  padding-bottom: 30px !important;
   background-color: #eef0e9 !important;
   position: relative;
 }
@@ -1457,36 +1500,38 @@ body section.section-primary {
   min-height: 100px;
   padding: 0px !important;
 }
-#timeline {
+#timelinenya {
   margin: 0px !important;
   padding: 50px 0px 50px 0px !important;
+  background-color: #2e3023;
+  position: relative;
 }
-#timeline #anchor_target h1 {
+#timelinenya #anchor_target h1 {
   color: #d15a0b;
   font-size: 2.3rem;
   font-weight: 700;
   text-align: center;
   line-height: 2.3rem;
 }
-#timeline #anchor_target p {
+#timelinenya #anchor_target p {
   color: whitesmoke;
   font-size: 1.2rem;
   font-weight: 400;
   text-align: center;
   line-height: 2rem;
 }
-#timeline .timeline-box {
+#timelinenya .timeline-box {
   border: 2px solid #d15a0b !important;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
-#timeline .timeline-box h2 {
+#timelinenya .timeline-box h2 {
   color: #d15a0b;
   font-size: 1.3rem !important;
   font-weight: 500 !important;
   line-height: 2rem;
   letter-spacing: normal;
 }
-#timeline .timeline-box p {
+#timelinenya .timeline-box p {
   font-size: 0.9rem !important;
   font-weight: 500 !important;
   letter-spacing: normal;
@@ -1495,18 +1540,18 @@ body section.section-primary {
   color: #2e3023 !important;
 }
 @media screen and (min-width: 768px) {
-  #timeline .timeline-box {
+  #timelinenya .timeline-box {
     border: 2px solid #d15a0b !important;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
   }
-  #timeline .timeline-box h2 {
+  #timelinenya .timeline-box h2 {
     color: #d15a0b;
     font-size: 1.3rem !important;
     font-weight: 500 !important;
     line-height: 2rem;
     letter-spacing: normal;
   }
-  #timeline .timeline-box p {
+  #timelinenya .timeline-box p {
     font-size: 1rem !important;
     font-weight: 500 !important;
     letter-spacing: normal;
@@ -1515,28 +1560,28 @@ body section.section-primary {
     color: #2e3023 !important;
   }
 }
-#timeline .timeline-box.left h2 {
+#timelinenya .timeline-box.left h2 {
   text-align: left;
 }
-#timeline .timeline-box.left .timeline-box-arrow {
+#timelinenya .timeline-box.left .timeline-box-arrow {
   border-top: 2px solid #d15a0b !important;
   border-right: 2px solid #d15a0b !important;
 }
-#timeline .timeline-box.right h2 {
+#timelinenya .timeline-box.right h2 {
   text-align: right;
 }
-#timeline .timeline-box.right .timeline-box-arrow {
+#timelinenya .timeline-box.right .timeline-box-arrow {
   border-bottom: 2px solid #d15a0b !important;
   border-left: 2px solid #d15a0b !important;
 }
-#timeline .timeline-date {
+#timelinenya .timeline-date {
   background: none !important;
   border: none !important;
   width: 100% !important;
   margin-bottom: 50px !important;
   box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.04) !important;
 }
-#timeline .timeline-date .btn-primary {
+#timelinenya .timeline-date .btn-primary {
   background-color: #d15a0b !important;
   border-color: #d15a0b !important;
   font-size: 1rem;
@@ -1550,7 +1595,7 @@ body section.section-primary {
   letter-spacing: 2px;
 }
 @media screen and (min-width: 768px) {
-  #timeline .timeline-date .btn-primary {
+  #timelinenya .timeline-date .btn-primary {
     background-color: #d15a0b !important;
     border-color: #d15a0b !important;
     font-size: 1.1rem;
@@ -1564,7 +1609,7 @@ body section.section-primary {
     letter-spacing: 2px;
   }
 }
-#timeline .timeline-date .btn-primary:hover {
+#timelinenya .timeline-date .btn-primary:hover {
   background-color: #f1f3ee !important;
   border-color: #2e3023 !important;
   color: #2e3023 !important;

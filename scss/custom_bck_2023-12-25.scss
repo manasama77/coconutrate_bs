@@ -1009,72 +1009,83 @@ body {
     padding-top: 8.66rem;
     padding-bottom: 8.66rem;
 
-    .x-custom {
-      margin: 0px 0px !important;
-
-      @media screen and (min-width: 768px) {
-        margin: 0px 20px !important;
-      }
-    }
-
     .card-custom {
       background-color: #f1f3ee;
       padding-left: 2rem !important;
       padding-right: 2rem !important;
-      min-height: 300px;
+      min-height: auto;
       padding-bottom: 0px;
-      position: relative;
+      width: 100vw !important;
+      flex-direction: row !important;
+      flex-wrap: wrap;
+      border: 1px solid red;
 
-      h1 {
-        font-size: 2.8rem;
-        padding-top: 1rem;
-        font-weight: 500;
-        color: $primary;
+      .card-custom-title {
+        width: 26vw;
+        min-height: 400px !important;
+        padding: 10px 50px !important;
+        position: relative;
+        min-width: auto;
+        min-height: auto;
+        text-align: center;
+        bottom: 0px;
+
+        h1 {
+          font-size: 2.8rem;
+          font-weight: 500;
+          color: $primary;
+          letter-spacing: 2px;
+        }
       }
 
       p {
-        font-size: 1.3rem;
+        margin: 0px;
+        line-height: 2rem;
+        font-size: 16px;
         color: $secondary;
         font-weight: 500;
         text-align: center;
         min-height: 100px;
         padding: 0px !important;
-
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        width: 80%;
-        transform: translate(-50%, -50%);
       }
 
       @media screen and (min-width: 768px) {
-        background-color: #f1f3ee;
-        padding-left: 2rem !important;
-        padding-right: 2rem !important;
-        min-height: 350px;
-        padding-bottom: 0px;
+        width: 26vw;
+        min-height: 400px !important;
+        padding: 10px 50px !important;
         position: relative;
+        min-width: auto;
+        min-height: auto;
+        text-align: center;
+        bottom: 0px;
 
-        h1 {
+        .card-custom-title {
           font-size: 2.8rem;
-          padding-top: 1rem;
           font-weight: 500;
           color: $primary;
+          position: absolute;
+          top: 25px;
+          left: 50%;
+          transform: translateX(-50%);
+          letter-spacing: 2px;
+
+          h1 {
+            font-size: 2.8rem;
+            font-weight: 500;
+            color: $primary;
+            letter-spacing: 2px;
+          }
         }
 
         p {
-          font-size: 1.3rem;
+          // margin: 0px;
+          line-height: 2rem;
+          font-size: 16px;
           color: $secondary;
           font-weight: 500;
           text-align: center;
           min-height: 100px;
-          padding: 0px !important;
-
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          width: 80%;
-          transform: translate(-50%, -50%);
+          margin-top: 20px !important;
         }
       }
     }
@@ -1329,8 +1340,7 @@ body {
     @media screen and (min-width: 768px) {
       .title-our-innovation {
         color: $primary;
-        // font-size: 2.8rem !important;
-        font-size: 44px !important;
+        font-size: 2.8rem !important;
         font-weight: 500 !important;
         line-height: 1.6rem;
         letter-spacing: normal;
@@ -1373,15 +1383,13 @@ body {
       padding-right: 2rem !important;
       min-height: 300px;
       padding-top: 3rem;
-      padding-bottom: 1rem;
+      padding-bottom: 3rem;
 
       h1 {
-        padding-top: 0rem;
+        padding-top: 1rem;
         font-weight: 500;
-        // font-size: 2.8rem;
-        font-size: 44px;
+        font-size: 2.8rem;
         color: $primary;
-        letter-spacing: 1px;
       }
 
       p {
@@ -1474,7 +1482,7 @@ body {
     @media screen and (min-width: 768px) {
       .title-our-method {
         text-align: center;
-        font-size: 3.5rem !important;
+        font-size: 2.5rem !important;
         font-weight: 700 !important;
         letter-spacing: 1px !important;
         color: white !important;
@@ -1495,18 +1503,20 @@ body {
 
         .img-text {
           display: inline-block;
-          width: 6.5rem;
-          margin-top: -5px;
+          width: 5.5rem;
+          margin-top: 0px;
         }
       }
     }
   }
 
   #our-method-icon-section {
-    padding: 5rem 2rem !important;
-    min-height: 52vw;
+    padding: 1rem 0rem 1rem 1rem;
+    min-height: 63vw;
     display: block;
     margin-bottom: 0px !important;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
     background-color: #eef0e9 !important;
     position: relative;
 
@@ -1892,11 +1902,9 @@ body {
   }
 }
 
-#timelinenya {
+#timeline {
   margin: 0px !important;
   padding: 50px 0px 50px 0px !important;
-  background-color: $secondary;
-  position: relative;
 
   #anchor_target {
     h1 {
