@@ -1095,25 +1095,19 @@ body section.section-primary {
   min-height: 100px;
   padding: 0px !important;
 }
-#our-method-page .overlay-bg {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0px;
-}
 #our-method-page .our-method-bg {
   width: 100%;
   height: 100%;
   opacity: 0.9;
   position: absolute;
   top: 0;
-  transform: scale(1);
+  transform: scale(1) translateY(-250px);
   pointer-events: none;
   position: fixed;
-  --fill-layer-image-opacity: 0.8;
+  --fill-layer-image-opacity: 1;
   --fill-layer-background-media-position: fixed;
   --fill-layer-background-media-pointer-events: none;
-  --bg-overlay-color: rgb(255, 255, 255);
+  --bg-overlay-color: rgb(0, 0, 0);
   --bg-gradient: none;
   min-width: 980px;
 }
@@ -1126,10 +1120,11 @@ body section.section-primary {
 }
 #our-method-page #our-method {
   position: relative;
+  margin-top: 0px;
   margin-bottom: 0px !important;
-  background-color: transparent !important;
-  padding-top: 5.66rem;
-  padding-bottom: 5.66rem;
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  padding-top: 7.66rem;
+  padding-bottom: 7.66rem;
 }
 #our-method-page #our-method .title-our-method {
   text-align: center;
@@ -1184,11 +1179,18 @@ body section.section-primary {
 }
 #our-method-page #our-method-icon-section {
   padding: 5rem 2rem !important;
-  min-height: 52vw;
+  min-height: auto;
+  min-width: 100%;
   display: block;
   margin-bottom: 0px !important;
   background-color: #eef0e9 !important;
   position: relative;
+}
+#our-method-page #our-method-icon-section h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: normal;
+  margin-bottom: 5rem;
 }
 #our-method-page #our-method-icon-section a.icon-button {
   font-size: 1.2rem;
@@ -1196,10 +1198,13 @@ body section.section-primary {
 }
 #our-method-page #our-method-icon-section a.icon-button img {
   transition: all 0.2s ease-in-out;
-  max-width: 50%;
+  max-width: 40%;
   height: auto;
   margin-left: 50%;
   transform: translateX(-50%);
+}
+#our-method-page #our-method-icon-section a.icon-button p {
+  margin-bottom: 20px;
 }
 @media screen and (min-width: 768px) {
   #our-method-page #our-method-icon-section a.icon-button {
@@ -1208,8 +1213,10 @@ body section.section-primary {
   }
   #our-method-page #our-method-icon-section a.icon-button img {
     transition: all 0.2s ease-in-out;
-    max-width: 100%;
+    max-width: 7vw;
     height: auto;
+    margin-left: 50%;
+    transform: translateX(-50%);
   }
 }
 #our-method-page #our-method-icon-section a.icon-button:hover {
@@ -1222,286 +1229,21 @@ body section.section-primary {
 #our-method-page #our-method-icon-section a.icon-button:hover p {
   color: #d15a0b;
 }
-#our-method-page #our-method-icon-section .arrow-down {
-  margin-top: 3.5vw;
-  margin-left: -2vw;
-}
-#our-method-page #our-method-icon-section .arrow-down-left {
-  margin-top: -0.7vw;
-  margin-left: -1vw;
-}
-#our-method-page #our-method-icon-section .icon-group {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-#our-method-page #our-method-icon-section .icon-group a {
-  height: 10vw;
-}
-#our-method-page #our-method-icon-section .icon-group a .icon-pack {
-  max-width: 11vw;
-  margin-left: 50%;
-  transform: translateX(-50%);
-  transition: all 0.2s ease-in-out;
-}
-#our-method-page #our-method-icon-section .icon-group a img {
-  margin-left: 50%;
-  transform: translateX(-50%);
-  transition: all 0.2s ease-in-out;
-}
-#our-method-page #our-method-icon-section .icon-group a p {
-  width: 8vw;
-  text-align: center;
-  color: #2e3023;
-  font-size: 1vw;
-  word-wrap: break-word;
-  font-weight: 500;
-  line-height: 1vw;
-  margin-top: 10px;
-}
-#our-method-page #our-method-icon-section .icon-group a:hover img {
-  filter: drop-shadow(1px 2px 2px #d15a0b);
-}
-#our-method-page #our-method-icon-section .icon-group a:hover p {
-  text-decoration: none !important;
-  color: #d15a0b;
-}
-#our-method-page #our-method-icon-section .icon-group .icon-arrow {
-  margin-top: 3vw;
-  max-width: 5vw;
-  height: 5vw;
-}
-#our-method-page #our-method-icon-section .icon-group .icon-arrow-turn-down {
-  margin-top: 5vw;
-  margin-right: 2vw;
-  max-width: 5vw;
-  height: 5vw;
-}
-#our-method-page #our-method-icon-section .icon-group-middle {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: end;
-  align-items: end;
-  padding-top: 3vw;
-}
-#our-method-page #our-method-icon-section .icon-group-middle .icon-button {
-  height: 13vw;
-}
-#our-method-page #our-method-icon-section .icon-group-middle .icon-button .icon-pack {
-  max-width: 11vw;
-  margin-left: 50%;
-  transform: translateX(-50%);
-  transition: all 0.2s ease-in-out;
-}
-#our-method-page #our-method-icon-section .icon-group-middle .icon-button .icon-button:hover {
-  filter: drop-shadow(1px 2px 2px #3e3e3e);
-}
-#our-method-page #our-method-icon-section .icon-group-middle .icon-button p {
-  width: 11vw;
-  text-align: center;
-  color: #2e3023;
-  font-size: 1.8vw;
-  font-weight: 500;
-  line-height: 2vw;
-  margin-top: 2px;
-}
-#our-method-page #our-method-icon-section .icon-group-middle .icon-button p:hover {
-  text-decoration: underline;
-  text-decoration-color: #d15a0b;
-}
-#our-method-page #our-method-icon-section .icon-group-reverse {
-  display: flex;
-  flex-direction: row-reverse;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-top: 5vw;
-}
-#our-method-page #our-method-icon-section .icon-group-reverse .icon-button {
-  height: 13vw;
-}
-#our-method-page #our-method-icon-section .icon-group-reverse .icon-button .icon-pack {
-  max-width: 11vw;
-  margin-left: 50%;
-  transform: translateX(-50%);
-  transition: all 0.2s ease-in-out;
-}
-#our-method-page #our-method-icon-section .icon-group-reverse .icon-button .icon-pack:hover {
-  filter: drop-shadow(1px 2px 2px #3e3e3e);
-}
-#our-method-page #our-method-icon-section .icon-group-reverse .icon-button p {
-  width: 11vw;
-  text-align: center;
-  color: #2e3023;
-  font-size: 1.8vw;
-  font-weight: 500;
-  line-height: 2vw;
-  margin-top: 2px;
-}
-#our-method-page #our-method-icon-section .icon-group-reverse .icon-button p:hover {
-  text-decoration: underline;
-  text-decoration-color: #d15a0b;
-}
-#our-method-page #our-method-icon-section .icon-group-reverse .icon-arrow {
-  margin-top: 3vw;
-  max-width: 5vw;
-  height: 5vw;
-}
-#our-method-page #our-method-icon-section .icon-group-reverse .icon-arrow-turn-down-left {
-  margin-top: 3vw;
-  margin-right: 1vw;
-  max-width: 5vw;
-  height: 5vw;
-}
-@media screen and (min-width: 768px) {
-  #our-method-page #our-method-icon-section {
-    padding: 3rem 2rem 3rem 3rem;
-  }
-  #our-method-page #our-method-icon-section .icon-group {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  #our-method-page #our-method-icon-section .icon-group a {
-    height: 8vw;
-  }
-  #our-method-page #our-method-icon-section .icon-group a .icon-pack {
-    max-width: 8vw;
-    margin-left: 50%;
-    transform: translateX(-50%);
-    transition: all 0.2s ease-in-out;
-  }
-  #our-method-page #our-method-icon-section .icon-group a img {
-    margin-left: 50%;
-    transform: translateX(-50%);
-    transition: all 0.2s ease-in-out;
-  }
-  #our-method-page #our-method-icon-section .icon-group a p {
-    width: 8vw;
-    text-align: center;
-    color: #2e3023;
-    font-size: 1vw;
-    word-wrap: break-word;
-    font-weight: 500;
-    line-height: 1vw;
-    margin-top: 10px;
-  }
-  #our-method-page #our-method-icon-section .icon-group a:hover img {
-    filter: drop-shadow(1px 2px 2px #d15a0b);
-  }
-  #our-method-page #our-method-icon-section .icon-group a:hover p {
-    text-decoration: none !important;
-    color: #d15a0b;
-  }
-  #our-method-page #our-method-icon-section .icon-group .icon-arrow {
-    margin-top: 3vw;
-    max-width: 5vw;
-    height: 5vw;
-  }
-  #our-method-page #our-method-icon-section .icon-group .icon-arrow-turn-down {
-    margin-top: 5vw;
-    margin-right: 2vw;
-    max-width: 5vw;
-    height: 5vw;
-  }
-  #our-method-page #our-method-icon-section .icon-group-middle {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: end;
-    align-items: end;
-    padding-top: 1vw;
-  }
-  #our-method-page #our-method-icon-section .icon-group-middle .icon-button {
-    height: 13vw;
-  }
-  #our-method-page #our-method-icon-section .icon-group-middle .icon-button .icon-pack {
-    max-width: 10vw;
-  }
-  #our-method-page #our-method-icon-section .icon-group-middle .icon-button img {
-    margin-left: 50%;
-    transform: translateX(-50%);
-    transition: all 0.2s ease-in-out;
-  }
-  #our-method-page #our-method-icon-section .icon-group-middle .icon-button img:hover {
-    filter: drop-shadow(1px 2px 2px #3e3e3e);
-  }
-  #our-method-page #our-method-icon-section .icon-group-middle .icon-button p {
-    width: 10vw;
-    text-align: center;
-    color: #2e3023;
-    font-size: 1vw;
-    word-wrap: break-word;
-    font-weight: 600;
-    line-height: 1vw;
-    margin-top: 10px;
-  }
-  #our-method-page #our-method-icon-section .icon-group-middle .icon-button p:hover {
-    text-decoration: underline;
-    text-decoration-color: #d15a0b;
-  }
-  #our-method-page #our-method-icon-section .icon-group-reverse {
-    display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  #our-method-page #our-method-icon-section .icon-group-reverse .icon-button {
-    height: 13vw;
-  }
-  #our-method-page #our-method-icon-section .icon-group-reverse .icon-button .icon-pack {
-    max-width: 10vw;
-  }
-  #our-method-page #our-method-icon-section .icon-group-reverse .icon-button img {
-    margin-left: 50%;
-    transform: translateX(-50%);
-    transition: all 0.2s ease-in-out;
-  }
-  #our-method-page #our-method-icon-section .icon-group-reverse .icon-button img:hover {
-    filter: drop-shadow(1px 2px 2px #3e3e3e);
-  }
-  #our-method-page #our-method-icon-section .icon-group-reverse .icon-button p {
-    width: 10vw;
-    text-align: center;
-    color: #2e3023;
-    font-size: 1vw;
-    word-wrap: break-word;
-    font-weight: 600;
-    line-height: 1vw;
-    margin-top: 10px;
-  }
-  #our-method-page #our-method-icon-section .icon-group-reverse .icon-button p:hover {
-    text-decoration: underline;
-    text-decoration-color: #d15a0b;
-  }
-  #our-method-page #our-method-icon-section .icon-group-reverse .icon-arrow {
-    margin-top: 1vw;
-    max-width: 8vw;
-    height: 8vw;
-  }
-  #our-method-page #our-method-icon-section .icon-group-reverse .icon-arrow-turn-down-left {
-    margin-top: 0vw;
-    margin-right: 1vw;
-    max-width: 8vw;
-    height: 8vw;
-  }
-}
 #our-method-page #our-method-3 {
   position: relative;
   margin-bottom: 0px !important;
   background-color: transparent !important;
   padding-top: 5.66rem;
   padding-bottom: 5.66rem;
+  min-width: 100% !important;
 }
 #our-method-page #our-method-3 .card-custom {
   background-color: #f1f3ee;
-  padding-left: 7rem !important;
-  padding-right: 7rem !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
   min-height: 300px;
   padding-top: 3rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 2.5rem;
 }
 #our-method-page #our-method-3 .card-custom h1 {
   padding-top: 1rem;
@@ -1513,7 +1255,6 @@ body section.section-primary {
   color: #2e3023;
   font-weight: 500;
   text-align: center;
-  min-height: 100px;
   padding: 0px !important;
 }
 #our-method-page #our-method-3 .card-custom p .img-text {
@@ -1521,32 +1262,81 @@ body section.section-primary {
   width: 5rem;
   margin-top: -2px;
 }
-#our-method-page #our-method-3 .card-custom ul > li {
+#our-method-page #our-method-3 .card-custom ul li {
   font-size: 1.2rem;
   color: #2e3023;
   font-weight: 500;
-  text-align: center;
+  text-align: left;
   padding: 0px !important;
+  line-height: 2rem;
 }
+@media screen and (min-width: 768px) {
+  #our-method-page #our-method-3 {
+    position: relative;
+    margin-bottom: 0px !important;
+    background-color: transparent !important;
+    padding-top: 5.66rem;
+    padding-bottom: 5.66rem;
+    min-width: 100% !important;
+  }
+  #our-method-page #our-method-3 .card-custom {
+    background-color: #f1f3ee;
+    padding-left: 7rem !important;
+    padding-right: 7rem !important;
+    min-height: 300px;
+    padding-top: 3rem;
+    padding-bottom: 2.8rem;
+  }
+  #our-method-page #our-method-3 .card-custom h1 {
+    padding-top: 1rem;
+    font-weight: 500;
+    color: #d15a0b;
+  }
+  #our-method-page #our-method-3 .card-custom p {
+    font-size: 1.2rem;
+    color: #2e3023;
+    font-weight: 500;
+    text-align: center;
+    padding: 0px !important;
+  }
+  #our-method-page #our-method-3 .card-custom p .img-text {
+    display: inline-block;
+    width: 5rem;
+    margin-top: -2px;
+  }
+  #our-method-page #our-method-3 .card-custom ul li {
+    font-size: 1.2rem;
+    color: #2e3023;
+    font-weight: 500;
+    text-align: left;
+    padding: 0px !important;
+    line-height: 2rem;
+  }
+}
+
 #timelinenya {
   margin: 0px !important;
   padding: 50px 0px 50px 0px !important;
   background-color: #2e3023;
   position: relative;
+  min-width: 100vw !important;
 }
 #timelinenya #anchor_target h1 {
   color: #d15a0b;
-  font-size: 2.3rem;
-  font-weight: 700;
+  font-family: "Oswald", sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 1px;
   text-align: center;
-  line-height: 2.3rem;
 }
 #timelinenya #anchor_target p {
   color: whitesmoke;
+  font-family: "Oswald", sans-serif;
   font-size: 1.2rem;
   font-weight: 400;
   text-align: center;
   line-height: 2rem;
+  letter-spacing: normal;
 }
 #timelinenya .timeline-box {
   border: 2px solid #d15a0b !important;
@@ -1724,9 +1514,9 @@ body section.section-primary {
 }
 #nutritional-properties .title-nutritional-properties {
   text-align: center;
-  font-size: 2.3rem !important;
+  font-size: 1.6rem !important;
   font-weight: 700 !important;
-  letter-spacing: normal !important;
+  letter-spacing: 1px !important;
   color: #d15a0b !important;
   line-height: 2.3rem;
 }
@@ -1746,17 +1536,18 @@ body section.section-primary {
 @media screen and (min-width: 768px) {
   #nutritional-properties .title-nutritional-properties {
     text-align: center;
-    font-size: 2.3rem !important;
+    font-size: 3.5rem !important;
     font-weight: 700 !important;
     letter-spacing: 1px !important;
     color: #d15a0b !important;
   }
   #nutritional-properties .subtitle-nutritional-properties {
     text-align: center;
-    font-size: 1.2rem !important;
+    font-size: 1.6rem !important;
     font-weight: 400 !important;
-    letter-spacing: 1px !important;
+    letter-spacing: normal !important;
     color: white !important;
+    line-height: 2rem;
   }
   #nutritional-properties .subtitle-nutritional-properties .img-text {
     display: inline-block;
