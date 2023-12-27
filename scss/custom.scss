@@ -1206,12 +1206,13 @@ body {
     --fill-layer-image-opacity: 0.8;
     --fill-layer-background-media-position: fixed;
     --fill-layer-background-media-pointer-events: none;
-    --bg-overlay-color: rgb(255, 255, 255);
+    // --bg-overlay-color: rgb(255, 255, 255);
+    --bg-overlay-color: rgb(46, 48, 35);
     --bg-gradient: none;
     min-width: 980px;
 
     img {
-      width: 1519px;
+      width: 100vw;
       height: 1190px;
       object-fit: cover;
       object-position: 50% 50%;
@@ -1403,12 +1404,12 @@ body {
 }
 
 #our-method-page {
-  // .overlay-bg {
-  //   height: 100%;
-  //   width: 100%;
-  //   position: absolute;
-  //   top: 0px;
-  // }
+  .overlay-bg {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+  }
 
   .our-method-bg {
     width: 100%;
@@ -1427,7 +1428,7 @@ body {
     min-width: 980px;
 
     img {
-      width: 1519px;
+      width: 100vw;
       height: 1190px;
       object-fit: cover;
       object-position: 50% 50%;
@@ -1533,6 +1534,7 @@ body {
 
       p {
         margin-bottom: 20px;
+        color: black;
       }
     }
 
@@ -1555,12 +1557,10 @@ body {
       text-decoration: none;
 
       img {
-        transform: scale(1.05) translateX(-50%);
+        transform: scale(1.03) translateX(-50%);
+        filter: brightness(0) saturate(100%) invert(50%) sepia(38%)
+          saturate(7018%) hue-rotate(4deg) brightness(95%) contrast(101%);
         margin-left: 50%;
-      }
-
-      p {
-        color: $primary;
       }
     }
   }
@@ -1636,6 +1636,7 @@ body {
         }
 
         p {
+          font-family: "Montserrat", sans-serif;
           font-size: 1.2rem;
           color: $secondary;
           font-weight: 500;
@@ -1651,6 +1652,7 @@ body {
 
         ul {
           li {
+            font-family: "Montserrat", sans-serif;
             font-size: 1.2rem;
             color: $secondary;
             font-weight: 500;
@@ -1667,7 +1669,7 @@ body {
 #timelinenya {
   margin: 0px !important;
   padding: 50px 0px 50px 0px !important;
-  background-color: $secondary;
+  background-color: $base;
   position: relative;
   min-width: 100vw !important;
 
@@ -1675,20 +1677,23 @@ body {
     h1 {
       color: $primary;
       font-family: "Oswald", sans-serif;
-      font-size: 3rem;
-      font-weight: 600;
-      letter-spacing: 1px;
+      font-size: 2.3rem;
+      text-decoration: underline;
+      font-weight: 700;
+      letter-spacing: normal;
       text-align: center;
+      line-height: 2rem;
     }
 
     p {
       color: whitesmoke;
-      font-family: "Oswald", sans-serif;
+      font-family: "Montserrat", sans-serif;
       font-size: 1.2rem;
-      font-weight: 400;
+      font-weight: 500;
       text-align: center;
       line-height: 2rem;
       letter-spacing: normal;
+      color: black;
     }
   }
 
@@ -1705,8 +1710,8 @@ body {
     }
 
     p {
-      // font-family: "Barlow", sans-serif;
-      font-size: 0.9rem !important;
+      font-family: "Montserrat", sans-serif;
+      font-size: 1.2rem !important;
       font-weight: 500 !important;
       letter-spacing: normal;
       line-height: 2rem;
@@ -1729,8 +1734,8 @@ body {
       }
 
       p {
-        // font-family: "Barlow", sans-serif;
-        font-size: 1rem !important;
+        font-family: "Montserrat", sans-serif;
+        font-size: 1.2rem !important;
         font-weight: 500 !important;
         letter-spacing: normal;
         line-height: 2rem;
@@ -2129,89 +2134,81 @@ body {
 }
 
 #contact-us {
-  h1 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 2.3rem;
-    font-weight: 700;
+  p {
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
     letter-spacing: normal;
-    margin-top: 50px;
-  }
-
-  .img-text {
-    display: inline-block;
-    width: 6rem;
-    margin-top: -3px;
-  }
-
-  @media screen and (min-width: 768px) {
-    h1 {
-      font-family: "Montserrat", sans-serif;
-      font-size: 2.3rem;
-      font-weight: 500;
-      letter-spacing: normal;
-    }
-
-    .p-md-5 {
-      padding: 3rem !important;
-    }
+    line-height: 2rem;
+    color: black;
 
     .img-text {
       display: inline-block;
-      width: 6rem;
-      margin-top: -3px;
+      width: 6.5rem;
+      margin-top: -3px !important;
     }
   }
 
-  p {
-    // font-family: "Barlow", sans-serif;
-    font-size: 1.2rem;
-    font-weight: 400;
-    letter-spacing: normal;
-    color: #2e3023;
-  }
-
   a {
-    font-size: 1.2rem;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5rem;
     font-weight: 500;
     letter-spacing: normal;
-    color: #2e3023;
+    line-height: 2rem;
+    color: black;
   }
 
   @media screen and (min-width: 768px) {
-    a {
-      // font-family: "Barlow", sans-serif;
-      font-size: 1.2rem;
+    p {
+      font-family: "Oswald", sans-serif;
+      font-size: 1.5rem;
       font-weight: 500;
       letter-spacing: normal;
-      color: #2e3023;
+      line-height: 2rem;
+      color: black;
+
+      .img-text {
+        display: inline-block;
+        width: 6.5rem;
+        margin-top: -3px !important;
+      }
+    }
+
+    a {
+      font-family: "Oswald", sans-serif;
+      font-size: 1.5rem;
+      font-weight: 500;
+      letter-spacing: normal;
+      line-height: 2rem;
+      color: black;
     }
   }
 
   .secondary {
-    background-color: $secondary;
+    background-color: $base;
     padding: 40px;
 
     label {
       font-size: 1.2rem;
-      color: white;
-      // font-family: "Barlow", sans-serif;
+      color: black;
+      font-family: "Oswald", sans-serif;
       margin-bottom: 5px;
     }
 
     input {
-      font-size: 0.8rem;
-      color: white;
-      // font-family: "Barlow", sans-serif;
-      border: 1px solid white;
+      font-size: 1.2rem;
+      color: black;
+      font-family: "Oswald", sans-serif;
+      border: 1px solid $secondary;
       background-color: transparent;
       border-radius: 0;
     }
 
     textarea {
-      font-size: 0.8rem;
+      font-size: 1.2rem;
       color: white;
-      // font-family: "Barlow", sans-serif;
-      border: 1px solid white;
+      font-family: "Oswald", sans-serif;
+      border: 1px solid $secondary;
       background-color: transparent;
       border-radius: 0;
     }

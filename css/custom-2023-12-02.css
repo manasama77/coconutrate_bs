@@ -934,12 +934,12 @@ body section.section-primary {
   --fill-layer-image-opacity: 0.8;
   --fill-layer-background-media-position: fixed;
   --fill-layer-background-media-pointer-events: none;
-  --bg-overlay-color: rgb(255, 255, 255);
+  --bg-overlay-color: rgb(46, 48, 35);
   --bg-gradient: none;
   min-width: 980px;
 }
 #our-innovation-page .our-innvovation-bg img {
-  width: 1519px;
+  width: 100vw;
   height: 1190px;
   object-fit: cover;
   object-position: 50% 50%;
@@ -1095,6 +1095,12 @@ body section.section-primary {
   min-height: 100px;
   padding: 0px !important;
 }
+#our-method-page .overlay-bg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+}
 #our-method-page .our-method-bg {
   width: 100%;
   height: 100%;
@@ -1112,7 +1118,7 @@ body section.section-primary {
   min-width: 980px;
 }
 #our-method-page .our-method-bg img {
-  width: 1519px;
+  width: 100vw;
   height: 1190px;
   object-fit: cover;
   object-position: 50% 50%;
@@ -1205,6 +1211,7 @@ body section.section-primary {
 }
 #our-method-page #our-method-icon-section a.icon-button p {
   margin-bottom: 20px;
+  color: black;
 }
 @media screen and (min-width: 768px) {
   #our-method-page #our-method-icon-section a.icon-button {
@@ -1223,11 +1230,9 @@ body section.section-primary {
   text-decoration: none;
 }
 #our-method-page #our-method-icon-section a.icon-button:hover img {
-  transform: scale(1.05) translateX(-50%);
+  transform: scale(1.03) translateX(-50%);
+  filter: brightness(0) saturate(100%) invert(50%) sepia(38%) saturate(7018%) hue-rotate(4deg) brightness(95%) contrast(101%);
   margin-left: 50%;
-}
-#our-method-page #our-method-icon-section a.icon-button:hover p {
-  color: #d15a0b;
 }
 #our-method-page #our-method-3 {
   position: relative;
@@ -1293,6 +1298,7 @@ body section.section-primary {
     color: #d15a0b;
   }
   #our-method-page #our-method-3 .card-custom p {
+    font-family: "Montserrat", sans-serif;
     font-size: 1.2rem;
     color: #2e3023;
     font-weight: 500;
@@ -1305,6 +1311,7 @@ body section.section-primary {
     margin-top: -2px;
   }
   #our-method-page #our-method-3 .card-custom ul li {
+    font-family: "Montserrat", sans-serif;
     font-size: 1.2rem;
     color: #2e3023;
     font-weight: 500;
@@ -1317,26 +1324,29 @@ body section.section-primary {
 #timelinenya {
   margin: 0px !important;
   padding: 50px 0px 50px 0px !important;
-  background-color: #2e3023;
+  background-color: #f1f3ee;
   position: relative;
   min-width: 100vw !important;
 }
 #timelinenya #anchor_target h1 {
   color: #d15a0b;
   font-family: "Oswald", sans-serif;
-  font-size: 3rem;
-  font-weight: 600;
-  letter-spacing: 1px;
+  font-size: 2.3rem;
+  text-decoration: underline;
+  font-weight: 700;
+  letter-spacing: normal;
   text-align: center;
+  line-height: 2rem;
 }
 #timelinenya #anchor_target p {
   color: whitesmoke;
-  font-family: "Oswald", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
-  font-weight: 400;
+  font-weight: 500;
   text-align: center;
   line-height: 2rem;
   letter-spacing: normal;
+  color: black;
 }
 #timelinenya .timeline-box {
   border: 2px solid #d15a0b !important;
@@ -1350,7 +1360,8 @@ body section.section-primary {
   letter-spacing: normal;
 }
 #timelinenya .timeline-box p {
-  font-size: 0.9rem !important;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem !important;
   font-weight: 500 !important;
   letter-spacing: normal;
   line-height: 2rem;
@@ -1370,7 +1381,8 @@ body section.section-primary {
     letter-spacing: normal;
   }
   #timelinenya .timeline-box p {
-    font-size: 1rem !important;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem !important;
     font-weight: 500 !important;
     letter-spacing: normal;
     line-height: 2rem;
@@ -1694,74 +1706,73 @@ body section.section-primary {
   }
 }
 
-#contact-us h1 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 2.3rem;
-  font-weight: 700;
-  letter-spacing: normal;
-  margin-top: 50px;
-}
-#contact-us .img-text {
-  display: inline-block;
-  width: 6rem;
-  margin-top: -3px;
-}
-@media screen and (min-width: 768px) {
-  #contact-us h1 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 2.3rem;
-    font-weight: 500;
-    letter-spacing: normal;
-  }
-  #contact-us .p-md-5 {
-    padding: 3rem !important;
-  }
-  #contact-us .img-text {
-    display: inline-block;
-    width: 6rem;
-    margin-top: -3px;
-  }
-}
 #contact-us p {
-  font-size: 1.2rem;
-  font-weight: 400;
-  letter-spacing: normal;
-  color: #2e3023;
-}
-#contact-us a {
-  font-size: 1.2rem;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.5rem;
   font-weight: 500;
   letter-spacing: normal;
-  color: #2e3023;
+  line-height: 2rem;
+  color: black;
+}
+#contact-us p .img-text {
+  display: inline-block;
+  width: 6.5rem;
+  margin-top: -3px !important;
+}
+#contact-us a {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: normal;
+  line-height: 2rem;
+  color: black;
 }
 @media screen and (min-width: 768px) {
-  #contact-us a {
-    font-size: 1.2rem;
+  #contact-us p {
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5rem;
     font-weight: 500;
     letter-spacing: normal;
-    color: #2e3023;
+    line-height: 2rem;
+    color: black;
+  }
+  #contact-us p .img-text {
+    display: inline-block;
+    width: 6.5rem;
+    margin-top: -3px !important;
+  }
+  #contact-us a {
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: normal;
+    line-height: 2rem;
+    color: black;
   }
 }
 #contact-us .secondary {
-  background-color: #2e3023;
+  background-color: #f1f3ee;
   padding: 40px;
 }
 #contact-us .secondary label {
   font-size: 1.2rem;
-  color: white;
+  color: black;
+  font-family: "Oswald", sans-serif;
   margin-bottom: 5px;
 }
 #contact-us .secondary input {
-  font-size: 0.8rem;
-  color: white;
-  border: 1px solid white;
+  font-size: 1.2rem;
+  color: black;
+  font-family: "Oswald", sans-serif;
+  border: 1px solid #2e3023;
   background-color: transparent;
   border-radius: 0;
 }
 #contact-us .secondary textarea {
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   color: white;
-  border: 1px solid white;
+  font-family: "Oswald", sans-serif;
+  border: 1px solid #2e3023;
   background-color: transparent;
   border-radius: 0;
 }
