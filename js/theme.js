@@ -5319,7 +5319,7 @@ window.theme.fn = {
         self.options.wrapper.css({
           position: "relative",
           overflow: "hidden",
-          height: self.options.height,
+          height: window.innerWidth <= 768 ? "80vh" : self.options.height,
         });
       } else {
         self.options.wrapper.css({

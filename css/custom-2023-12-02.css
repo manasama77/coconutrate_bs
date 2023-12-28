@@ -264,8 +264,8 @@ body section.section-primary {
 }
 #benefits .title-benefits .img-text {
   display: inline-block;
-  width: 9.5rem;
-  margin-top: -10px;
+  width: 10rem;
+  margin-top: -8px;
 }
 #benefits .sub-title-benefits {
   color: #2e3023;
@@ -733,8 +733,8 @@ body section.section-primary {
 }
 #about-us-page #about-us-2 .sub-title-about-us p .img-text {
   display: inline-block;
-  width: 5rem;
-  margin-top: -4px;
+  width: 5.6rem;
+  margin-top: -3px;
 }
 @media screen and (min-width: 768px) {
   #about-us-page #about-us-2 .title-about-us {
@@ -781,9 +781,11 @@ body section.section-primary {
   background-color: #f1f3ee;
   padding-left: 2rem !important;
   padding-right: 2rem !important;
-  min-height: 300px;
+  min-height: 350px;
   padding-bottom: 0px;
   position: relative;
+  max-width: 90vw;
+  transform: translateX(5vw);
 }
 #about-us-page #about-us-3 .card-custom h1 {
   font-size: 2.8rem;
@@ -812,6 +814,8 @@ body section.section-primary {
     min-height: 350px;
     padding-bottom: 0px;
     position: relative;
+    max-width: 1000vw;
+    transform: translateX(0vw);
   }
   #about-us-page #about-us-3 .card-custom h1 {
     font-size: 2.8rem;
@@ -841,8 +845,8 @@ body section.section-primary {
 }
 #footer .title {
   font-family: "Oswald", sans-serif;
-  font-size: 1.6rem;
-  font-weight: 400;
+  font-size: 1.5rem;
+  font-weight: 700;
   color: white;
   text-align: center;
   padding-top: 10px;
@@ -866,8 +870,8 @@ body section.section-primary {
 #footer ul li a {
   font-size: 1.2rem !important;
   color: #d15a0b !important;
-  font-weight: 700;
-  text-align: center !important;
+  font-weight: 400;
+  text-align: center;
 }
 #footer ul li a:hover {
   color: #e4b896 !important;
@@ -1013,9 +1017,9 @@ body section.section-primary {
 }
 #our-innovation-page #our-innovation-2 .title-our-innovation {
   color: #d15a0b;
-  font-size: 3rem !important;
+  font-size: 2.8rem !important;
   font-weight: 600 !important;
-  line-height: 1.6rem;
+  line-height: normal;
   letter-spacing: normal;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -1083,7 +1087,7 @@ body section.section-primary {
 #our-innovation-page #our-innovation-3 .card-custom h1 {
   padding-top: 0rem;
   font-weight: 500;
-  font-size: 44px;
+  font-size: 2.8rem;
   color: #d15a0b;
   letter-spacing: 1px;
 }
@@ -1095,6 +1099,32 @@ body section.section-primary {
   min-height: 100px;
   padding: 0px !important;
 }
+@media screen and (min-width: 768px) {
+  #our-innovation-page #our-innovation-3 .card-custom {
+    background-color: #f1f3ee;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    min-height: 300px;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+  }
+  #our-innovation-page #our-innovation-3 .card-custom h1 {
+    padding-top: 0rem;
+    font-weight: 500;
+    font-size: 44px;
+    color: #d15a0b;
+    letter-spacing: 1px;
+  }
+  #our-innovation-page #our-innovation-3 .card-custom p {
+    font-size: 1.2rem;
+    color: #2e3023;
+    font-weight: 500;
+    text-align: center;
+    min-height: 100px;
+    padding: 0px !important;
+  }
+}
+
 #our-method-page .overlay-bg {
   height: 100%;
   width: 100%;
@@ -1154,8 +1184,8 @@ body section.section-primary {
 }
 #our-method-page #our-method .sub-title-our-method .img-text {
   display: inline-block;
-  width: 6rem;
-  margin-top: -4px;
+  width: 6.5rem;
+  margin-top: -3px;
 }
 @media screen and (min-width: 768px) {
   #our-method-page #our-method .title-our-method {
@@ -1339,7 +1369,7 @@ body section.section-primary {
   font-weight: 700;
   letter-spacing: normal;
   text-align: center;
-  line-height: 2rem;
+  line-height: normal;
 }
 #timelinenya #anchor_target p {
   color: whitesmoke;
