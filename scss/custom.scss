@@ -1538,6 +1538,13 @@ body {
       }
     }
 
+    a.icon-button.active {
+      img {
+        filter: brightness(0) saturate(100%) invert(50%) sepia(38%)
+          saturate(7018%) hue-rotate(4deg) brightness(95%) contrast(101%);
+      }
+    }
+
     @media screen and (min-width: 768px) {
       a.icon-button {
         font-size: 1.2rem;
@@ -1668,8 +1675,8 @@ body {
 
 #timelinenya {
   margin: 0px !important;
-  padding: 50px 0px 50px 0px !important;
-  background-color: $base;
+  padding: 0px 0px 50px 0px !important;
+  background-color: #eef0e9;
   position: relative;
   min-width: 100vw !important;
 
@@ -2206,7 +2213,7 @@ body {
 
     textarea {
       font-size: 1.2rem;
-      color: white;
+      color: black;
       font-family: "Oswald", sans-serif;
       border: 1px solid $secondary;
       background-color: transparent;

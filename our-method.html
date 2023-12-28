@@ -305,7 +305,7 @@
                           href="#"
                           role="button"
                           id="show_step_1"
-                          class="icon-button"
+                          class="icon-button active"
                         >
                           <img src="img/icons/1.png" class="" />
                           <p class="text-center">
@@ -909,8 +909,10 @@
         e.preventDefault();
         for (let i = 1; i <= 9; i++) {
           $(`#step_${i}_group`).hide();
+          $(`#show_step_${i}`).removeClass("active");
         }
         $(`#step_1_group`).show();
+        $(this).addClass("active");
 
         $("html, body").animate(
           {
@@ -924,8 +926,10 @@
         e.preventDefault();
         for (let i = 1; i <= 9; i++) {
           $(`#step_${i}_group`).fadeOut();
+          $(`#show_step_${i}`).removeClass("active");
         }
         $(`#step_2_group`).fadeIn();
+        $(this).addClass("active");
 
         $("html, body").animate(
           {
@@ -939,8 +943,10 @@
         e.preventDefault();
         for (let i = 1; i <= 9; i++) {
           $(`#step_${i}_group`).fadeOut();
+          $(`#show_step_${i}`).removeClass("active");
         }
         $(`#step_3_group`).fadeIn();
+        $(this).addClass("active");
 
         $("html, body").animate(
           {
@@ -954,8 +960,10 @@
         e.preventDefault();
         for (let i = 1; i <= 9; i++) {
           $(`#step_${i}_group`).fadeOut();
+          $(`#show_step_${i}`).removeClass("active");
         }
         $(`#step_4_group`).fadeIn();
+        $(this).addClass("active");
 
         $("html, body").animate(
           {
@@ -969,8 +977,10 @@
         e.preventDefault();
         for (let i = 1; i <= 9; i++) {
           $(`#step_${i}_group`).fadeOut();
+          $(`#show_step_${i}`).removeClass("active");
         }
         $(`#step_5_group`).fadeIn();
+        $(this).addClass("active");
 
         $("html, body").animate(
           {
@@ -984,8 +994,10 @@
         e.preventDefault();
         for (let i = 1; i <= 9; i++) {
           $(`#step_${i}_group`).fadeOut();
+          $(`#show_step_${i}`).removeClass("active");
         }
         $(`#step_6_group`).fadeIn();
+        $(this).addClass("active");
 
         $("html, body").animate(
           {
@@ -999,8 +1011,10 @@
         e.preventDefault();
         for (let i = 1; i <= 9; i++) {
           $(`#step_${i}_group`).fadeOut();
+          $(`#show_step_${i}`).removeClass("active");
         }
         $(`#step_7_group`).fadeIn();
+        $(this).addClass("active");
 
         $("html, body").animate(
           {
@@ -1014,8 +1028,10 @@
         e.preventDefault();
         for (let i = 1; i <= 9; i++) {
           $(`#step_${i}_group`).fadeOut();
+          $(`#show_step_${i}`).removeClass("active");
         }
         $(`#step_8_group`).fadeIn();
+        $(this).addClass("active");
 
         $("html, body").animate(
           {
@@ -1029,8 +1045,10 @@
         e.preventDefault();
         for (let i = 1; i <= 9; i++) {
           $(`#step_${i}_group`).fadeOut();
+          $(`#show_step_${i}`).removeClass("active");
         }
         $(`#step_9_group`).fadeIn();
+        $(this).addClass("active");
 
         $("html, body").animate(
           {
