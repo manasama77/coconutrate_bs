@@ -5295,10 +5295,9 @@ window.theme.fn = {
       background.css({
         "background-image":
           "url(" + self.options.wrapper.data("image-src") + ")",
-        // "background-size": "cover",
         "background-size": "cover",
         position: "absolute",
-        top: 0,
+        top: window.innerWidth <= 768 ? "45px" : 0,
         left: 0,
         width: "100%",
         height: self.options.parallaxHeight,
